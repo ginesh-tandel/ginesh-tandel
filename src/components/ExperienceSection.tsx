@@ -35,39 +35,27 @@ const experiences = [
 
 export function ExperienceSection() {
   return (
-    <section id="experience" className="px-6 py-24">
+    <section id="experience" className="px-6 py-28">
       <div className="mx-auto max-w-4xl">
-        <h2 className="text-center text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary">Career</p>
+        <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Experience
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
+        <p className="mt-4 max-w-2xl text-muted-foreground">
           A journey of continuous growth and impactful contributions
         </p>
 
-        <div className="relative mt-14">
+        <div className="relative mt-14 ml-4">
           {/* Vertical line */}
-          <div className="absolute left-6 top-0 hidden h-full w-px bg-border md:left-1/2 md:block" />
+          <div className="absolute left-0 top-0 h-full w-px bg-border" />
 
           <div className="flex flex-col gap-12">
             {experiences.map((exp, i) => (
-              <div
-                key={i}
-                className={`relative flex flex-col md:flex-row ${
-                  i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                }`}
-              >
-                {/* Timeline dot */}
-                <div className="absolute left-6 top-0 hidden h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-background md:left-1/2 md:block" />
+              <div key={i} className="relative pl-8">
+                {/* Dot */}
+                <div className="absolute left-0 top-1 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-background" />
 
-                {/* Spacer */}
-                <div className="hidden w-1/2 md:block" />
-
-                {/* Card */}
-                <div
-                  className={`w-full rounded-xl border border-border/50 bg-card/50 p-6 backdrop-blur-sm transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 md:w-1/2 ${
-                    i % 2 === 0 ? "md:ml-8" : "md:mr-8"
-                  }`}
-                >
+                <div className="rounded-xl border border-border/60 p-6 transition-all hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5">
                   <div className="mb-1 flex items-center gap-2 text-sm font-medium text-primary">
                     <Briefcase className="h-4 w-4" />
                     {exp.period}

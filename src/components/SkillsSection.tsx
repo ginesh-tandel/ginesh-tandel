@@ -22,12 +22,13 @@ const categories = [
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="px-6 py-24">
+    <section id="skills" className="px-6 py-28">
       <div className="mx-auto max-w-6xl">
-        <h2 className="text-center text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary">Skills</p>
+        <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Technical Skills
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
+        <p className="mt-4 max-w-2xl text-muted-foreground">
           Technologies and tools I work with on a daily basis
         </p>
 
@@ -35,17 +36,17 @@ export function SkillsSection() {
           {categories.map((cat) => (
             <Card
               key={cat.title}
-              className="border-border/50 bg-card/50 backdrop-blur-sm transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
+              className="border-border/60 transition-all hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5"
             >
-              <CardHeader className="items-center text-center">
-                <div className="mb-2 rounded-xl bg-primary/10 p-3 text-primary">
-                  <cat.icon className="h-7 w-7" />
+              <CardHeader>
+                <div className="mb-2 inline-flex rounded-xl bg-primary/10 p-3 text-primary">
+                  <cat.icon className="h-6 w-6" />
                 </div>
                 <CardTitle className="text-lg">{cat.title}</CardTitle>
               </CardHeader>
-              <CardContent className="flex flex-wrap justify-center gap-2">
+              <CardContent className="flex flex-wrap gap-2">
                 {cat.skills.map((skill) => (
-                  <Badge key={skill} variant="secondary" className="text-xs">
+                  <Badge key={skill} variant="secondary" className="text-xs font-medium">
                     {skill}
                   </Badge>
                 ))}
