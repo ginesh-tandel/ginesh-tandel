@@ -22,12 +22,13 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section id="projects" className="px-6 py-24">
+    <section id="projects" className="px-6 py-28">
       <div className="mx-auto max-w-6xl">
-        <h2 className="text-center text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary">Work</p>
+        <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Projects
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
+        <p className="mt-4 max-w-2xl text-muted-foreground">
           Featured projects showcasing end-to-end development expertise
         </p>
 
@@ -35,7 +36,7 @@ export function ProjectsSection() {
           {projects.map((p) => (
             <Card
               key={p.title}
-              className="group flex flex-col border-border/50 bg-card/50 backdrop-blur-sm transition-all hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5"
+              className="group flex flex-col border-border/60 transition-all hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5"
             >
               <CardHeader>
                 <div className="flex items-start justify-between">
