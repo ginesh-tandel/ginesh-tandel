@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const projects = [
   {
@@ -21,9 +22,11 @@ const projects = [
 ];
 
 export function ProjectsSection() {
+  const { ref, isVisible } = useScrollReveal();
+
   return (
     <section id="projects" className="px-6 py-28">
-      <div className="mx-auto max-w-6xl">
+      <div ref={ref} className={`mx-auto max-w-6xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         <p className="text-sm font-semibold uppercase tracking-widest text-primary">Work</p>
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Projects

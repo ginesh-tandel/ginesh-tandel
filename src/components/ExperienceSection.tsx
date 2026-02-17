@@ -1,4 +1,5 @@
 import { Briefcase } from "lucide-react";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const experiences = [
   {
@@ -34,9 +35,11 @@ const experiences = [
 ];
 
 export function ExperienceSection() {
+  const { ref, isVisible } = useScrollReveal();
+
   return (
     <section id="experience" className="px-6 py-28">
-      <div className="mx-auto max-w-4xl">
+      <div ref={ref} className={`mx-auto max-w-4xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         <p className="text-sm font-semibold uppercase tracking-widest text-primary">Career</p>
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Experience

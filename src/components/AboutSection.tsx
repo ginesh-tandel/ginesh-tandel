@@ -1,5 +1,6 @@
 import { Lightbulb, Layers, Code2, Cloud } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const strengths = [
   { icon: Lightbulb, title: "Problem Solving", desc: "Analytical thinker who breaks complex problems into elegant solutions" },
@@ -9,9 +10,11 @@ const strengths = [
 ];
 
 export function AboutSection() {
+  const { ref, isVisible } = useScrollReveal();
+
   return (
     <section id="about" className="px-6 py-28">
-      <div className="mx-auto max-w-6xl">
+      <div ref={ref} className={`mx-auto max-w-6xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         <p className="text-sm font-semibold uppercase tracking-widest text-primary">About Me</p>
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Who I Am
