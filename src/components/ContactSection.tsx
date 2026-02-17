@@ -47,7 +47,7 @@ export function ContactSection() {
           from_email: result.data.email,
           message: result.data.message,
         },
-        EMAILJS_PUBLIC_KEY
+        EMAILJS_PUBLIC_KEY,
       );
       toast({
         title: "Message sent!",
@@ -67,7 +67,10 @@ export function ContactSection() {
 
   return (
     <section id="contact" className="px-6 py-24">
-      <div ref={ref} className={`mx-auto max-w-4xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+      <div
+        ref={ref}
+        className={`mx-auto max-w-4xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+      >
         <h2 className="text-center text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Get In Touch
         </h2>
@@ -162,7 +165,11 @@ export function ContactSection() {
               )}
             </div>
             <Button type="submit" className="w-full" disabled={sending}>
-              {sending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Send className="mr-2 h-4 w-4" />}
+              {sending ? (
+                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              ) : (
+                <Send className="mr-2 h-4 w-4" />
+              )}
               {sending ? "Sending..." : "Send Message"}
             </Button>
           </form>
