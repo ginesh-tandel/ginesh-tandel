@@ -129,27 +129,22 @@ export function HeroSection() {
                 Browse Projects
               </a>
             </Button>
-            <Button
-              size="lg"
-              variant="ghost"
-              className="rounded-full px-6"
-              asChild
-            >
-              <a href="/resume.pdf" download>
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
-              </a>
-            </Button>
           </div>
         </div>
 
-        <div className="hidden items-center justify-center md:flex">
+        <div className="hidden flex-col items-center justify-center gap-6 md:flex">
           <div className="relative">
             <div className="h-80 w-80 rounded-full border-2 border-primary/20 lg:h-96 lg:w-96" />
             <div className="absolute inset-4 flex items-center justify-center rounded-full bg-muted">
               <User className="h-24 w-24 text-muted-foreground/30" />
             </div>
           </div>
+          <Button size="lg" variant="outline" className="rounded-full px-6" asChild>
+            <a href="/resume.pdf" download>
+              <Download className="mr-2 h-4 w-4" />
+              Download CV
+            </a>
+          </Button>
         </div>
       </div>
     </section>
