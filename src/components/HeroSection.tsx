@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { ArrowDown, Download, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/proffessional-photo-office.jpg";
+import resumePath from "@/assets/resume.pdf";
 
 const fullTitle = "Senior .NET\nFull Stack\nDeveloper";
 
@@ -121,7 +122,7 @@ export function HeroSection() {
             className="rounded-full px-6 border-primary"
             asChild
           >
-            <a href="/Resume.pdf" download>
+            <a href={resumePath} download>
               <Download className="mr-2 h-4 w-4" />
               Download CV
             </a>
