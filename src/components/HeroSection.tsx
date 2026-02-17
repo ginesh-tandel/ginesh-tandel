@@ -7,7 +7,7 @@ const titles = ["Senior .NET", "Full Stack", "Developer"];
 function useTypingEffect(words: string[], typingSpeed = 80, deletingSpeed = 50, pauseTime = 1500) {
   const [displayText, setDisplayText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
+  const [phase, setPhase] = useState<"typing" | "pausing" | "deleting">("typing");
   const [isDone, setIsDone] = useState(false);
 
   useEffect(() => {
@@ -15,27 +15,34 @@ function useTypingEffect(words: string[], typingSpeed = 80, deletingSpeed = 50, 
 
     const currentWord = words[wordIndex];
 
-    const timeout = setTimeout(() => {
-      if (!isDeleting) {
-        setDisplayText(currentWord.slice(0, displayText.length + 1));
-        if (displayText.length + 1 === currentWord.length) {
-          if (wordIndex === words.length - 1) {
-            setIsDone(true);
-            return;
-          }
-          setTimeout(() => setIsDeleting(true), pauseTime);
-        }
-      } else {
-        setDisplayText(currentWord.slice(0, displayText.length - 1));
-        if (displayText.length === 0) {
-          setIsDeleting(false);
-          setWordIndex((prev) => prev + 1);
-        }
+    if (phase === "typing") {
+      if (displayText.length < currentWord.length) {
+        const t = setTimeout(() => setDisplayText(currentWord.slice(0, displayText.length + 1)), typingSpeed);
+        return () => clearTimeout(t);
       }
-    }, isDeleting ? deletingSpeed : typingSpeed);
+      // Fully typed
+      if (wordIndex === words.length - 1) {
+        setIsDone(true);
+        return;
+      }
+      setPhase("pausing");
+      return;
+    }
 
-    return () => clearTimeout(timeout);
-  }, [displayText, isDeleting, wordIndex, isDone, words, typingSpeed, deletingSpeed, pauseTime]);
+    if (phase === "pausing") {
+      const t = setTimeout(() => setPhase("deleting"), pauseTime);
+      return () => clearTimeout(t);
+    }
+
+    if (phase === "deleting") {
+      if (displayText.length > 0) {
+        const t = setTimeout(() => setDisplayText(displayText.slice(0, -1)), deletingSpeed);
+        return () => clearTimeout(t);
+      }
+      setWordIndex((prev) => prev + 1);
+      setPhase("typing");
+    }
+  }, [displayText, phase, wordIndex, isDone, words, typingSpeed, deletingSpeed, pauseTime]);
 
   return { displayText, wordIndex, isDone };
 }
