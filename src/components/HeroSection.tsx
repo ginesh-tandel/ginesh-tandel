@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ArrowDown, Send, User } from "lucide-react";
+import { ArrowDown, Download, Send, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const titles = ["Senior .NET", "Full Stack", "Developer"];
@@ -127,6 +127,17 @@ export function HeroSection() {
               <a href="#projects">
                 <ArrowDown className="mr-2 h-4 w-4" />
                 Browse Projects
+              </a>
+            </Button>
+            <Button
+              size="lg"
+              variant="ghost"
+              className="rounded-full px-6"
+              asChild
+            >
+              <a href="/resume.pdf" download>
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
               </a>
             </Button>
           </div>
