@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
-import { ArrowDown, Download, Send, User } from "lucide-react";
+import { ArrowDown, Download, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/proffessional-photo-office.jpg";
 
 const fullTitle = "Senior .NET\nFull Stack\nDeveloper";
 
@@ -91,8 +92,8 @@ export function HeroSection() {
         <div className="hidden flex-col items-center justify-center gap-6 md:flex">
           <div className="relative">
             <div className="h-80 w-80 rounded-full border-2 border-primary/20 lg:h-96 lg:w-96" />
-            <div className="absolute inset-4 flex items-center justify-center rounded-full bg-muted">
-              <User className="h-24 w-24 text-muted-foreground/30" />
+            <div className="absolute inset-4 overflow-hidden rounded-full">
+              <img src={profilePhoto} alt="Ginesh Tandel" className="h-full w-full object-cover" />
             </div>
           </div>
           <Button size="lg" variant="outline" className="rounded-full px-6" asChild>
