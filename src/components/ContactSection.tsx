@@ -8,6 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 import { z } from "zod";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import emailjs from "@emailjs/browser";
+import confetti from "canvas-confetti";
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
   email: z.string().trim().email("Invalid email address").max(255),
@@ -49,6 +50,11 @@ export function ContactSection() {
         },
         EMAILJS_PUBLIC_KEY,
       );
+      confetti({
+        particleCount: 120,
+        spread: 80,
+        origin: { y: 0.7 },
+      });
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you soon.",
