@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
@@ -21,6 +21,16 @@ export function Navbar() {
   const { theme, setTheme } = useTheme();
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const brandName = "Ginesh.";
+  const [charIndex, setCharIndex] = useState(0);
+
+  useEffect(() => {
+    if (charIndex < brandName.length) {
+      const t = setTimeout(() => setCharIndex((i) => i + 1), 120);
+      return () => clearTimeout(t);
+    }
+  }, [charIndex, brandName.length]);
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
@@ -32,7 +42,10 @@ export function Navbar() {
               "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--primary)))",
           }}
         >
-          Ginesh<span className="text-primary">.</span>
+          {brandName.slice(0, charIndex)}
+          {charIndex < brandName.length && (
+            <span className="ml-0.5 inline-block w-[2px] h-[1em] bg-primary animate-[pulse_0.8s_ease-in-out_infinite] align-middle" />
+          )}
         </button>
 
         {/* Desktop nav — centered */}
