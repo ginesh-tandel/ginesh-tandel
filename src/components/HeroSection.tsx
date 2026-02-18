@@ -6,6 +6,8 @@ import resumePath from "@/assets/resume.pdf";
 
 const fullTitle = "Senior .NET\nFull Stack\nDeveloper";
 
+const roles = [".NET Developer", "Full Stack Engineer", "Cloud Architect", "Software Consultant"];
+
 function useTypingEffect(text: string, speed = 80) {
   const [charIndex, setCharIndex] = useState(0);
   const [isDone, setIsDone] = useState(false);
@@ -20,6 +22,38 @@ function useTypingEffect(text: string, speed = 80) {
   }, [charIndex, isDone, text, speed]);
 
   return { displayText: text.slice(0, charIndex), isDone };
+}
+
+function useRotatingText(texts: string[], typingSpeed = 60, pauseMs = 2000) {
+  const [index, setIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [deleting, setDeleting] = useState(false);
+
+  useEffect(() => {
+    const current = texts[index];
+
+    if (!deleting && charIndex < current.length) {
+      const t = setTimeout(() => setCharIndex((i) => i + 1), typingSpeed);
+      return () => clearTimeout(t);
+    }
+
+    if (!deleting && charIndex === current.length) {
+      const t = setTimeout(() => setDeleting(true), pauseMs);
+      return () => clearTimeout(t);
+    }
+
+    if (deleting && charIndex > 0) {
+      const t = setTimeout(() => setCharIndex((i) => i - 1), typingSpeed / 2);
+      return () => clearTimeout(t);
+    }
+
+    if (deleting && charIndex === 0) {
+      setDeleting(false);
+      setIndex((i) => (i + 1) % texts.length);
+    }
+  }, [charIndex, deleting, index, texts, typingSpeed, pauseMs]);
+
+  return texts[index].slice(0, charIndex);
 }
 
 function useParallax(speed = 0.4) {
@@ -42,6 +76,7 @@ export function HeroSection() {
   const parallaxOffset = useParallax(0.35);
 
   const lines = displayText.split("\n");
+  const rotatingText = useRotatingText(roles);
 
   return (
     <section
@@ -72,7 +107,11 @@ export function HeroSection() {
               <span className="ml-1 inline-block w-[3px] h-[1em] bg-primary animate-[pulse_1s_ease-in-out_infinite] align-middle" />
             )}
           </h1>
-          <p className="animate-fade-up-delay-2 mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
+          <p className="animate-fade-up-delay-2 mt-6 max-w-md text-lg font-medium text-primary">
+            {rotatingText}
+            <span className="ml-0.5 inline-block w-[2px] h-[1em] bg-primary animate-[pulse_0.8s_ease-in-out_infinite] align-middle" />
+          </p>
+          <p className="mt-3 max-w-md text-base leading-relaxed text-muted-foreground">
             10+ years of experience building scalable cloud applications with
             .NET, ASP.NET Core, React, Angular, and SQL Server.
           </p>
