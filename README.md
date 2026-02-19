@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
+# 👋 Hi, I'm Ginesh Tandel
 
-## Project info
+**Senior .NET Full Stack Consultant**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+I help organizations build scalable, secure, and high-performance web platforms. With 10+ years of experience in .NET and modern frontend frameworks, I design efficient APIs, modernize backend systems, and deliver production-ready solutions that improve reliability and performance. 
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 About Me
 
-**Use Lovable**
+* 🔹 10+ years experience in full-stack development
+* 🔹 Specializing in scalable cloud applications
+* 🔹 Passionate about clean architecture & performance optimization
+* 🔹 Experienced in enterprise and SaaS product development
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+### Frontend
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* React
+* Angular
+* JavaScript / TypeScript
+* HTML / CSS
+* Bootstrap
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Backend
 
-Follow these steps:
+* C#
+* .NET Core / ASP.NET Core
+* REST APIs & Microservices
+* Clean Architecture
+* JWT Authentication
+* SQL Server
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Cloud & Tools
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Microsoft Azure
+* Docker
+* Git
+* CI/CD Pipelines
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 💼 Professional Experience
 
-**Edit a file directly in GitHub**
+### Freelance Senior .NET Core Consultant (Remote) — *2020–Present*
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* Designed and delivered scalable cloud-native applications
+* Architected distributed systems using ASP.NET Core & Azure
+* Improved performance, reliability, and maintainability
 
-**Use GitHub Codespaces**
+### Senior Software Engineer — Spaculus Software (2019–2020)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Delivered a cloud financial platform for 500+ users
+* Reduced response time by 25%
 
-## What technologies are used for this project?
+### Senior Software Engineer — Rigel Networks (2018–2019)
 
-This project is built with:
+* Built real-time Angular dashboards
+* Reduced downtime by 20%
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+*(Earlier roles include Bharti Soft Tech, Itact Solutions, and Brelicon Technologies)*
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📌 Key Projects
 
-## Can I connect a custom domain to my Lovable project?
+### Human Resource Management System
 
-Yes, you can!
+Enterprise HR platform automating payroll, attendance, and performance workflows.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Tech:** ASP.NET Core, React, Azure, SQL Server
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Financial Planning Platform
+
+Cloud-based financial system for investment tracking and reporting.
+
+**Tech:** ASP.NET Core Web API, Angular, Azure
+
+### Quickscrum
+
+SaaS Agile project management platform for team collaboration.
+
+**Tech:** ASP.NET Core, React, Microservices, Docker
+
+---
+
+## 🎓 Education
+
+**Master of Computer Applications (MCA)**
+Uka Tarsadia University, Gujarat
+
+---
+
+## 📫 Contact Me
+
+* 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)
+* 💼 LinkedIn: https://linkedin.com/in/ginesh-tandel
+* 💻 GitHub: https://github.com/ginesh-tandel
+* 🌐 Portfolio: https://ginesh-portfolio.vercel.app
+
+---
+
+⭐ *If you like my work, feel free to star my repositories and connect!*
