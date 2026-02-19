@@ -153,7 +153,7 @@ export function HeroSection() {
         </div>
 
         {/* Mobile photo */}
-        <div className="flex flex-col items-center justify-center gap-4 md:hidden">
+        <div className="flex flex-col items-center justify-center gap-4 md:hidden animate-fade-up-delay-2">
           <div className="relative">
             <div className="h-48 w-48 rounded-full border-2 border-primary/20" />
             <div className="absolute inset-3 overflow-hidden rounded-full">
@@ -178,7 +178,7 @@ export function HeroSection() {
         </div>
 
         {/* Desktop photo */}
-        <div className="hidden flex-col items-center justify-center gap-6 md:flex">
+        <div className="hidden flex-col items-center justify-center gap-6 md:flex animate-fade-up-delay-2">
           <div className="relative">
             <div className="h-80 w-80 rounded-full border-2 border-primary/20 lg:h-96 lg:w-96" />
             <div className="absolute inset-4 overflow-hidden rounded-full">
