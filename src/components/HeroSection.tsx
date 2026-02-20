@@ -155,13 +155,16 @@ export function HeroSection() {
         {/* Mobile photo */}
         <div className="flex flex-col items-center justify-center gap-4 md:hidden animate-fade-up-delay-2">
           <div className="relative transition-transform duration-300 hover:scale-105">
-            <div className="h-48 w-48 rounded-full border-2 border-primary/20 animate-[glowRing_3s_ease-in-out_infinite]" />
-            <div className="absolute inset-3 overflow-hidden rounded-full">
-              <img
-                src={profilePhoto}
-                alt="Ginesh Tandel"
-                className="h-full w-full object-cover"
-              />
+            <div className="relative h-48 w-48 rounded-full animate-[glowRing_3s_ease-in-out_infinite]">
+              <div className="absolute inset-0 rounded-full rotating-gradient-ring" />
+              <div className="absolute inset-[3px] rounded-full bg-background" />
+              <div className="absolute inset-[6px] overflow-hidden rounded-full">
+                <img
+                  src={profilePhoto}
+                  alt="Ginesh Tandel"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
           <Button
@@ -180,13 +183,16 @@ export function HeroSection() {
         {/* Desktop photo */}
         <div className="hidden flex-col items-center justify-center gap-6 md:flex animate-fade-up-delay-2">
           <div className="relative transition-transform duration-300 hover:scale-105">
-            <div className="h-80 w-80 rounded-full border-2 border-primary/20 lg:h-96 lg:w-96 animate-[glowRing_3s_ease-in-out_infinite]" />
-            <div className="absolute inset-4 overflow-hidden rounded-full">
-              <img
-                src={profilePhoto}
-                alt="Ginesh Tandel"
-                className="h-full w-full object-cover"
-              />
+            <div className="relative h-80 w-80 rounded-full lg:h-96 lg:w-96 animate-[glowRing_3s_ease-in-out_infinite]">
+              <div className="absolute inset-0 rounded-full rotating-gradient-ring" />
+              <div className="absolute inset-[3px] rounded-full bg-background" />
+              <div className="absolute inset-[10px] overflow-hidden rounded-full">
+                <img
+                  src={profilePhoto}
+                  alt="Ginesh Tandel"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
           <Button
