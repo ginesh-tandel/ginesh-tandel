@@ -3,7 +3,7 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const experiences = [
   {
-    period: "2020 – Present",
+    period: "Jul 2020 – Present",
     title: "Freelance Senior .NET Core Developer",
     company: "Remote",
     bullets: [
