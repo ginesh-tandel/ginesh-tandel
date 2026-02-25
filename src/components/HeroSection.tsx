@@ -3,6 +3,7 @@ import { ArrowDown, Download, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/proffessional-photo-office.jpg";
 import resumePath from "@/assets/resume.pdf";
+import { HeroParticles } from "./HeroParticles";
 
 const fullTitle = "Senior\nFull Stack\nEngineer (.NET)";
 
@@ -88,6 +89,7 @@ export function HeroSection() {
       id="home"
       className="relative flex min-h-screen items-center px-6 pt-20 overflow-hidden"
     >
+      <HeroParticles />
       {/* Parallax background elements */}
       <div
         className="pointer-events-none absolute inset-0 -z-10"
