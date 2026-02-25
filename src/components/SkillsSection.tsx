@@ -100,29 +100,46 @@ export function SkillsSection() {
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {categories.map((cat, i) => (
-            <Card
+            <div
               key={cat.title}
-              className={`border-border/60 transition-all duration-700 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+              className={`group [perspective:1000px] transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
               style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
             >
-              <CardHeader>
-                <div className="mb-2 inline-flex rounded-xl bg-primary/10 p-3 text-primary">
-                  <cat.icon className="h-6 w-6" />
-                </div>
-                <CardTitle className="text-lg">{cat.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="flex flex-wrap gap-2">
-                {cat.skills.map((skill) => (
-                  <Badge
-                    key={skill}
-                    variant="secondary"
-                    className="text-xs font-medium"
-                  >
-                    {skill}
-                  </Badge>
-                ))}
-              </CardContent>
-            </Card>
+              <div className="relative h-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                {/* Front */}
+                <Card className="h-full border-border/60 [backface-visibility:hidden]">
+                  <CardHeader>
+                    <div className="mb-2 inline-flex rounded-xl bg-primary/10 p-3 text-primary transition-transform duration-300 group-hover:scale-110">
+                      <cat.icon className="h-6 w-6" />
+                    </div>
+                    <CardTitle className="text-lg">{cat.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {cat.skills.length} skills — hover to reveal
+                    </p>
+                  </CardContent>
+                </Card>
+
+                {/* Back */}
+                <Card className="absolute inset-0 h-full border-primary/30 bg-card [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                  <CardHeader className="pb-3">
+                    <CardTitle className="text-lg text-primary">{cat.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="flex flex-wrap gap-2">
+                    {cat.skills.map((skill) => (
+                      <Badge
+                        key={skill}
+                        variant="secondary"
+                        className="text-xs font-medium"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
           ))}
         </div>
       </div>
