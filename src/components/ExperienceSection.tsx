@@ -68,7 +68,7 @@ export function ExperienceSection() {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section id="experience" className="px-6 py-28">
+    <section id="experience" className="px-6 py-28 bg-card">
       <div
         ref={ref}
         className={`mx-auto max-w-4xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}

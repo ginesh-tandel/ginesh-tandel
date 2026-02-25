@@ -7,6 +7,7 @@ import { ProjectsSection } from "@/components/ProjectsSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { WaveDivider } from "@/components/WaveDivider";
 
 const Index = () => {
   return (
@@ -14,8 +15,11 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
+        <WaveDivider fillClass="fill-card" />
         <AboutSection />
+        <WaveDivider fillClass="fill-background" flip />
         <SkillsSection />
+        <WaveDivider fillClass="fill-card" />
         <ExperienceSection />
         <ProjectsSection />
         <ContactSection />
