@@ -84,8 +84,13 @@ export function ExperienceSection() {
         </p>
 
         <div className="relative mt-14 ml-4">
-          {/* Vertical line */}
-          <div className="absolute left-0 top-0 h-full w-px bg-border" />
+          {/* Vertical connector line with gradient */}
+          <div className="absolute left-0 top-0 h-full w-px bg-gradient-to-b from-primary/60 via-primary/30 to-transparent" />
+
+          {/* Animated traveling dot */}
+          <div className="absolute left-0 top-0 h-full w-px overflow-hidden -translate-x-[calc(50%-0.5px)]">
+            <div className="h-4 w-1 rounded-full bg-primary shadow-[0_0_8px_hsl(var(--primary)/0.6)] animate-[travelDown_4s_linear_infinite]" />
+          </div>
 
           <div className="flex flex-col gap-12">
             {experiences.map((exp, i) => (
@@ -94,8 +99,11 @@ export function ExperienceSection() {
                 className={`relative pl-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{ transitionDelay: isVisible ? `${i * 200}ms` : "0ms" }}
               >
-                {/* Dot */}
-                <div className="absolute left-0 top-1 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-background" />
+                {/* Dot with pulse ring */}
+                <div className="absolute left-0 top-1 -translate-x-1/2">
+                  <span className="absolute inset-0 h-3 w-3 rounded-full bg-primary/30 animate-ping" />
+                  <span className="relative block h-3 w-3 rounded-full border-2 border-primary bg-background" />
+                </div>
 
                 <div className="rounded-xl border border-border/60 p-6 transition-all hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5">
                   <div className="mb-1 flex items-center gap-2 text-sm font-medium text-primary">
