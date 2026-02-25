@@ -77,7 +77,13 @@ export function SkillsSection() {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section id="skills" className="px-6 py-28">
+    <section id="skills" className="relative px-6 py-28 overflow-hidden">
+      {/* Mesh gradient background */}
+      <div className="pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
+        <div className="absolute -top-24 -left-24 h-[400px] w-[400px] rounded-full bg-primary/[0.07] blur-3xl" />
+        <div className="absolute top-1/2 right-0 h-[350px] w-[350px] -translate-y-1/2 rounded-full bg-accent/[0.06] blur-3xl" />
+        <div className="absolute -bottom-20 left-1/3 h-[300px] w-[300px] rounded-full bg-primary/[0.05] blur-3xl" />
+      </div>
       <div
         ref={ref}
         className={`mx-auto max-w-6xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
