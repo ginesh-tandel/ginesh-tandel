@@ -59,7 +59,7 @@ const projects = [
     ],
   },
   {
-    title: "Financial Planning Platform",
+    title: "LifeArcPlan",
     desc: "Enterprise financial planning tool with budgeting, forecasting, analytics dashboards, and automated reporting for corporate finance teams.",
     tags: [".NET Core", "Angular", "SQL Server", "Microservices", "Docker"],
   },
