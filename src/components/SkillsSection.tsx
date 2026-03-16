@@ -1,4 +1,4 @@
-import { Monitor, Server, Database } from "lucide-react";
+import { Monitor, Server, Database, Cloud, Workflow } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
@@ -51,7 +51,7 @@ const categories = [
     ],
   },
   {
-    icon: Server,
+    icon: Cloud,
     title: "Cloud & DevOps",
     skills: [
       "Microsoft Azure",
@@ -62,7 +62,7 @@ const categories = [
     ],
   },
   {
-    icon: Database,
+    icon: Workflow,
     title: "Practices & Methodologies",
     skills: [
       "Agile/Scrum",
@@ -79,7 +79,10 @@ export function SkillsSection() {
   return (
     <section id="skills" className="relative px-6 py-28 overflow-hidden">
       {/* Mesh gradient background */}
-      <div className="pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
+      <div
+        className="pointer-events-none absolute inset-0 -z-10"
+        aria-hidden="true"
+      >
         <div className="absolute -top-24 -left-24 h-[400px] w-[400px] rounded-full bg-primary/[0.07] blur-3xl" />
         <div className="absolute top-1/2 right-0 h-[350px] w-[350px] -translate-y-1/2 rounded-full bg-accent/[0.06] blur-3xl" />
         <div className="absolute -bottom-20 left-1/3 h-[300px] w-[300px] rounded-full bg-primary/[0.05] blur-3xl" />
@@ -124,7 +127,9 @@ export function SkillsSection() {
                 {/* Back */}
                 <Card className="absolute inset-0 h-full border-primary/30 bg-card [backface-visibility:hidden] [transform:rotateY(180deg)]">
                   <CardHeader className="pb-3">
-                    <CardTitle className="text-lg text-primary">{cat.title}</CardTitle>
+                    <CardTitle className="text-lg text-primary">
+                      {cat.title}
+                    </CardTitle>
                   </CardHeader>
                   <CardContent className="flex flex-wrap gap-2">
                     {cat.skills.map((skill) => (
