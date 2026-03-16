@@ -11,34 +11,91 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const projects = [
   {
-    title: "HR Management System",
+    title: "eCommerce",
+    desc: "This project is a web-based eCommerce platform that enables businesses or individuals to sell products online. Customers can browse products, add items to their cart, complete secure checkouts, and track orders.",
+    tags: [
+      "ASP.NET Core",
+      "React",
+      "SQL Server",
+      "Stripe API",
+      "REST API",
+      "Azure",
+    ],
+  },
+  {
+    title: "Licenora",
+    desc: "A License Management System automates issuing, tracking, validating, and renewing licenses for users, businesses, products, or services, helping organizations manage the license lifecycle efficiently.",
+    tags: [
+      ".NET Core",
+      "Angular",
+      "SQL Server",
+      "JWT Authentication",
+      "Docker",
+      "REST API",
+    ],
+  },
+  {
+    title: "Filezeno",
+    desc: "A Document Management System (DMS) is software used to store, organize, manage, track, and share digital documents securely. It helps teams control access, maintain version history, improve collaboration, and reduce manual paperwork.",
+    tags: [
+      "ASP.NET Core",
+      "React",
+      "Azure Blob Storage",
+      "SQL Server",
+      "JWT",
+      "CI/CD",
+    ],
+  },
+  {
+    title: "HRnix",
     desc: "A comprehensive platform for managing the complete employee lifecycle including recruitment, onboarding, payroll processing, attendance tracking, and performance reviews.",
-    tags: ["ASP.NET Core", "React", "SQL Server", "Azure", "REST API"],
+    tags: [
+      "ASP.NET Core",
+      "Angular",
+      "SQL Server",
+      "REST API",
+      "Role-Based Access",
+      "Azure",
+    ],
   },
   {
     title: "Financial Planning Platform",
     desc: "Enterprise financial planning tool with budgeting, forecasting, analytics dashboards, and automated reporting for corporate finance teams.",
-    tags: [".NET Core", "Angular", "SQL Server", "Docker", "Microservices"],
+    tags: [".NET Core", "Angular", "SQL Server", "Microservices", "Docker"],
   },
   {
     title: "Quickscrum SaaS Platform",
     desc: "An Agile project management tool enabling teams to plan sprints, track progress, manage backlogs, and generate velocity reports in real-time.",
-    tags: ["C#", "React", "TypeScript", "Azure", "CI/CD", "JWT"],
+    tags: ["ASP.NET Core", "React", "TypeScript", "SignalR", "Azure", "JWT"],
   },
   {
-    title: "Hospital Management System",
+    title: "Hospivo",
     desc: "A secure healthcare management platform for handling patient records, appointments, billing, and role-based access control, supporting high daily user traffic with reliable backend architecture.",
-    tags: ["ASP.NET Core", "C#", "SQL Server", "REST API", "JWT"],
+    tags: [
+      "ASP.NET Core",
+      "C#",
+      "SQL Server",
+      "JWT Authentication",
+      "REST API",
+      "Azure",
+    ],
   },
   {
-    title: "Learning Management System",
+    title: "Learnifyx",
     desc: "Web-based platform for managing online courses, student enrollment, assessments, content delivery, progress tracking, and performance analytics with role-based access control.",
-    tags: ["ASP.NET Core", "Angular", "SQL Server", "Azure", "JWT"],
+    tags: [
+      "ASP.NET Core",
+      "Angular",
+      "SQL Server",
+      "Azure",
+      "Video Streaming",
+      "JWT",
+    ],
   },
   {
-    title: "Central Placement Platform",
+    title: "Central Placement",
     desc: "A centralized recruitment and placement system for managing candidate records, job postings, and application workflows with optimized data processing and scalable backend services.",
-    tags: [".NET", "C#", "SQL Server", "Web API", "Azure"],
+    tags: ["ASP.NET Core", "React", "SQL Server", "Web API", "Azure"],
   },
 ];
 
