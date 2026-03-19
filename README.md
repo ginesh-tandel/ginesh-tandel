@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/View-Portfolio-0A66C2?style=for-the-badge" />
   </a>
   <a href="https://linkedin.com/in/ginesh-tandel">
-    <img src="https://img.shields.io/badge/View-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/View-LinkedIn-0A66C2?style=for-the-badge" />
   </a>
 </p>
 
