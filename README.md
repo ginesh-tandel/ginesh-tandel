@@ -15,24 +15,56 @@
 </p>
 
 <p align="center">
-  <a href="https://dotnet.microsoft.com/">
-    <img src="https://img.shields.io/badge/.NET-Platform-blue" />
+
+  <!-- Backend -->
+  <a href="https://learn.microsoft.com/en-us/aspnet/core/web-api/">
+    <img src="https://img.shields.io/badge/ASP.NET_Core-Web_API-blue" />
   </a>
+  <a href="https://learn.microsoft.com/en-us/ef/core/">
+    <img src="https://img.shields.io/badge/EF_Core-ORM-purple" />
+  </a>
+  <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs">
+    <img src="https://img.shields.io/badge/CQRS-Pattern-orange" />
+  </a>
+
+  <!-- Frontend -->
   <a href="https://angular.io/">
     <img src="https://img.shields.io/badge/Angular-Frontend-red" />
   </a>
   <a href="https://react.dev/">
     <img src="https://img.shields.io/badge/React-Frontend-blue" />
   </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-UI-cyan" />
+  </a>
+
+  <!-- Cloud -->
   <a href="https://azure.microsoft.com/">
     <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
   </a>
   <a href="https://aws.amazon.com/">
     <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
   </a>
+
+  <!-- Infrastructure -->
   <a href="https://www.docker.com/">
-    <img src="https://img.shields.io/badge/Docker-DevOps-blue" />
+    <img src="https://img.shields.io/badge/Docker-Containerization-blue" />
   </a>
+  <a href="https://en.wikipedia.org/wiki/CI/CD">
+    <img src="https://img.shields.io/badge/CI/CD-DevOps-green" />
+  </a>
+
+  <!-- Tools -->
+  <a href="https://www.rabbitmq.com/">
+    <img src="https://img.shields.io/badge/RabbitMQ-Messaging-orange" />
+  </a>
+  <a href="https://redis.io/">
+    <img src="https://img.shields.io/badge/Redis-Caching-red" />
+  </a>
+  <a href="https://grpc.io/">
+    <img src="https://img.shields.io/badge/gRPC-Communication-blueviolet" />
+  </a>
+
 </p>
 
 ---
