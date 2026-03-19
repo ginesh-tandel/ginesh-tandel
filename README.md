@@ -9,6 +9,7 @@
   <a href="https://ginesh.logiqcube.com" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20View%20Portfolio-0A66C2?style=for-the-badge" />
   </a>
+  [![LinkedIn](https://img.shields.io/badge/🔗%20LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/ginesh-tandel/)
 </p>
 
 <p align="center">
@@ -177,8 +178,7 @@ Enterprise-grade applications built with a focus on:
 
 📩 Reach out:
 
-- 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)  
-- 🔗 LinkedIn: [linkedin.com/in/ginesh-tandel](https://linkedin.com/in/ginesh-tandel/)   
+- 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)
 
 ---
 
