@@ -67,8 +67,6 @@ I help organizations build scalable, secure, and high-performance web platforms.
 
 ## 📌 Projects
 
----
-
 ## 🔷 Central Placement
 
 ### Frontend
