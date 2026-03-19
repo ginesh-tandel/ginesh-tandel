@@ -140,6 +140,7 @@ export function ProjectsSection() {
             <Card
               className={`group flex h-full flex-col border-border/60 cursor-pointer transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
               style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
+              key={`key-${i}`}
             >
               <CardHeader>
                 <div className="flex items-start justify-between">
@@ -147,13 +148,7 @@ export function ProjectsSection() {
                   <ExternalLink
                     className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100"
                     onClick={() =>
-                      window.open(
-                        new URL(
-                          `/src/assets/docs/${p.title}.pdf`,
-                          import.meta.url,
-                        ).href,
-                        "_blank",
-                      )
+                      window.open(`/docs/${p.title}.pdf`, "_blank")
                     }
                   />
                 </div>

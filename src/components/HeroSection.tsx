@@ -2,9 +2,9 @@ import { useState, useEffect, useCallback } from "react";
 import { ArrowDown, Download, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/proffessional-photo-office.jpg";
-import resumePath from "@/assets/resume.pdf";
 import { HeroParticles } from "./HeroParticles";
 
+const resumePath = "Ginesh Tandel Resume.pdf";
 const fullTitle = "Senior\nFull Stack\nEngineer (.NET)";
 
 const roles = [
