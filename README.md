@@ -181,18 +181,3 @@ Enterprise-grade applications built with a focus on:
 * Delivered production-ready enterprise applications
 
 ---
-
-## 📁 Project Structure
-
-```
-/screenshots
-  /ebasket
-  /licenora
-  /filezeno
-  /hrnix
-  /lifearcplan
-  /quickscrum
-  /hospivo
-  /learnifyx
-  /central-placement
-```
