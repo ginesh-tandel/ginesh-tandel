@@ -98,7 +98,6 @@ Uka Tarsadia University, Gujarat
 
 * 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)
 * 💼 LinkedIn: https://linkedin.com/in/ginesh-tandel
-* 💻 GitHub: https://github.com/ginesh-tandel
 * 🌐 Portfolio: https://ginesh-portfolio.vercel.app
 
 ---
