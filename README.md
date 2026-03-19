@@ -177,8 +177,8 @@ Enterprise-grade applications built with a focus on:
 
 📩 Reach out:
 
-- 📧 Email: <a href="mailto:ginesh.tandel.dotnet@gmail.com" target="_blank">ginesh.tandel.dotnet@gmail.com</a>  
-- 🔗 LinkedIn: <a href="https://linkedin.com/in/ginesh-tandel/" target="_blank">linkedin.com/in/ginesh-tandel</a>  
+- 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)  
+- 🔗 LinkedIn: [linkedin.com/in/ginesh-tandel](https://linkedin.com/in/ginesh-tandel/)   
 
 ---
 
