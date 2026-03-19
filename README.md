@@ -18,16 +18,6 @@
   </a>
 </p>
 
-<!-- 🔥 Client CTA -->
-<p align="center">
-  <a href="mailto:ginesh.tandel.dotnet@gmail.com">
-    <img src="https://img.shields.io/badge/Hire%20Me-Start%20a%20Project-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://calendly.com/YOUR_LINK">
-    <img src="https://img.shields.io/badge/Book%20a%20Call-Schedule%20Meeting-0A66C2?style=for-the-badge" />
-  </a>
-</p>
-
 ---
 
 ## 🧠 Tech Stack
@@ -231,7 +221,7 @@ I build enterprise-grade web applications with a strong focus on scalability, ma
 
 <p align="center">
   <a href="mailto:ginesh.tandel.dotnet@gmail.com">
-    <img src="https://img.shields.io/badge/Hire%20Me-Email-0A66C2?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Hire%20Me-Start%20a%20Project-0A66C2?style=for-the-badge" />
   </a>
 </p>
 
