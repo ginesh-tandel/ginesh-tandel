@@ -9,10 +9,21 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
+import eBasketDoc from "@/assets/docs/eBasket.pdf";
+import LicenoraDoc from "@/assets/docs/Licenora.pdf";
+import FilezenoDoc from "@/assets/docs/Filezeno.pdf";
+import HRnixDoc from "@/assets/docs/HRnix.pdf";
+import LifeArcPlanDoc from "@/assets/docs/LifeArcPlan.pdf";
+import QuickScrumDoc from "@/assets/docs/QuickScrum.pdf";
+import HospivoDoc from "@/assets/docs/Hospivo.pdf";
+import LearnifyxDoc from "@/assets/docs/Learnifyx.pdf";
+import CentralPlacementDoc from "@/assets/docs/Central Placement.pdf";
+
 const projects = [
   {
     title: "eBasket",
     desc: "A scalable eCommerce platform built using microservices architecture, supporting product management, orders, payments, and real-time processing for high-performance online shopping.",
+    doc: eBasketDoc,
     tags: [
       "ASP.NET Core",
       "Web API",
@@ -36,82 +47,49 @@ const projects = [
   {
     title: "Licenora",
     desc: "A license management system that automates issuing, tracking, validating, and renewing licenses, ensuring compliance and efficient lifecycle management.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "Angular",
-      "Tailwind CSS",
-      "PrimeNG",
-      "SQL Server",
-      "Azure",
-      "Azure DevOps",
-    ],
+    doc: LicenoraDoc,
+    tags: ["ASP.NET Core", "Web API", "Angular", "Tailwind CSS", "PrimeNG", "SQL Server", "Azure", "Azure DevOps"],
   },
   {
     title: "Filezeno",
     desc: "A document management system for storing, organizing, tracking, and securely sharing digital documents with version control and access management features.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "React",
-      "Bootstrap",
-      "SQL Server",
-      "Azure",
-      "GitHub CI/CD",
-    ],
+    doc: FilezenoDoc,
+    tags: ["ASP.NET Core", "Web API", "React", "Bootstrap", "SQL Server", "Azure", "GitHub CI/CD"],
   },
   {
     title: "HRnix",
     desc: "A comprehensive HR management system for handling recruitment, onboarding, payroll, attendance, and performance management with automation and role-based access control.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "Angular",
-      "Tailwind CSS",
-      "SQL Server",
-      "Azure",
-      "GitHub CI/CD",
-    ],
+    doc: HRnixDoc,
+    tags: ["ASP.NET Core", "Web API", "Angular", "Tailwind CSS", "SQL Server", "Azure", "GitHub CI/CD"],
   },
   {
     title: "LifeArcPlan",
     desc: "An enterprise financial planning platform with modules for budgeting, investment planning, retirement forecasting, and analytics dashboards for better financial decision-making.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "Angular",
-      "Bootstrap",
-      "SQL Server",
-      "AWS RDS",
-      "AWS S3",
-      "AWS SNS",
-    ],
+    doc: LifeArcPlanDoc,
+    tags: ["ASP.NET Core", "Web API", "Angular", "Bootstrap", "SQL Server", "AWS RDS", "AWS S3", "AWS SNS"],
   },
   {
     title: "Quickscrum",
     desc: "An Agile project management tool that enables teams to manage sprints, track tasks, handle backlogs, and monitor project progress with real-time collaboration features.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "Angular",
-      "Bootstrap",
-      "SQL Server",
-      "Azure",
-    ],
+    doc: QuickScrumDoc,
+    tags: ["ASP.NET Core", "Web API", "Angular", "Bootstrap", "SQL Server", "Azure"],
   },
   {
     title: "Hospivo",
     desc: "A healthcare management platform for handling patient records, appointments, billing, and administrative workflows with secure and scalable backend architecture.",
+    doc: HospivoDoc,
     tags: ["ASP.NET Core", "Web API", "React", "Bootstrap", "SQL Server"],
   },
   {
     title: "Learnifyx",
     desc: "A web-based learning management system for managing courses, student enrollments, assessments, and progress tracking with structured content delivery and performance analytics.",
+    doc: LearnifyxDoc,
     tags: ["ASP.NET MVC", "jQuery", "Bootstrap", "SQL Server"],
   },
   {
     title: "Central Placement",
     desc: "A centralized recruitment and placement system for managing candidate records, job postings, and application workflows with efficient data processing and streamlined hiring operations.",
+    doc: CentralPlacementDoc,
     tags: ["ASP.NET MVC", "jQuery", "Bootstrap", "SQL Server"],
   },
 ];
@@ -137,30 +115,35 @@ export function ProjectsSection() {
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {projects.map((p, i) => (
-            <Card
+            <a
               key={p.title}
-              className={`group flex flex-col border-border/60 transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-              style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
+              href={p.doc}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
             >
-              <CardHeader>
-                <div className="flex items-start justify-between">
-                  <CardTitle className="text-lg">{p.title}</CardTitle>
-                  <a href={"/assets/docs/" + p.title + ".pdf"} target="_blank">
+              <Card
+                className={`group flex h-full flex-col border-border/60 cursor-pointer transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+                style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
+              >
+                <CardHeader>
+                  <div className="flex items-start justify-between">
+                    <CardTitle className="text-lg">{p.title}</CardTitle>
                     <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-                  </a>
-                </div>
-                <CardDescription className="leading-relaxed">
-                  {p.desc}
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="mt-auto flex flex-wrap gap-2">
-                {p.tags.map((tag) => (
-                  <Badge key={tag} variant="outline" className="text-xs">
-                    {tag}
-                  </Badge>
-                ))}
-              </CardContent>
-            </Card>
+                  </div>
+                  <CardDescription className="leading-relaxed">
+                    {p.desc}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="mt-auto flex flex-wrap gap-2">
+                  {p.tags.map((tag) => (
+                    <Badge key={tag} variant="outline" className="text-xs">
+                      {tag}
+                    </Badge>
+                  ))}
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
       </div>
