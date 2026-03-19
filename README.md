@@ -43,12 +43,6 @@ Enterprise-grade applications focused on:
 
 ## 🟣 eBasket
 
-### 📸 Screenshots
-
-![Dashboard](screenshots/eBasket/Analytics.png)
-![Products](screenshots/eBasket/products.png)
-![Orders](screenshots/eBasket/orders.png)
-
 ### 🏗 Architecture
 
 - Microservices
@@ -77,8 +71,6 @@ Enterprise-grade applications focused on:
 
 ## 🔵 Licenora
 
-![Dashboard](screenshots/Licenora/dashboard.png)
-
 **Stack:** Angular, .NET Core, MSSQL, Azure
 
 ### 🔑 Features
@@ -92,7 +84,6 @@ Enterprise-grade applications focused on:
 
 ## 🟢 Filezeno
 
-![Dashboard](screenshots/Filezeno/dashboard.png)
 
 **Stack:** React, .NET Core, Azure Blob, CI/CD
 
@@ -107,8 +98,6 @@ Enterprise-grade applications focused on:
 
 ## 🔷 HRnix
 
-![Dashboard](screenshots/HRnix/dashboard.png)
-
 **Stack:** Angular, .NET Core, Azure
 
 ### 🔑 Features
@@ -121,8 +110,6 @@ Enterprise-grade applications focused on:
 ---
 
 ## 🟡 LifeArcPlan (Financial Planning Platform)
-
-![Dashboard](screenshots/LifeArcPlan/Analytics.png)
 
 **Stack:** React, .NET Core, AWS
 
@@ -137,7 +124,6 @@ Enterprise-grade applications focused on:
 
 ## 🔶 Quickscrum
 
-![Dashboard](screenshots/Quickscrum/dashboard.png)
 
 **Stack:** Angular, .NET Core, Azure
 
@@ -152,8 +138,6 @@ Enterprise-grade applications focused on:
 
 ## 🔴 Hospivo
 
-![Dashboard](screenshots/Hospivo/dashboard.png)
-
 **Stack:** React, .NET Core
 
 ### 🔑 Features
@@ -167,8 +151,6 @@ Enterprise-grade applications focused on:
 
 ## 🟠 Learnifyx
 
-![Dashboard](screenshots/Learnifyx/dashboard.png)
-
 **Stack:** ASP.NET MVC, jQuery
 
 ### 🔑 Features
@@ -181,8 +163,6 @@ Enterprise-grade applications focused on:
 ---
 
 ## ⚫ Central Placement
-
-![Dashboard](screenshots/CentralPlacement/dashboard.png)
 
 **Stack:** ASP.NET MVC, jQuery
 
