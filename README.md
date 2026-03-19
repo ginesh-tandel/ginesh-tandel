@@ -216,7 +216,7 @@ I build enterprise-grade web applications with a strong focus on scalability, ma
   <a href="mailto:ginesh.tandel.dotnet@gmail.com">
     <img src="https://img.shields.io/badge/Hire%20Me-Start%20a%20Project-0A66C2?style=for-the-badge" />
   </a>
-  <a href="https://calendly.com/YOUR_LINK">
+  <a href="https://calendly.com/logiqcube-consulting/30min">
     <img src="https://img.shields.io/badge/Book%20a%20Call-Schedule%20Meeting-0A66C2?style=for-the-badge" />
   </a>
 </p>
