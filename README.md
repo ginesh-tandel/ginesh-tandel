@@ -23,19 +23,56 @@
 ## 🧠 Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/EF_Core-ORM-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-UI-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CI/CD-Pipelines-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/gRPC-Communication-0A66C2?style=for-the-badge" />
+
+  <!-- Backend -->
+  <a href="https://learn.microsoft.com/en-us/aspnet/core/" target="_blank">
+    <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://learn.microsoft.com/en-us/ef/core/" target="_blank">
+    <img src="https://img.shields.io/badge/EF_Core-ORM-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs" target="_blank">
+    <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
+  </a>
+
+  <!-- Frontend -->
+  <a href="https://angular.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-UI-0A66C2?style=for-the-badge" />
+  </a>
+
+  <!-- Cloud -->
+  <a href="https://azure.microsoft.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
+  </a>
+
+  <!-- DevOps -->
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://en.wikipedia.org/wiki/CI/CD" target="_blank">
+    <img src="https://img.shields.io/badge/CI/CD-Pipelines-0A66C2?style=for-the-badge" />
+  </a>
+
+  <!-- Tools -->
+  <a href="https://www.rabbitmq.com/" target="_blank">
+    <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://redis.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://grpc.io/" target="_blank">
+    <img src="https://img.shields.io/badge/gRPC-Communication-0A66C2?style=for-the-badge" />
+  </a>
+
 </p>
 
 ---
