@@ -109,7 +109,7 @@ Enterprise-grade applications focused on:
 
 ---
 
-## 🟡 LifeArcPlan (Financial Planning Platform)
+## 🟡 LifeArcPlan
 
 **Stack:** React, .NET Core, AWS
 
