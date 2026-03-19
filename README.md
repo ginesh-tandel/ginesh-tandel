@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://ginesh.logiqcube.com" target="_blank">
-    <img src="https://img.shields.io/badge/🌐%20View%20Portfolio-0A66C2?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/View-Portfolio-0A66C2?style=for-the-badge" />
   </a>
   <a href="https://linkedin.com/in/ginesh-tandel" target="_blank">
     <img src="https://img.shields.io/badge/View-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
