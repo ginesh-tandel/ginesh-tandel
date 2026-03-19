@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Full Stack .NET Developer | Scalable Systems | Cloud & Microservices</b><br/>
-  Building high-performance, enterprise-grade applications with modern architecture
+  Building high-performance, enterprise-grade applications
 </p>
 
 <p align="center">
@@ -12,69 +12,36 @@
   <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
   <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
   <img src="https://img.shields.io/badge/Docker-DevOps-blue" />
-  <img src="https://img.shields.io/badge/Microservices-Architecture-green" />
 </p>
 
 ---
 
-# 📌 About This Portfolio
+## 📌 About
 
-This repository showcases **real-world enterprise-grade applications** designed with scalability, performance, and maintainability in mind.
+Enterprise-grade applications focused on:
 
-## 📌 Key Strengths
-
-### 🏗 Architecture
-- Clean Architecture  
-- Scalable Microservices  
-
-### ☁️ Cloud & Infrastructure
-- Cloud-Native Development  
-
-### 🔐 Security
-- Secure APIs & Authentication  
-
-### ⚡ Performance
-- Performance Optimization  
+- 🏗 Clean Architecture & Microservices  
+- ☁️ Cloud-Native Development  
+- 🔐 Secure APIs  
+- ⚡ Performance Optimization  
 
 ---
 
-# 🧠 Tech Expertise
+## 🧠 Core Stack
 
-### 👨‍💻 Backend
-- ASP.NET Core Web API  
-- ASP.NET MVC  
-- Entity Framework Core  
-- MediatR / CQRS  
-- REST APIs  
-
-### 🎨 Frontend
-- Angular  
-- React  
-- jQuery  
-- Tailwind CSS  
-- Bootstrap  
-
-### ☁️ Cloud & DevOps
-- Azure (App Services, Blob Storage)  
-- AWS (S3, RDS, SNS)  
-- Docker  
-- GitHub Actions / CI/CD  
-
-### ⚙️ Architecture & Tools
-- Microservices  
-- Event-Driven Architecture  
-- RabbitMQ / gRPC  
-- Ocelot API Gateway  
-- Redis Caching  
-- SignalR  
+**Backend:** ASP.NET Core, EF Core, CQRS  
+**Frontend:** Angular, React, Tailwind  
+**Cloud:** Azure, AWS  
+**Infra:** Docker, CI/CD  
+**Tools:** RabbitMQ, Redis, gRPC  
 
 ---
 
-# 🧩 Projects Overview
+# 🧩 Projects
 
 ---
 
-## 🟣 eCommerce Platform (Microservices)
+## 🟣 eCommerce Platform (Flagship)
 
 ### 📸 Screenshots
 ![Dashboard](screenshots/ecommerce/dashboard.png)
@@ -84,269 +51,101 @@ This repository showcases **real-world enterprise-grade applications** designed 
 ### 🏗 Architecture
 - Microservices  
 - CQRS + MediatR  
-- Event-Driven Architecture  
+- Event-Driven  
 
 ### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- Angular  
-- Tailwind CSS  
-- PrimeNG  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### 🗄 Database
-- MSSQL Server  
-- MongoDB  
-- PostgreSQL  
-
-#### 📡 Messaging & Communication
-- RabbitMQ  
-- gRPC  
-
-#### ⚡ Caching
-- Redis  
-
-#### ☁️ Infrastructure & DevOps
-- Azure  
-- Docker  
+Frontend: Angular, Tailwind, PrimeNG  
+Backend: ASP.NET Core Web API  
+Database: MSSQL, MongoDB, PostgreSQL  
+Messaging: RabbitMQ, gRPC  
+Infra: Azure, Docker  
+Caching: Redis  
 
 ---
 
 ## 🔵 License Management System
 
-### 📸 Screenshots
 ![Dashboard](screenshots/license/dashboard.png)
-![Licenses](screenshots/license/licenses.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- Angular  
-- Tailwind CSS  
-- PrimeNG  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### 🗄 Database
-- MSSQL Server  
-
-#### ☁️ Cloud & DevOps
-- Azure  
-- Azure DevOps  
-
-### 🔑 Features
-- License lifecycle management  
-- Subscription tracking  
-- Secure authentication  
+**Stack:** Angular, .NET Core, MSSQL, Azure  
+**Features:** License lifecycle, subscriptions, authentication  
 
 ---
 
 ## 🟢 Document Management System
 
-### 📸 Screenshots
 ![Dashboard](screenshots/dms/dashboard.png)
-![Documents](screenshots/dms/documents.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- React  
-- Bootstrap  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### ☁️ Cloud & DevOps
-- Azure Blob Storage  
-- GitHub CI/CD  
-
-### 🔑 Features
-- File storage & versioning  
-- Secure access control  
-- Audit logs  
+**Stack:** React, .NET Core, Azure Blob, CI/CD  
+**Features:** File storage, versioning, audit logs  
 
 ---
 
-## 🔷 HR Management System (HRMS)
+## 🔷 HRMS
 
-### 📸 Screenshots
 ![Dashboard](screenshots/hrms/dashboard.png)
-![Employees](screenshots/hrms/employees.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- Angular  
-- Tailwind CSS  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### ☁️ Cloud & DevOps
-- Azure  
-
-### 🔑 Features
-- Payroll & attendance  
-- Employee lifecycle management  
-- Role-based access  
+**Stack:** Angular, .NET Core, Azure  
+**Features:** Payroll, attendance, RBAC  
 
 ---
 
-## 🟡 LifeArcPlan (Financial Planning Platform)
+## 🟡 LifeArcPlan
 
-### 📸 Screenshots
 ![Dashboard](screenshots/lifearcplan/dashboard.png)
-![Planning](screenshots/lifearcplan/planning.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- React  
-- Bootstrap  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### 🗄 Database
-- MSSQL Server  
-- AWS RDS  
-
-#### ☁️ Cloud & Services
-- AWS S3  
-- AWS SNS  
-
-### 🔑 Features
-- Financial planning modules  
-- Investment & retirement tracking  
-- Data-driven insights  
+**Stack:** React, .NET Core, AWS  
+**Features:** Financial planning, analytics  
 
 ---
 
-## 🔶 Quickscrum (Agile Project Management)
+## 🔶 Quickscrum
 
-### 📸 Screenshots
 ![Dashboard](screenshots/quickscrum/dashboard.png)
-![Kanban](screenshots/quickscrum/kanban.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- Angular  
-- Bootstrap  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### 🗄 Database
-- MSSQL Server  
-
-#### ☁️ Cloud & DevOps
-- Azure  
-
-### 🔑 Features
-- Scrum boards & sprint planning  
-- Real-time updates (SignalR)  
-- Team collaboration tools  
+**Stack:** Angular, .NET Core, Azure  
+**Features:** Scrum boards, real-time updates  
 
 ---
 
-## 🔴 Hospital Management System
+## 🔴 Hospital Management
 
-### 📸 Screenshots
 ![Dashboard](screenshots/hospital/dashboard.png)
-![Appointments](screenshots/hospital/appointments.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- React  
-- Bootstrap  
-
-#### 🧠 Backend
-- ASP.NET Core Web API  
-
-#### 🗄 Database
-- MSSQL Server  
-
-### 🔑 Features
-- Patient records  
-- Appointment scheduling  
-- Real-time notifications  
+**Stack:** React, .NET Core  
+**Features:** Patient records, scheduling  
 
 ---
 
 ## 🟠 Learning Management System
 
-### 📸 Screenshots
 ![Dashboard](screenshots/lms/dashboard.png)
-![Courses](screenshots/lms/courses.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- jQuery  
-- Bootstrap  
-
-#### 🧠 Backend
-- ASP.NET MVC  
-
-#### 🗄 Database
-- MSSQL Server  
-
-### 🔑 Features
-- Course management  
-- Video/content delivery  
-- Assessments  
+**Stack:** ASP.NET MVC, jQuery  
+**Features:** Courses, assessments  
 
 ---
 
-## ⚫ Central Placement System
+## ⚫ Central Placement
 
-### 📸 Screenshots
 ![Dashboard](screenshots/central-placement/dashboard.png)
-![Students](screenshots/central-placement/students.png)
 
-### ⚙️ Tech Stack
-
-#### 🎨 Frontend
-- jQuery  
-- Bootstrap  
-
-#### 🧠 Backend
-- ASP.NET MVC  
-
-#### 🗄 Database
-- MSSQL Server  
-
-### 🔑 Features
-- Student placement tracking  
-- Reporting system  
-- Admin dashboards  
+**Stack:** ASP.NET MVC, jQuery  
+**Features:** Placement tracking, reports  
 
 ---
 
-# 📊 Highlights
+## 📊 Highlights
 
-- Built scalable systems supporting thousands of users  
-- Improved performance using caching and optimized queries  
+- Built scalable systems with real-world usage  
+- Optimized performance using caching & indexing  
 - Designed clean, maintainable architecture  
-- Delivered production-ready enterprise solutions  
 
 ---
 
-# 📁 Project Structure
+## 🤝 Let's Connect
 
-```text
-/screenshots
-  /ecommerce
-  /license
-  /dms
-  /hrms
-  /lifearcplan
-  /quickscrum
-  /hospital
-  /lms
-  /central-placement
+- 💼 Open for opportunities  
+- 🚀 Building SaaS products  
+
+⭐ Star this repo if you like it
