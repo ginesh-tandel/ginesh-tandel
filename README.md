@@ -1,12 +1,11 @@
-# 👋 Hi, I'm Ginesh Tandel
+<h1 align="center">Hi, I'm Ginesh Tandel 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=26&duration=2500&pause=1000&color=0A66C2&center=true&vCenter=true&width=900&lines=Senior+.NET+Engineer;Cloud+%26+Microservices+Architect;Building+Scalable+Enterprise+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=28&duration=2200&pause=900&color=0A66C2&center=true&vCenter=true&width=950&lines=Senior+.NET+Engineer;Cloud+%26+Microservices+Architect;Building+Scalable+Enterprise+Systems" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <b>Senior .NET Engineer | Cloud & Microservices Architect</b><br/>
-  Building scalable, high-performance enterprise systems
+  <b>Full Stack .NET Developer focused on enterprise architecture, cloud-native systems, and production-ready applications.</b>
 </p>
 
 <p align="center">
@@ -18,7 +17,9 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0A66C2&height=2&section=header" width="100%" />
+</p>
 
 ## 🧠 Tech Stack
 
