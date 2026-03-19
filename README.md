@@ -17,9 +17,7 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0A66C2&height=2&section=header" width="100%" />
-</p>
+---
 
 ## 🧠 Tech Stack
 
