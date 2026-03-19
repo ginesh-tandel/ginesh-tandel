@@ -145,7 +145,9 @@ export function ProjectsSection() {
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <CardTitle className="text-lg">{p.title}</CardTitle>
-                  <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+                  <a href={"/doc/" + p.title + ".pdf"} target="_blank">
+                    <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+                  </a>
                 </div>
                 <CardDescription className="leading-relaxed">
                   {p.desc}
