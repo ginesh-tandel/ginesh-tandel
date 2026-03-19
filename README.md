@@ -15,12 +15,24 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/.NET-Platform-blue" />
-  <img src="https://img.shields.io/badge/Angular-Frontend-red" />
-  <img src="https://img.shields.io/badge/React-Frontend-blue" />
-  <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
-  <img src="https://img.shields.io/badge/Docker-DevOps-blue" />
+  <a href="https://dotnet.microsoft.com/">
+    <img src="https://img.shields.io/badge/.NET-Platform-blue" />
+  </a>
+  <a href="https://angular.io/">
+    <img src="https://img.shields.io/badge/Angular-Frontend-red" />
+  </a>
+  <a href="https://react.dev/">
+    <img src="https://img.shields.io/badge/React-Frontend-blue" />
+  </a>
+  <a href="https://azure.microsoft.com/">
+    <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
+  </a>
+  <a href="https://aws.amazon.com/">
+    <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
+  </a>
+  <a href="https://www.docker.com/">
+    <img src="https://img.shields.io/badge/Docker-DevOps-blue" />
+  </a>
 </p>
 
 ---
