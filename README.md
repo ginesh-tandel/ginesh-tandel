@@ -110,7 +110,8 @@ I help organizations build scalable, secure, and high-performance web platforms.
 
 ### Frontend
 - React  
-- Bootstrap  
+- Bootstrap
+- PrimeReact  
 
 ### Backend
 - ASP.NET Core Web API  
@@ -122,7 +123,6 @@ I help organizations build scalable, secure, and high-performance web platforms.
 - Entity Framework Core  
 - JWT Authentication  
 - Role-Based Authorization  
-- SignalR (Real-time updates)  
 
 ---
 
@@ -171,6 +171,7 @@ I help organizations build scalable, secure, and high-performance web platforms.
 - JWT Authentication  
 - Financial Calculation Engine  
 - Background Jobs  
+- SignalR  
 
 ---
 
@@ -195,6 +196,7 @@ I help organizations build scalable, secure, and high-performance web platforms.
 - JWT Authentication  
 - Role-Based Authorization  
 - Payroll & Attendance Modules  
+- SignalR  
 
 ---
 
@@ -281,7 +283,6 @@ I help organizations build scalable, secure, and high-performance web platforms.
 - JWT Authentication  
 - Event-Driven Architecture  
 - Payment Integration  
-
 
 ---
 
