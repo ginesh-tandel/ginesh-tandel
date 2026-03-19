@@ -115,30 +115,35 @@ export function ProjectsSection() {
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {projects.map((p, i) => (
-            <Card
+            <a
               key={p.title}
-              className={`group flex flex-col border-border/60 transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-              style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
+              href={p.doc}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
             >
-              <CardHeader>
-                <div className="flex items-start justify-between">
-                  <CardTitle className="text-lg">{p.title}</CardTitle>
-                  <a href={"/assets/docs/" + p.title + ".pdf"} target="_blank">
+              <Card
+                className={`group flex h-full flex-col border-border/60 cursor-pointer transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+                style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
+              >
+                <CardHeader>
+                  <div className="flex items-start justify-between">
+                    <CardTitle className="text-lg">{p.title}</CardTitle>
                     <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-                  </a>
-                </div>
-                <CardDescription className="leading-relaxed">
-                  {p.desc}
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="mt-auto flex flex-wrap gap-2">
-                {p.tags.map((tag) => (
-                  <Badge key={tag} variant="outline" className="text-xs">
-                    {tag}
-                  </Badge>
-                ))}
-              </CardContent>
-            </Card>
+                  </div>
+                  <CardDescription className="leading-relaxed">
+                    {p.desc}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="mt-auto flex flex-wrap gap-2">
+                  {p.tags.map((tag) => (
+                    <Badge key={tag} variant="outline" className="text-xs">
+                      {tag}
+                    </Badge>
+                  ))}
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
       </div>
