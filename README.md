@@ -1,9 +1,7 @@
 <h1 align="center">Hi, I'm Ginesh Tandel 👋</h1>
 
 <p align="center">
-  <span>
-    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=28&duration=2200&pause=900&color=0A66C2&center=true&vCenter=true&width=950&lines=Senior+.NET+Engineer;Cloud+%26+Microservices+Architect;Building+Scalable+Enterprise+Systems" />
-  </span>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=700&size=28&duration=2200&pause=900&color=0A66C2&center=true&vCenter=true&width=950&lines=Senior+.NET+Engineer;Cloud+%26+Microservices+Architect;Building+Scalable+Enterprise+Systems" />
 </p>
 
 <p align="center">
