@@ -9,14 +9,11 @@
   <a href="https://ginesh.logiqcube.com" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20View%20Portfolio-0A66C2?style=for-the-badge" />
   </a>
+  <a href="https://linkedin.com/in/ginesh-tandel" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20LinkedIn-0A66C2?style=for-the-badge" />
+  </a>
 </p>
-<p align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0A66C2?style=for-the-badge)](https://ginesh.logiqcube.com)
-[![LinkedIn](https://img.shields.io/badge/🔗%20LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/ginesh-tandel/)
-[![Email](https://img.shields.io/badge/📧%20Email-D14836?style=for-the-badge)](mailto:ginesh.tandel.dotnet@gmail.com)
-
-</p>
 <p align="center">
   <img src="https://img.shields.io/badge/.NET-Platform-blue" />
   <img src="https://img.shields.io/badge/Angular-Frontend-red" />
