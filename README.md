@@ -1,4 +1,8 @@
-# 🚀 Enterprise Project Portfolio
+# Hi, I'm Ginesh Tandel 👋
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=24&duration=2500&pause=1000&color=0A66C2&center=true&vCenter=true&width=900&lines=Full+Stack+.NET+Developer;Building+Scalable+Cloud+%26+Microservices+Applications;ASP.NET+Core+%7C+Angular+%7C+React+%7C+Azure+%7C+AWS" alt="Typing SVG" />
+</p>
 
 <p align="center">
   <b>Full Stack .NET Developer | Scalable Systems | Cloud & Microservices</b><br/>
@@ -68,14 +72,15 @@
 
 ---
 
-## 📌 About
+## 🚀 About Me
 
-Enterprise-grade applications built with a focus on:
+I build enterprise-grade web applications with a strong focus on scalability, maintainability, and cloud-native architecture.
 
-- 🏗 Clean Architecture & Microservices  
-- ☁️ Cloud-Native Development  
-- 🔐 Secure APIs & Authentication  
-- ⚡ Performance Optimization  
+- 🏗 Clean Architecture & Microservices
+- ☁️ Cloud-Native Development
+- 🔐 Secure APIs & Authentication
+- ⚡ Performance Optimization
+- 📦 Production-ready full stack systems
 
 ---
 
