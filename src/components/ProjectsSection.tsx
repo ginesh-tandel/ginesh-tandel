@@ -11,8 +11,8 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const projects = [
   {
-    title: "eCommerce",
-    desc: "This project is a web-based eCommerce platform that enables businesses or individuals to sell products online. Customers can browse products, add items to their cart, complete secure checkouts, and track orders.",
+    title: "eBasket",
+    desc: "eBasket is a web-based eCommerce platform that enables businesses or individuals to sell products online. Customers can browse products, add items to their cart, complete secure checkouts, and track orders.",
     tags: [
       "ASP.NET Core",
       "React",
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: "Licenora",
-    desc: "A License Management System automates issuing, tracking, validating, and renewing licenses for users, businesses, products, or services, helping organizations manage the license lifecycle efficiently.",
+    desc: "A Licenora automates issuing, tracking, validating, and renewing licenses for users, businesses, products, or services, helping organizations manage the license lifecycle efficiently.",
     tags: [
       ".NET Core",
       "Angular",
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "Filezeno",
-    desc: "A Document Management System (DMS) is software used to store, organize, manage, track, and share digital documents securely. It helps teams control access, maintain version history, improve collaboration, and reduce manual paperwork.",
+    desc: "A Filezeno is software used to store, organize, manage, track, and share digital documents securely. It helps teams control access, maintain version history, improve collaboration, and reduce manual paperwork.",
     tags: [
       "ASP.NET Core",
       "React",
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     title: "HRnix",
-    desc: "A comprehensive platform for managing the complete employee lifecycle including recruitment, onboarding, payroll processing, attendance tracking, and performance reviews.",
+    desc: "A HRnix is comprehensive platform for managing the complete employee lifecycle including recruitment, onboarding, payroll processing, attendance tracking, and performance reviews.",
     tags: [
       "ASP.NET Core",
       "Angular",
@@ -60,11 +60,11 @@ const projects = [
   },
   {
     title: "LifeArcPlan",
-    desc: "Enterprise financial planning tool with budgeting, forecasting, analytics dashboards, and automated reporting for corporate finance teams.",
+    desc: "LifeArcPlan is Enterprise financial planning tool with budgeting, forecasting, analytics dashboards, and automated reporting for corporate finance teams.",
     tags: [".NET Core", "Angular", "SQL Server", "Microservices", "Docker"],
   },
   {
-    title: "Quickscrum SaaS Platform",
+    title: "Quickscrum",
     desc: "An Agile project management tool enabling teams to plan sprints, track progress, manage backlogs, and generate velocity reports in real-time.",
     tags: ["ASP.NET Core", "React", "TypeScript", "SignalR", "Azure", "JWT"],
   },

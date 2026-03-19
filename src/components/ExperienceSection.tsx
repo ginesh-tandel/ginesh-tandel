@@ -47,7 +47,7 @@ const experiences = [
     title: ".NET Developer",
     company: "Itact Solutions",
     bullets: [
-      "Developed secure hospital management systems for 200+ daily users",
+      "Developed secure systems for 200+ daily users",
       "Implemented role-based authentication and scalable backend architecture",
       "Built REST APIs supporting high-availability systems",
     ],

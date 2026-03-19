@@ -20,10 +20,10 @@
 
 Enterprise-grade applications focused on:
 
-- 🏗 Clean Architecture & Microservices  
-- ☁️ Cloud-Native Development  
-- 🔐 Secure APIs & Authentication  
-- ⚡ Performance Optimization  
+- 🏗 Clean Architecture & Microservices
+- ☁️ Cloud-Native Development
+- 🔐 Secure APIs & Authentication
+- ⚡ Performance Optimization
 
 ---
 
@@ -33,7 +33,7 @@ Enterprise-grade applications focused on:
 **Frontend:** Angular, React, Tailwind  
 **Cloud:** Azure, AWS  
 **Infra:** Docker, CI/CD  
-**Tools:** RabbitMQ, Redis, gRPC  
+**Tools:** RabbitMQ, Redis, gRPC
 
 ---
 
@@ -41,142 +41,142 @@ Enterprise-grade applications focused on:
 
 ---
 
-## 🟣 eCommerce Platform (Microservices)
+## 🟣 eBasket
 
 ### 📸 Screenshots
 
-![Dashboard](screenshots/ecommerce/dashboard.png)
-![Products](screenshots/ecommerce/products.png)
-![Orders](screenshots/ecommerce/orders.png)
+![Dashboard](screenshots/eBasket/dashboard.png)
+![Products](screenshots/eBasket/products.png)
+![Orders](screenshots/eBasket/orders.png)
 
 ### 🏗 Architecture
 
-- Microservices  
-- CQRS + MediatR  
-- Event-Driven Architecture  
+- Microservices
+- CQRS + MediatR
+- Event-Driven Architecture
 
 ### ⚙️ Tech Stack
 
-| Layer | Technologies |
-|------|-------------|
-| Frontend | Angular, Tailwind CSS, PrimeNG |
-| Backend | ASP.NET Core Web API |
-| Database | MSSQL Server, MongoDB, PostgreSQL |
-| Messaging | RabbitMQ, gRPC |
-| Caching | Redis |
-| Infrastructure | Azure, Docker |
+| Layer          | Technologies                      |
+| -------------- | --------------------------------- |
+| Frontend       | Angular, Tailwind CSS, PrimeNG    |
+| Backend        | ASP.NET Core Web API              |
+| Database       | MSSQL Server, MongoDB, PostgreSQL |
+| Messaging      | RabbitMQ, gRPC                    |
+| Caching        | Redis                             |
+| Infrastructure | Azure, Docker                     |
 
 ### 🔑 Features
 
-- Designed a scalable microservices architecture with CQRS and event-driven communication  
-- Implemented distributed order processing using RabbitMQ for reliability  
-- Built high-performance caching layer using Redis  
-- Integrated secure payment and inventory workflows with real-time updates  
+- Designed a scalable microservices architecture with CQRS and event-driven communication
+- Implemented distributed order processing using RabbitMQ for reliability
+- Built high-performance caching layer using Redis
+- Integrated secure payment and inventory workflows with real-time updates
 
 ---
 
-## 🔵 License Management System
+## 🔵 Licenora
 
-![Dashboard](screenshots/license/dashboard.png)
+![Dashboard](screenshots/Licenora/dashboard.png)
 
-**Stack:** Angular, .NET Core, MSSQL, Azure  
+**Stack:** Angular, .NET Core, MSSQL, Azure
 
 ### 🔑 Features
 
-- Developed end-to-end license lifecycle management (issuance, renewal, expiration)  
-- Implemented subscription and billing workflows with automated validation  
-- Designed secure authentication and access control for multi-tenant usage  
-- Built audit-ready tracking system for compliance  
+- Developed end-to-end license lifecycle management (issuance, renewal, expiration)
+- Implemented subscription and billing workflows with automated validation
+- Designed secure authentication and access control for multi-tenant usage
+- Built audit-ready tracking system for compliance
 
 ---
 
-## 🟢 Document Management System
+## 🟢 Filezeno
 
-![Dashboard](screenshots/dms/dashboard.png)
+![Dashboard](screenshots/Filezeno/dashboard.png)
 
-**Stack:** React, .NET Core, Azure Blob, CI/CD  
+**Stack:** React, .NET Core, Azure Blob, CI/CD
 
 ### 🔑 Features
 
-- Engineered secure document storage with version control and audit trails  
-- Integrated Azure Blob Storage for scalable file management  
-- Implemented role-based access and document-level security  
-- Built advanced search and filtering capabilities  
+- Engineered secure document storage with version control and audit trails
+- Integrated Azure Blob Storage for scalable file management
+- Implemented role-based access and document-level security
+- Built advanced search and filtering capabilities
 
 ---
 
-## 🔷 HR Management System (HRMS)
+## 🔷 HRnix
 
-![Dashboard](screenshots/hrms/dashboard.png)
+![Dashboard](screenshots/HRnix/dashboard.png)
 
-**Stack:** Angular, .NET Core, Azure  
+**Stack:** Angular, .NET Core, Azure
 
 ### 🔑 Features
 
-- Developed complete employee lifecycle management system  
-- Automated payroll, attendance, and leave workflows  
-- Implemented role-based access control (RBAC)  
-- Built analytics dashboards for workforce insights  
+- Developed complete employee lifecycle management system
+- Automated payroll, attendance, and leave workflows
+- Implemented role-based access control (RBAC)
+- Built analytics dashboards for workforce insights
 
 ---
 
 ## 🟡 LifeArcPlan (Financial Planning Platform)
 
-![Dashboard](screenshots/lifearcplan/dashboard.png)
+![Dashboard](screenshots/LifeArcPlan/dashboard.png)
 
-**Stack:** React, .NET Core, AWS  
+**Stack:** React, .NET Core, AWS
 
 ### 🔑 Features
 
-- Built financial planning engine for investments and retirement  
-- Implemented complex financial calculations and forecasting models  
-- Integrated AWS services (S3, SNS) for storage and notifications  
-- Delivered data-driven insights via dashboards  
+- Built financial planning engine for investments and retirement
+- Implemented complex financial calculations and forecasting models
+- Integrated AWS services (S3, SNS) for storage and notifications
+- Delivered data-driven insights via dashboards
 
 ---
 
-## 🔶 Quickscrum (Agile Project Management)
+## 🔶 Quickscrum
 
-![Dashboard](screenshots/quickscrum/dashboard.png)
+![Dashboard](screenshots/Quickscrum/dashboard.png)
 
-**Stack:** Angular, .NET Core, Azure  
+**Stack:** Angular, .NET Core, Azure
 
 ### 🔑 Features
 
-- Developed Scrum and Kanban boards for agile workflows  
-- Enabled real-time collaboration using SignalR  
-- Built sprint planning and backlog management modules  
-- Implemented productivity tracking and reporting  
+- Developed Scrum and Kanban boards for agile workflows
+- Enabled real-time collaboration using SignalR
+- Built sprint planning and backlog management modules
+- Implemented productivity tracking and reporting
 
 ---
 
-## 🔴 Hospital Management System
+## 🔴 Hospivo
 
-![Dashboard](screenshots/hospital/dashboard.png)
+![Dashboard](screenshots/Hospivo/dashboard.png)
 
-**Stack:** React, .NET Core  
+**Stack:** React, .NET Core
 
 ### 🔑 Features
 
-- Built centralized patient and medical record system  
-- Implemented appointment scheduling workflows  
-- Designed secure access control for healthcare staff  
-- Digitized hospital operations for efficiency  
+- Built centralized patient and medical record system
+- Implemented appointment scheduling workflows
+- Designed secure access control for healthcare staff
+- Digitized hospital operations for efficiency
 
 ---
 
-## 🟠 Learning Management System
+## 🟠 Learnifyx
 
-![Dashboard](screenshots/lms/dashboard.png)
+![Dashboard](screenshots/Learnifyx/dashboard.png)
 
-**Stack:** ASP.NET MVC, jQuery  
+**Stack:** ASP.NET MVC, jQuery
 
 ### 🔑 Features
 
-- Developed course and content management platform  
-- Implemented assessment and progress tracking  
-- Enabled multimedia learning delivery  
-- Designed role-based access for users  
+- Developed course and content management platform
+- Implemented assessment and progress tracking
+- Enabled multimedia learning delivery
+- Designed role-based access for users
 
 ---
 
@@ -184,23 +184,23 @@ Enterprise-grade applications focused on:
 
 ![Dashboard](screenshots/central-placement/dashboard.png)
 
-**Stack:** ASP.NET MVC, jQuery  
+**Stack:** ASP.NET MVC, jQuery
 
 ### 🔑 Features
 
-- Built centralized placement tracking system  
-- Implemented company drive and candidate workflows  
-- Designed reporting dashboards for placement insights  
-- Streamlined coordination between stakeholders  
+- Built centralized placement tracking system
+- Implemented company drive and candidate workflows
+- Designed reporting dashboards for placement insights
+- Streamlined coordination between stakeholders
 
 ---
 
 ## 📊 Highlights
 
-- Built scalable systems supporting real-world usage  
-- Optimized performance using caching and query tuning  
-- Designed clean, maintainable architectures  
-- Delivered production-ready enterprise applications  
+- Built scalable systems supporting real-world usage
+- Optimized performance using caching and query tuning
+- Designed clean, maintainable architectures
+- Delivered production-ready enterprise applications
 
 ---
 
