@@ -1,12 +1,12 @@
 # 👋 Hi, I'm Ginesh Tandel
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=26&duration=2500&pause=1000&color=0A66C2&center=true&vCenter=true&width=900&lines=Full+Stack+.NET+Developer;Building+Scalable+Cloud+%26+Microservices+Systems;ASP.NET+Core+%7C+Angular+%7C+React+%7C+Azure+%7C+AWS" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=26&duration=2500&pause=1000&color=0A66C2&center=true&vCenter=true&width=900&lines=Senior+.NET+Engineer;Cloud+%26+Microservices+Architect;Building+Scalable+Enterprise+Systems" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <b>Enterprise Software Engineer | Cloud & Microservices Specialist</b><br/>
-  Designing scalable, high-performance, production-ready systems
+  <b>Senior .NET Engineer | Cloud & Microservices Architect</b><br/>
+  Building scalable, high-performance enterprise systems
 </p>
 
 <p align="center">
@@ -15,6 +15,16 @@
   </a>
   <a href="https://linkedin.com/in/ginesh-tandel">
     <img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+<!-- 🔥 Client CTA -->
+<p align="center">
+  <a href="mailto:ginesh.tandel.dotnet@gmail.com">
+    <img src="https://img.shields.io/badge/Hire%20Me-Start%20a%20Project-0A66C2?style=for-the-badge" />
+  </a>
+  <a href="https://calendly.com/YOUR_LINK">
+    <img src="https://img.shields.io/badge/Book%20a%20Call-Schedule%20Meeting-0A66C2?style=for-the-badge" />
   </a>
 </p>
 
@@ -52,9 +62,9 @@ I build enterprise-grade web applications with a strong focus on scalability, ma
 
 ---
 
-# 🧩 Projects
+## ⭐ Featured Project — eBasket
 
-## 🟣 eBasket — Microservices eCommerce Platform
+**Microservices eCommerce Platform**
 
 **Architecture**
 - Microservices  
@@ -68,145 +78,152 @@ I build enterprise-grade web applications with a strong focus on scalability, ma
 - RabbitMQ, gRPC, Redis  
 - Azure, Docker  
 
-**Key Features**
-- Scalable microservices ecosystem  
-- Asynchronous order processing with RabbitMQ  
-- Redis caching for performance optimization  
-- Secure payment, inventory, and order workflows  
+**Key Highlights**
+- Designed scalable distributed system  
+- Implemented async processing using RabbitMQ  
+- Optimized performance using Redis caching  
+- Built secure payment and inventory workflows  
 
 ---
 
-## 🔵 Licenora — License Management System
+# 🧩 Projects
 
-**Tech Stack**
-- ASP.NET Core Web API  
-- Angular, Tailwind CSS, PrimeNG  
-- MSSQL Server  
-- Azure, Azure DevOps  
+<table>
+<tr>
 
-**Key Features**
-- Full license lifecycle management  
-- Subscription and billing workflows  
-- Multi-tenant authentication with RBAC  
-- Audit tracking and compliance support  
+<td width="33.33%" valign="top">
 
----
+### 🔵 Licenora  
+**License Management System**
 
-## 🟢 Filezeno — Document Management System
+🔐 Multi-tenant SaaS  
+💳 Billing workflows  
+👥 RBAC auth  
+📊 Audit tracking  
 
-**Tech Stack**
-- ASP.NET Core Web API  
-- React, Bootstrap  
-- MSSQL Server  
-- Azure, GitHub CI/CD  
+<sub><b>Tech:</b> ASP.NET Core, Angular, MSSQL, Azure</sub>
 
-**Key Features**
-- Secure document storage with versioning  
-- Azure Blob Storage integration  
-- Document-level RBAC security  
-- Advanced search and filtering  
+</td>
 
----
+<td width="33.33%" valign="top">
 
-## 🔷 HRnix — HR Management System
+### 🟢 Filezeno  
+**Document Management System**
 
-**Tech Stack**
-- ASP.NET Core Web API  
-- Angular, Tailwind CSS  
-- MSSQL Server  
-- Azure, GitHub CI/CD  
+📁 Storage & versioning  
+☁️ Azure Blob integration  
+🔍 Advanced search  
+🔐 RBAC security  
 
-**Key Features**
-- Employee lifecycle management  
-- Payroll, attendance, and leave automation  
-- RBAC-based security model  
-- Workforce analytics dashboards  
+<sub><b>Tech:</b> ASP.NET Core, React, MSSQL, Azure</sub>
 
----
+</td>
 
-## 🟡 LifeArcPlan — Financial Planning Platform
+<td width="33.33%" valign="top">
 
-**Tech Stack**
-- ASP.NET Core Web API  
-- Angular, Bootstrap  
-- MSSQL Server  
-- AWS RDS, AWS S3, AWS SNS  
+### 🔷 HRnix  
+**HR Management System**
 
-**Key Features**
-- Financial planning and forecasting engine  
-- Complex investment and retirement calculations  
-- AWS-backed scalable infrastructure  
-- Data-driven dashboards and insights  
+👨‍💼 Employee lifecycle  
+💰 Payroll & attendance  
+📊 Analytics dashboards  
+🔐 RBAC model  
 
----
+<sub><b>Tech:</b> ASP.NET Core, Angular, MSSQL, Azure</sub>
 
-## 🔶 Quickscrum — Agile Project Management Tool
+</td>
 
-**Tech Stack**
-- ASP.NET Core Web API  
-- Angular, Bootstrap  
-- MSSQL Server  
-- Azure  
+</tr>
 
-**Key Features**
-- Scrum and Kanban boards  
-- Real-time collaboration with SignalR  
-- Sprint and backlog management  
-- Productivity and team analytics  
+<tr>
 
----
+<td width="33.33%" valign="top">
 
-## 🔴 Hospivo — Healthcare Management System
+### 🟡 LifeArcPlan  
+**Financial Planning Platform**
 
-**Tech Stack**
-- ASP.NET Core Web API  
-- React, Bootstrap  
-- MSSQL Server  
+📈 Investment engine  
+🧠 Financial calculations  
+☁️ AWS infrastructure  
+📊 Insights dashboards  
 
-**Key Features**
-- Patient and medical record management  
-- Appointment scheduling workflows  
-- Secure access control for healthcare operations  
-- Streamlined process automation  
+<sub><b>Tech:</b> ASP.NET Core, Angular, AWS</sub>
 
----
+</td>
 
-## 🟠 Learnifyx — Learning Management System
+<td width="33.33%" valign="top">
 
-**Tech Stack**
-- ASP.NET MVC  
-- jQuery, Bootstrap  
-- MSSQL Server  
+### 🔶 Quickscrum  
+**Agile Project Tool**
 
-**Key Features**
-- Course and content management  
-- Assessments and grading workflows  
-- Student progress tracking  
-- Role-based access control  
+📋 Scrum + Kanban  
+⚡ Real-time updates  
+📅 Sprint management  
+📊 Productivity analytics  
 
----
+<sub><b>Tech:</b> ASP.NET Core, Angular, MSSQL</sub>
 
-## ⚫ Central Placement — Placement Management System
+</td>
 
-**Tech Stack**
-- ASP.NET MVC  
-- jQuery, Bootstrap  
-- MSSQL Server  
+<td width="33.33%" valign="top">
 
-**Key Features**
-- Placement and recruitment workflow management  
-- Student-company coordination  
-- Tracking and reporting dashboards  
-- Centralized placement operations  
+### 🔴 Hospivo  
+**Healthcare System**
+
+🏥 Patient records  
+📅 Scheduling  
+🔐 Secure workflows  
+⚙️ Automation  
+
+<sub><b>Tech:</b> ASP.NET Core, React, MSSQL</sub>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="33.33%" valign="top">
+
+### 🟠 Learnifyx  
+**Learning Management System**
+
+📚 Course management  
+📝 Assessments  
+📈 Progress tracking  
+👥 Role-based access  
+
+<sub><b>Tech:</b> ASP.NET MVC, jQuery, MSSQL</sub>
+
+</td>
+
+<td width="33.33%" valign="top">
+
+### ⚫ Central Placement  
+**Placement System**
+
+🎓 Student coordination  
+📊 Tracking dashboards  
+📈 Analytics  
+⚙️ Recruitment workflows  
+
+<sub><b>Tech:</b> ASP.NET MVC, jQuery, MSSQL</sub>
+
+</td>
+
+<td width="33.33%" valign="top"></td>
+
+</tr>
+</table>
 
 ---
 
 ## 📈 Highlights
 
 - Designed scalable enterprise applications  
-- Improved performance using caching and database optimization  
-- Built clean, maintainable, production-ready systems  
-- Delivered cloud-native solutions across Azure and AWS  
+- Improved performance via caching & DB optimization  
+- Built clean, maintainable architectures  
+- Delivered cloud-native systems on Azure & AWS  
 
 ---
 
