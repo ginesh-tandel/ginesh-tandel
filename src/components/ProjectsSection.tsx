@@ -147,7 +147,13 @@ export function ProjectsSection() {
                   <ExternalLink
                     className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100"
                     onClick={() =>
-                      window.open(`/src/assets/docs/${p.title}.pdf`, "_blank")
+                      window.open(
+                        new URL(
+                          `/src/assets/docs/${p.title}.pdf`,
+                          import.meta.url,
+                        ).href,
+                        "_blank",
+                      )
                     }
                   />
                 </div>
