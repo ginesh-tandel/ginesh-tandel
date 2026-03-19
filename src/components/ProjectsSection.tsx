@@ -9,6 +9,16 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
+import eBasketDoc from "@/assets/docs/eBasket.pdf";
+import LicenoraDoc from "@/assets/docs/Licenora.pdf";
+import FilezenoDoc from "@/assets/docs/Filezeno.pdf";
+import HRnixDoc from "@/assets/docs/HRnix.pdf";
+import LifeArcPlanDoc from "@/assets/docs/LifeArcPlan.pdf";
+import QuickScrumDoc from "@/assets/docs/QuickScrum.pdf";
+import HospivoDoc from "@/assets/docs/Hospivo.pdf";
+import LearnifyxDoc from "@/assets/docs/Learnifyx.pdf";
+import CentralPlacementDoc from "@/assets/docs/Central Placement.pdf";
+
 const projects = [
   {
     title: "eBasket",
