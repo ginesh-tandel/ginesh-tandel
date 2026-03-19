@@ -48,31 +48,72 @@ const projects = [
     title: "Licenora",
     desc: "A license management system that automates issuing, tracking, validating, and renewing licenses, ensuring compliance and efficient lifecycle management.",
     doc: LicenoraDoc,
-    tags: ["ASP.NET Core", "Web API", "Angular", "Tailwind CSS", "PrimeNG", "SQL Server", "Azure", "Azure DevOps"],
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "Angular",
+      "Tailwind CSS",
+      "PrimeNG",
+      "SQL Server",
+      "Azure",
+      "Azure DevOps",
+    ],
   },
   {
     title: "Filezeno",
     desc: "A document management system for storing, organizing, tracking, and securely sharing digital documents with version control and access management features.",
     doc: FilezenoDoc,
-    tags: ["ASP.NET Core", "Web API", "React", "Bootstrap", "SQL Server", "Azure", "GitHub CI/CD"],
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "React",
+      "Bootstrap",
+      "SQL Server",
+      "Azure",
+      "GitHub CI/CD",
+    ],
   },
   {
     title: "HRnix",
     desc: "A comprehensive HR management system for handling recruitment, onboarding, payroll, attendance, and performance management with automation and role-based access control.",
     doc: HRnixDoc,
-    tags: ["ASP.NET Core", "Web API", "Angular", "Tailwind CSS", "SQL Server", "Azure", "GitHub CI/CD"],
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "Angular",
+      "Tailwind CSS",
+      "SQL Server",
+      "Azure",
+      "GitHub CI/CD",
+    ],
   },
   {
     title: "LifeArcPlan",
     desc: "An enterprise financial planning platform with modules for budgeting, investment planning, retirement forecasting, and analytics dashboards for better financial decision-making.",
     doc: LifeArcPlanDoc,
-    tags: ["ASP.NET Core", "Web API", "Angular", "Bootstrap", "SQL Server", "AWS RDS", "AWS S3", "AWS SNS"],
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "Angular",
+      "Bootstrap",
+      "SQL Server",
+      "AWS RDS",
+      "AWS S3",
+      "AWS SNS",
+    ],
   },
   {
     title: "Quickscrum",
     desc: "An Agile project management tool that enables teams to manage sprints, track tasks, handle backlogs, and monitor project progress with real-time collaboration features.",
     doc: QuickScrumDoc,
-    tags: ["ASP.NET Core", "Web API", "Angular", "Bootstrap", "SQL Server", "Azure"],
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "Angular",
+      "Bootstrap",
+      "SQL Server",
+      "Azure",
+    ],
   },
   {
     title: "Hospivo",
@@ -117,7 +158,7 @@ export function ProjectsSection() {
           {projects.map((p, i) => (
             <a
               key={p.title}
-              href={p.doc}
+              href={`/assets/docs/${p.title}.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="block"
