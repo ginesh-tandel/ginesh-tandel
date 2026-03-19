@@ -43,12 +43,6 @@ Enterprise-grade applications focused on:
 
 ## 🟣 eBasket
 
-### 📸 Screenshots
-
-![Dashboard](screenshots/eBasket/Analytics.png)
-![Products](screenshots/eBasket/products.png)
-![Orders](screenshots/eBasket/orders.png)
-
 ### 🏗 Architecture
 
 - Microservices
@@ -77,9 +71,7 @@ Enterprise-grade applications focused on:
 
 ## 🔵 Licenora
 
-![Dashboard](screenshots/Licenora/dashboard.png)
-
-**Stack:** Angular, .NET Core, MSSQL, Azure
+**Stack:** ASP.NET Core Web Api, Angular, Tailwind Css, PrimeNG, MSSQL Server, Azure, Azure DevOps
 
 ### 🔑 Features
 
@@ -92,9 +84,8 @@ Enterprise-grade applications focused on:
 
 ## 🟢 Filezeno
 
-![Dashboard](screenshots/Filezeno/dashboard.png)
 
-**Stack:** React, .NET Core, Azure Blob, CI/CD
+**Stack:** ASP.NET Core Web Api, React, Bootstrap, MSSQL Server, Azure, GitHub CICD
 
 ### 🔑 Features
 
@@ -107,9 +98,7 @@ Enterprise-grade applications focused on:
 
 ## 🔷 HRnix
 
-![Dashboard](screenshots/HRnix/dashboard.png)
-
-**Stack:** Angular, .NET Core, Azure
+**Stack:** ASP.NET Core Web Api, Angular, Tailwind Css, MSSQL Server, Azure, GitHub CICD
 
 ### 🔑 Features
 
@@ -120,11 +109,9 @@ Enterprise-grade applications focused on:
 
 ---
 
-## 🟡 LifeArcPlan (Financial Planning Platform)
+## 🟡 LifeArcPlan
 
-![Dashboard](screenshots/LifeArcPlan/Analytics.png)
-
-**Stack:** React, .NET Core, AWS
+**Stack:** ASP.NET Core Web Api, Angular, Bootstrap,  MSSQL Server, AWS RDS, AWS S3, AWS SNS
 
 ### 🔑 Features
 
@@ -137,9 +124,8 @@ Enterprise-grade applications focused on:
 
 ## 🔶 Quickscrum
 
-![Dashboard](screenshots/Quickscrum/dashboard.png)
 
-**Stack:** Angular, .NET Core, Azure
+**Stack:** ASP.NET Core Web Api, Angular, Bootstrap, MSSQL Server, Azure
 
 ### 🔑 Features
 
@@ -152,9 +138,7 @@ Enterprise-grade applications focused on:
 
 ## 🔴 Hospivo
 
-![Dashboard](screenshots/Hospivo/dashboard.png)
-
-**Stack:** React, .NET Core
+**Stack:** ASP.NET Core Web Api, React, Bootstrap, MSSQL Server
 
 ### 🔑 Features
 
@@ -166,8 +150,6 @@ Enterprise-grade applications focused on:
 ---
 
 ## 🟠 Learnifyx
-
-![Dashboard](screenshots/Learnifyx/dashboard.png)
 
 **Stack:** ASP.NET MVC, jQuery
 
@@ -181,8 +163,6 @@ Enterprise-grade applications focused on:
 ---
 
 ## ⚫ Central Placement
-
-![Dashboard](screenshots/CentralPlacement/dashboard.png)
 
 **Stack:** ASP.NET MVC, jQuery
 
