@@ -71,7 +71,7 @@ Enterprise-grade applications focused on:
 
 ## 🔵 Licenora
 
-**Stack:** ASP.NET Core Web Api, Angular, Tailwind Css, PrimeNG, MSSQL Server, Azure, Azure DevOps
+**Stack:** ASP.NET Core Web API, Angular, Tailwind CSS, PrimeNG, MSSQL Server, Azure, Azure DevOps
 
 ### 🔑 Features
 
@@ -84,8 +84,7 @@ Enterprise-grade applications focused on:
 
 ## 🟢 Filezeno
 
-
-**Stack:** ASP.NET Core Web Api, React, Bootstrap, MSSQL Server, Azure, GitHub CICD
+**Stack:** ASP.NET Core Web API, React, Bootstrap, MSSQL Server, Azure, GitHub CI/CD
 
 ### 🔑 Features
 
@@ -98,7 +97,7 @@ Enterprise-grade applications focused on:
 
 ## 🔷 HRnix
 
-**Stack:** ASP.NET Core Web Api, Angular, Tailwind Css, MSSQL Server, Azure, GitHub CICD
+**Stack:** ASP.NET Core Web API, Angular, Tailwind CSS, MSSQL Server, Azure, GitHub CI/CD
 
 ### 🔑 Features
 
@@ -111,7 +110,7 @@ Enterprise-grade applications focused on:
 
 ## 🟡 LifeArcPlan
 
-**Stack:** ASP.NET Core Web Api, Angular, Bootstrap,  MSSQL Server, AWS RDS, AWS S3, AWS SNS
+**Stack:** ASP.NET Core Web API, Angular, Bootstrap, MSSQL Server, AWS RDS, AWS S3, AWS SNS
 
 ### 🔑 Features
 
@@ -124,8 +123,7 @@ Enterprise-grade applications focused on:
 
 ## 🔶 Quickscrum
 
-
-**Stack:** ASP.NET Core Web Api, Angular, Bootstrap, MSSQL Server, Azure
+**Stack:** ASP.NET Core Web API, Angular, Bootstrap, MSSQL Server, Azure
 
 ### 🔑 Features
 
@@ -138,7 +136,7 @@ Enterprise-grade applications focused on:
 
 ## 🔴 Hospivo
 
-**Stack:** ASP.NET Core Web Api, React, Bootstrap, MSSQL Server
+**Stack:** ASP.NET Core Web API, React, Bootstrap, MSSQL Server
 
 ### 🔑 Features
 
@@ -151,7 +149,7 @@ Enterprise-grade applications focused on:
 
 ## 🟠 Learnifyx
 
-**Stack:** ASP.NET MVC, jQuery
+**Stack:** ASP.NET MVC, jQuery, Bootstrap, MSSQL Server
 
 ### 🔑 Features
 
@@ -164,7 +162,7 @@ Enterprise-grade applications focused on:
 
 ## ⚫ Central Placement
 
-**Stack:** ASP.NET MVC, jQuery
+**Stack:** ASP.NET MVC, jQuery, Bootstrap, MSSQL Server
 
 ### 🔑 Features
 
