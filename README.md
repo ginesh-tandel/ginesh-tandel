@@ -188,7 +188,7 @@ Enterprise-grade applications built with a focus on:
 - 🚀 Building scalable SaaS and enterprise applications  
 
 📩 Reach out:  
-- 🔗 LinkedIn: [Ginesh Tandel](https://www.linkedin.com/in/ginesh-tandel/)  
+- 🔗 LinkedIn: [www.linkedin.com/in/ginesh-tandel](https://www.linkedin.com/in/ginesh-tandel/)  
 - 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)  
 
 ⭐ If you found this portfolio useful, consider giving it a star
