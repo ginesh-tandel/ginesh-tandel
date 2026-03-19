@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/.NET-Core-blue" />
+  <img src="https://img.shields.io/badge/.NET-Platform-blue" />
   <img src="https://img.shields.io/badge/Angular-Frontend-red" />
   <img src="https://img.shields.io/badge/React-Frontend-blue" />
   <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
@@ -18,21 +18,21 @@
 
 ## 📌 About
 
-Enterprise-grade applications focused on:
+Enterprise-grade applications built with a focus on:
 
-- 🏗 Clean Architecture & Microservices
-- ☁️ Cloud-Native Development
-- 🔐 Secure APIs & Authentication
-- ⚡ Performance Optimization
+* 🏗 Clean Architecture & Microservices
+* ☁️ Cloud-Native Development
+* 🔐 Secure APIs & Authentication
+* ⚡ Performance Optimization
 
 ---
 
 ## 🧠 Core Stack
 
-**Backend:** ASP.NET Core, EF Core, CQRS  
-**Frontend:** Angular, React, Tailwind  
-**Cloud:** Azure, AWS  
-**Infra:** Docker, CI/CD  
+**Backend:** ASP.NET Core Web API, EF Core, CQRS
+**Frontend:** Angular, React, Tailwind CSS
+**Cloud:** Azure, AWS
+**Infrastructure:** Docker, CI/CD
 **Tools:** RabbitMQ, Redis, gRPC
 
 ---
@@ -45,9 +45,9 @@ Enterprise-grade applications focused on:
 
 ### 🏗 Architecture
 
-- Microservices
-- CQRS + MediatR
-- Event-Driven Architecture
+* Microservices
+* CQRS + MediatR
+* Event-Driven Architecture
 
 ### ⚙️ Tech Stack
 
@@ -62,10 +62,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Designed a scalable microservices architecture with CQRS and event-driven communication
-- Implemented distributed order processing using RabbitMQ for reliability
-- Built high-performance caching layer using Redis
-- Integrated secure payment and inventory workflows with real-time updates
+* Architected a scalable microservices ecosystem using CQRS and event-driven communication
+* Implemented resilient, asynchronous order processing with RabbitMQ
+* Optimized system performance using Redis-based caching strategies
+* Built secure, real-time payment and inventory workflows
 
 ---
 
@@ -75,10 +75,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Developed end-to-end license lifecycle management (issuance, renewal, expiration)
-- Implemented subscription and billing workflows with automated validation
-- Designed secure authentication and access control for multi-tenant usage
-- Built audit-ready tracking system for compliance
+* Delivered full license lifecycle management including issuance, renewal, and expiration tracking
+* Designed subscription and billing workflows with automated validation
+* Implemented secure, multi-tenant authentication and access control
+* Built compliance-ready audit tracking and reporting system
 
 ---
 
@@ -88,10 +88,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Engineered secure document storage with version control and audit trails
-- Integrated Azure Blob Storage for scalable file management
-- Implemented role-based access and document-level security
-- Built advanced search and filtering capabilities
+* Engineered secure document storage with versioning and audit trails
+* Integrated Azure Blob Storage for scalable file handling
+* Implemented fine-grained role-based and document-level security
+* Developed advanced search and filtering capabilities
 
 ---
 
@@ -101,10 +101,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Developed complete employee lifecycle management system
-- Automated payroll, attendance, and leave workflows
-- Implemented role-based access control (RBAC)
-- Built analytics dashboards for workforce insights
+* Built end-to-end employee lifecycle management workflows
+* Automated payroll, attendance, and leave management processes
+* Implemented robust RBAC-based security model
+* Delivered workforce analytics dashboards for actionable insights
 
 ---
 
@@ -114,10 +114,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Built financial planning engine for investments and retirement
-- Implemented complex financial calculations and forecasting models
-- Integrated AWS services (S3, SNS) for storage and notifications
-- Delivered data-driven insights via dashboards
+* Developed a financial planning engine for investment and retirement scenarios
+* Implemented complex financial calculations and forecasting models
+* Integrated AWS services for storage, messaging, and scalability
+* Delivered data-driven dashboards for financial insights
 
 ---
 
@@ -127,10 +127,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Developed Scrum and Kanban boards for agile workflows
-- Enabled real-time collaboration using SignalR
-- Built sprint planning and backlog management modules
-- Implemented productivity tracking and reporting
+* Built interactive Scrum and Kanban boards for agile workflows
+* Enabled real-time team collaboration using SignalR
+* Developed sprint planning and backlog management modules
+* Implemented productivity tracking and reporting tools
 
 ---
 
@@ -140,10 +140,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Built centralized patient and medical record system
-- Implemented appointment scheduling workflows
-- Designed secure access control for healthcare staff
-- Digitized hospital operations for efficiency
+* Developed centralized patient and medical record management system
+* Implemented appointment scheduling and workflow automation
+* Designed secure access control for healthcare staff
+* Digitized hospital operations to improve efficiency and accuracy
 
 ---
 
@@ -153,10 +153,10 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Developed course and content management platform
-- Implemented assessment and progress tracking
-- Enabled multimedia learning delivery
-- Designed role-based access for users
+* Built a scalable course and content management platform
+* Implemented assessment, grading, and progress tracking systems
+* Enabled multimedia-based learning delivery
+* Designed role-based access for students, instructors, and admins
 
 ---
 
@@ -166,20 +166,33 @@ Enterprise-grade applications focused on:
 
 ### 🔑 Features
 
-- Built centralized placement tracking system
-- Implemented company drive and candidate workflows
-- Designed reporting dashboards for placement insights
-- Streamlined coordination between stakeholders
+* Developed centralized placement tracking and management system
+* Implemented company recruitment workflows and candidate tracking
+* Built reporting dashboards for placement insights and analytics
+* Streamlined coordination between students, companies, and administrators
 
 ---
 
 ## 📊 Highlights
 
-- Built scalable systems supporting real-world usage
-- Optimized performance using caching and query tuning
-- Designed clean, maintainable architectures
-- Delivered production-ready enterprise applications
+* Designed and delivered scalable systems supporting real-world usage
+* Improved performance through caching strategies and database optimization
+* Built clean, maintainable, and extensible architectures
+* Delivered production-ready enterprise applications
 
 ---
 
 ## 📁 Project Structure
+
+```
+/screenshots
+  /ebasket
+  /licenora
+  /filezeno
+  /hrnix
+  /lifearcplan
+  /quickscrum
+  /hospivo
+  /learnifyx
+  /central-placement
+```
