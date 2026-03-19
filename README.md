@@ -122,7 +122,7 @@ Enterprise-grade applications focused on:
 
 ## 🟡 LifeArcPlan (Financial Planning Platform)
 
-![Dashboard](screenshots/LifeArcPlan/dashboard.png)
+![Dashboard](screenshots/LifeArcPlan/Analytics.png)
 
 **Stack:** React, .NET Core, AWS
 
@@ -180,9 +180,9 @@ Enterprise-grade applications focused on:
 
 ---
 
-## ⚫ Central Placement System
+## ⚫ Central Placement
 
-![Dashboard](screenshots/central-placement/dashboard.png)
+![Dashboard](screenshots/CentralPlacement/dashboard.png)
 
 **Stack:** ASP.NET MVC, jQuery
 
