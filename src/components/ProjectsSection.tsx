@@ -137,35 +137,32 @@ export function ProjectsSection() {
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {projects.map((p, i) => (
-            <a
-              key={p.title}
-              href={`/src/assets/docs/${p.title}.pdf`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
+            <Card
+              className={`group flex h-full flex-col border-border/60 cursor-pointer transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+              style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
             >
-              <Card
-                className={`group flex h-full flex-col border-border/60 cursor-pointer transition-all duration-700 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-                style={{ transitionDelay: isVisible ? `${i * 150}ms` : "0ms" }}
-              >
-                <CardHeader>
-                  <div className="flex items-start justify-between">
-                    <CardTitle className="text-lg">{p.title}</CardTitle>
-                    <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-                  </div>
-                  <CardDescription className="leading-relaxed">
-                    {p.desc}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="mt-auto flex flex-wrap gap-2">
-                  {p.tags.map((tag) => (
-                    <Badge key={tag} variant="outline" className="text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
-                </CardContent>
-              </Card>
-            </a>
+              <CardHeader>
+                <div className="flex items-start justify-between">
+                  <CardTitle className="text-lg">{p.title}</CardTitle>
+                  <ExternalLink
+                    className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100"
+                    onClick={() =>
+                      window.open(`/src/assets/docs/${p.title}.pdf`, "_blank")
+                    }
+                  />
+                </div>
+                <CardDescription className="leading-relaxed">
+                  {p.desc}
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="mt-auto flex flex-wrap gap-2">
+                {p.tags.map((tag) => (
+                  <Badge key={tag} variant="outline" className="text-xs">
+                    {tag}
+                  </Badge>
+                ))}
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>
