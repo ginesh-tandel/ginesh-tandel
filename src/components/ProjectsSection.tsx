@@ -23,6 +23,7 @@ const projects = [
   {
     title: "eBasket",
     desc: "A scalable eCommerce platform built using microservices architecture, supporting product management, orders, payments, and real-time processing for high-performance online shopping.",
+    doc: eBasketDoc,
     tags: [
       "ASP.NET Core",
       "Web API",
