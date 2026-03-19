@@ -7,11 +7,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/.NET-Core-blue" />
-  <img src="https://img.shields.io/badge/Angular-Framework-red" />
-  <img src="https://img.shields.io/badge/React-Library-blue" />
+  <img src="https://img.shields.io/badge/Angular-Frontend-red" />
+  <img src="https://img.shields.io/badge/React-Frontend-blue" />
   <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
   <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
-  <img src="https://img.shields.io/badge/Docker-Containerization-blue" />
+  <img src="https://img.shields.io/badge/Docker-DevOps-blue" />
   <img src="https://img.shields.io/badge/Microservices-Architecture-green" />
 </p>
 
@@ -19,7 +19,7 @@
 
 # 📌 About This Portfolio
 
-This repository showcases a collection of **real-world enterprise applications** built using modern technologies and best practices.
+This repository showcases **real-world enterprise-grade applications** designed with scalability, performance, and maintainability in mind.
 
 ✔ Clean Architecture
 ✔ Scalable Microservices
@@ -52,7 +52,7 @@ This repository showcases a collection of **real-world enterprise applications**
 * Azure (App Services, Blob Storage)
 * AWS (S3, RDS, SNS)
 * Docker
-* GitHub Actions / CI-CD
+* GitHub Actions / CI/CD
 
 ### ⚙️ Architecture & Tools
 
@@ -85,12 +85,35 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** Angular, Tailwind, PrimeNG
-**Backend:** ASP.NET Core Web API
-**Database:** MSSQL, MongoDB, PostgreSQL
-**Messaging:** RabbitMQ, gRPC
-**Infra:** Azure, Docker
-**Caching:** Redis
+#### 🎨 Frontend
+
+* Angular
+* Tailwind CSS
+* PrimeNG
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
+
+#### 🗄 Database
+
+* MSSQL Server
+* MongoDB
+* PostgreSQL
+
+#### 📡 Messaging & Communication
+
+* RabbitMQ
+* gRPC
+
+#### ⚡ Caching
+
+* Redis
+
+#### ☁️ Infrastructure & DevOps
+
+* Azure
+* Docker
 
 ---
 
@@ -103,10 +126,24 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** Angular, Tailwind, PrimeNG
-**Backend:** ASP.NET Core Web API
-**Database:** MSSQL Server
-**Cloud:** Azure, Azure DevOps
+#### 🎨 Frontend
+
+* Angular
+* Tailwind CSS
+* PrimeNG
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
+
+#### 🗄 Database
+
+* MSSQL Server
+
+#### ☁️ Cloud & DevOps
+
+* Azure
+* Azure DevOps
 
 ### 🔑 Features
 
@@ -125,10 +162,19 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** React, Bootstrap
-**Backend:** ASP.NET Core Web API
-**Cloud:** Azure Blob Storage
-**DevOps:** GitHub CI/CD
+#### 🎨 Frontend
+
+* React
+* Bootstrap
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
+
+#### ☁️ Cloud & DevOps
+
+* Azure Blob Storage
+* GitHub CI/CD
 
 ### 🔑 Features
 
@@ -147,9 +193,18 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** Angular, Tailwind
-**Backend:** ASP.NET Core Web API
-**Cloud:** Azure
+#### 🎨 Frontend
+
+* Angular
+* Tailwind CSS
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
+
+#### ☁️ Cloud & DevOps
+
+* Azure
 
 ### 🔑 Features
 
@@ -168,9 +223,19 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** React
-**Backend:** ASP.NET Core Web API
-**Cloud:** AWS (S3, RDS, SNS)
+#### 🎨 Frontend
+
+* React
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
+
+#### ☁️ Cloud & Services
+
+* AWS S3
+* AWS RDS
+* AWS SNS
 
 ### 🔑 Features
 
@@ -189,9 +254,17 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** Angular
-**Backend:** ASP.NET Core Web API
-**Cloud:** Azure
+#### 🎨 Frontend
+
+* Angular
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
+
+#### ☁️ Cloud & DevOps
+
+* Azure
 
 ### 🔑 Features
 
@@ -210,8 +283,13 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** React
-**Backend:** ASP.NET Core Web API
+#### 🎨 Frontend
+
+* React
+
+#### 🧠 Backend
+
+* ASP.NET Core Web API
 
 ### 🔑 Features
 
@@ -230,8 +308,14 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** jQuery, Bootstrap
-**Backend:** ASP.NET MVC
+#### 🎨 Frontend
+
+* jQuery
+* Bootstrap
+
+#### 🧠 Backend
+
+* ASP.NET MVC
 
 ### 🔑 Features
 
@@ -250,8 +334,14 @@ This repository showcases a collection of **real-world enterprise applications**
 
 ### ⚙️ Tech Stack
 
-**Frontend:** jQuery, Bootstrap
-**Backend:** ASP.NET MVC
+#### 🎨 Frontend
+
+* jQuery
+* Bootstrap
+
+#### 🧠 Backend
+
+* ASP.NET MVC
 
 ### 🔑 Features
 
