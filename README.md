@@ -188,8 +188,9 @@ Enterprise-grade applications built with a focus on:
 - 🚀 Building scalable SaaS and enterprise applications  
 
 📩 Reach out:
-- 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)  
-- 🌐 Portfolio: [ginesh.logiqcube.com](https://ginesh.logiqcube.com)
-- 🔗 LinkedIn: [linkedin.com/in/ginesh-tandel](https://linkedin.com/in/ginesh-tandel/) 
+
+- 📧 Email: <a href="mailto:ginesh.tandel.dotnet@gmail.com" target="_blank">ginesh.tandel.dotnet@gmail.com</a>  
+- 🌐 Portfolio: <a href="https://ginesh.logiqcube.com" target="_blank">ginesh.logiqcube.com</a>  
+- 🔗 LinkedIn: <a href="https://linkedin.com/in/ginesh-tandel/" target="_blank">linkedin.com/in/ginesh-tandel</a>   
 
 ⭐ If you found this portfolio useful, consider giving it a star
