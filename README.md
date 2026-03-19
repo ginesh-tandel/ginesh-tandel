@@ -181,3 +181,13 @@ Enterprise-grade applications built with a focus on:
 * Delivered production-ready enterprise applications
 
 ---
+
+## 🤝 Let's Connect
+
+- 💼 Open to freelance & full-time opportunities  
+- 🚀 Building scalable SaaS and enterprise applications  
+- 📩 Reach out via LinkedIn or Email  
+
+⭐ If you found this portfolio useful, consider giving it a star
+
+---
