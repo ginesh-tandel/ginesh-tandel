@@ -45,7 +45,7 @@ Enterprise-grade applications focused on:
 
 ### 📸 Screenshots
 
-![Dashboard](screenshots/eBasket/dashboard.png)
+![Dashboard](screenshots/eBasket/Analytics.png)
 ![Products](screenshots/eBasket/products.png)
 ![Orders](screenshots/eBasket/orders.png)
 
