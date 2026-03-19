@@ -65,25 +65,225 @@ I help organizations build scalable, secure, and high-performance web platforms.
 
 ---
 
-## 📌 Key Projects
+## 📌 Projects
 
-### Human Resource Management System
+---
 
-Enterprise HR platform automating payroll, attendance, and performance workflows.
+## 🔷 Central Placement
 
-**Tech:** ASP.NET Core, React, Azure, SQL Server
+### Frontend
+- jQuery  
+- Bootstrap  
 
-### Financial Planning Platform
+### Backend
+- ASP.NET MVC  
 
-Cloud-based financial system for investment tracking and reporting.
+### Database
+- MSSQL Server  
 
-**Tech:** ASP.NET Core Web API, Angular, Azure
+### Supporting
+- Entity Framework  
+- LINQ  
+- AJAX  
 
-### Quickscrum
+---
 
-SaaS Agile project management platform for team collaboration.
+## 🔷 Learning Management System
 
-**Tech:** ASP.NET Core, React, Microservices, Docker
+### Frontend
+- jQuery  
+- Bootstrap  
+
+### Backend
+- ASP.NET MVC  
+
+### Database
+- MSSQL Server  
+
+### Supporting
+- Entity Framework  
+- LINQ  
+- File Upload / Media Handling  
+- Email Notifications  
+
+---
+
+## 🔷 Hospital Management System
+
+### Frontend
+- React  
+- Bootstrap  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Database
+- MSSQL Server  
+
+### Supporting
+- Entity Framework Core  
+- JWT Authentication  
+- Role-Based Authorization  
+- SignalR (Real-time updates)  
+
+---
+
+## 🔷 Quickscrum
+
+### Frontend
+- Angular  
+- Bootstrap  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Database
+- MSSQL Server  
+
+### Cloud & DevOps
+- Azure  
+
+### Supporting
+- Entity Framework Core  
+- JWT Authentication  
+- SignalR  
+- Agile/Scrum Workflow  
+
+---
+
+## 🔷 LifeArcPlan
+
+### Frontend
+- React  
+- Bootstrap  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Database
+- MSSQL Server  
+- AWS RDS  
+
+### Cloud & Services
+- AWS S3  
+- AWS SNS  
+
+### Supporting
+- Entity Framework Core  
+- JWT Authentication  
+- Financial Calculation Engine  
+- Background Jobs  
+
+---
+
+## 🔷 HRMS
+
+### Frontend
+- Angular  
+- Tailwind CSS  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Database
+- MSSQL Server  
+
+### Cloud & DevOps
+- Azure  
+- GitHub CI/CD  
+
+### Supporting
+- Entity Framework Core  
+- JWT Authentication  
+- Role-Based Authorization  
+- Payroll & Attendance Modules  
+
+---
+
+## 🔷 Document Management System
+
+### Frontend
+- React  
+- Bootstrap  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Database
+- MSSQL Server  
+
+### Cloud & DevOps
+- Azure  
+- GitHub CI/CD  
+
+### Supporting
+- Entity Framework Core  
+- JWT Authentication  
+- Azure Blob Storage  
+- Versioning & Audit Logs  
+
+---
+
+## 🔷 License Management System
+
+### Frontend
+- Angular  
+- Tailwind CSS  
+- PrimeNG  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Database
+- MSSQL Server  
+
+### Cloud & DevOps
+- Azure  
+- Azure DevOps  
+
+### Supporting
+- Entity Framework Core  
+- JWT Authentication  
+- License Key Management  
+- Subscription Handling  
+
+---
+
+## 🔷 eCommerce (Microservices Architecture)
+
+### Frontend
+- Angular  
+- Tailwind CSS  
+- PrimeNG  
+
+### Backend
+- ASP.NET Core Web API  
+
+### Architecture
+- Microservices  
+- CQRS  
+- MediatR  
+
+### Communication
+- RabbitMQ  
+- gRPC  
+- Ocelot API Gateway  
+
+### Database
+- MSSQL Server  
+- MongoDB  
+- PostgreSQL  
+- Redis (Caching)  
+
+### Cloud & DevOps
+- Azure  
+- Docker  
+
+### Supporting
+- JWT Authentication  
+- Event-Driven Architecture  
+- Payment Integration  
+
 
 ---
 
