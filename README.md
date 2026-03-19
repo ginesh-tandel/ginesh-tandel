@@ -22,7 +22,7 @@ Enterprise-grade applications focused on:
 
 - 🏗 Clean Architecture & Microservices  
 - ☁️ Cloud-Native Development  
-- 🔐 Secure APIs  
+- 🔐 Secure APIs & Authentication  
 - ⚡ Performance Optimization  
 
 ---
@@ -41,25 +41,37 @@ Enterprise-grade applications focused on:
 
 ---
 
-## 🟣 eCommerce Platform (Flagship)
+## 🟣 eCommerce Platform (Microservices)
 
 ### 📸 Screenshots
+
 ![Dashboard](screenshots/ecommerce/dashboard.png)
 ![Products](screenshots/ecommerce/products.png)
 ![Orders](screenshots/ecommerce/orders.png)
 
 ### 🏗 Architecture
+
 - Microservices  
 - CQRS + MediatR  
-- Event-Driven  
+- Event-Driven Architecture  
 
 ### ⚙️ Tech Stack
-Frontend: Angular, Tailwind, PrimeNG  
-Backend: ASP.NET Core Web API  
-Database: MSSQL, MongoDB, PostgreSQL  
-Messaging: RabbitMQ, gRPC  
-Infra: Azure, Docker  
-Caching: Redis  
+
+| Layer | Technologies |
+|------|-------------|
+| Frontend | Angular, Tailwind CSS, PrimeNG |
+| Backend | ASP.NET Core Web API |
+| Database | MSSQL Server, MongoDB, PostgreSQL |
+| Messaging | RabbitMQ, gRPC |
+| Caching | Redis |
+| Infrastructure | Azure, Docker |
+
+### 🔑 Features
+
+- Designed a scalable microservices architecture with CQRS and event-driven communication  
+- Implemented distributed order processing using RabbitMQ for reliability  
+- Built high-performance caching layer using Redis  
+- Integrated secure payment and inventory workflows with real-time updates  
 
 ---
 
@@ -68,7 +80,13 @@ Caching: Redis
 ![Dashboard](screenshots/license/dashboard.png)
 
 **Stack:** Angular, .NET Core, MSSQL, Azure  
-**Features:** License lifecycle, subscriptions, authentication  
+
+### 🔑 Features
+
+- Developed end-to-end license lifecycle management (issuance, renewal, expiration)  
+- Implemented subscription and billing workflows with automated validation  
+- Designed secure authentication and access control for multi-tenant usage  
+- Built audit-ready tracking system for compliance  
 
 ---
 
@@ -77,43 +95,73 @@ Caching: Redis
 ![Dashboard](screenshots/dms/dashboard.png)
 
 **Stack:** React, .NET Core, Azure Blob, CI/CD  
-**Features:** File storage, versioning, audit logs  
+
+### 🔑 Features
+
+- Engineered secure document storage with version control and audit trails  
+- Integrated Azure Blob Storage for scalable file management  
+- Implemented role-based access and document-level security  
+- Built advanced search and filtering capabilities  
 
 ---
 
-## 🔷 HRMS
+## 🔷 HR Management System (HRMS)
 
 ![Dashboard](screenshots/hrms/dashboard.png)
 
 **Stack:** Angular, .NET Core, Azure  
-**Features:** Payroll, attendance, RBAC  
+
+### 🔑 Features
+
+- Developed complete employee lifecycle management system  
+- Automated payroll, attendance, and leave workflows  
+- Implemented role-based access control (RBAC)  
+- Built analytics dashboards for workforce insights  
 
 ---
 
-## 🟡 LifeArcPlan
+## 🟡 LifeArcPlan (Financial Planning Platform)
 
 ![Dashboard](screenshots/lifearcplan/dashboard.png)
 
 **Stack:** React, .NET Core, AWS  
-**Features:** Financial planning, analytics  
+
+### 🔑 Features
+
+- Built financial planning engine for investments and retirement  
+- Implemented complex financial calculations and forecasting models  
+- Integrated AWS services (S3, SNS) for storage and notifications  
+- Delivered data-driven insights via dashboards  
 
 ---
 
-## 🔶 Quickscrum
+## 🔶 Quickscrum (Agile Project Management)
 
 ![Dashboard](screenshots/quickscrum/dashboard.png)
 
 **Stack:** Angular, .NET Core, Azure  
-**Features:** Scrum boards, real-time updates  
+
+### 🔑 Features
+
+- Developed Scrum and Kanban boards for agile workflows  
+- Enabled real-time collaboration using SignalR  
+- Built sprint planning and backlog management modules  
+- Implemented productivity tracking and reporting  
 
 ---
 
-## 🔴 Hospital Management
+## 🔴 Hospital Management System
 
 ![Dashboard](screenshots/hospital/dashboard.png)
 
 **Stack:** React, .NET Core  
-**Features:** Patient records, scheduling  
+
+### 🔑 Features
+
+- Built centralized patient and medical record system  
+- Implemented appointment scheduling workflows  
+- Designed secure access control for healthcare staff  
+- Digitized hospital operations for efficiency  
 
 ---
 
@@ -122,30 +170,38 @@ Caching: Redis
 ![Dashboard](screenshots/lms/dashboard.png)
 
 **Stack:** ASP.NET MVC, jQuery  
-**Features:** Courses, assessments  
+
+### 🔑 Features
+
+- Developed course and content management platform  
+- Implemented assessment and progress tracking  
+- Enabled multimedia learning delivery  
+- Designed role-based access for users  
 
 ---
 
-## ⚫ Central Placement
+## ⚫ Central Placement System
 
 ![Dashboard](screenshots/central-placement/dashboard.png)
 
 **Stack:** ASP.NET MVC, jQuery  
-**Features:** Placement tracking, reports  
+
+### 🔑 Features
+
+- Built centralized placement tracking system  
+- Implemented company drive and candidate workflows  
+- Designed reporting dashboards for placement insights  
+- Streamlined coordination between stakeholders  
 
 ---
 
 ## 📊 Highlights
 
-- Built scalable systems with real-world usage  
-- Optimized performance using caching & indexing  
-- Designed clean, maintainable architecture  
+- Built scalable systems supporting real-world usage  
+- Optimized performance using caching and query tuning  
+- Designed clean, maintainable architectures  
+- Delivered production-ready enterprise applications  
 
 ---
 
-## 🤝 Let's Connect
-
-- 💼 Open for opportunities  
-- 🚀 Building SaaS products  
-
-⭐ Star this repo if you like it
+## 📁 Project Structure
