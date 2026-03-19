@@ -1,304 +1,298 @@
-# 👋 Hi, I'm Ginesh Tandel
+# 🚀 Enterprise Project Portfolio
 
-**Senior .NET Full Stack Engineer**
+<p align="center">
+  <b>Full Stack .NET Developer | Scalable Systems | Cloud & Microservices</b><br/>
+  Building high-performance, enterprise-grade applications with modern architecture
+</p>
 
-I help organizations build scalable, secure, and high-performance web platforms. With 10+ years of experience in .NET and modern frontend frameworks, I design efficient APIs, modernize backend systems, and deliver production-ready solutions that improve reliability and performance. 
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-Core-blue" />
+  <img src="https://img.shields.io/badge/Angular-Framework-red" />
+  <img src="https://img.shields.io/badge/React-Library-blue" />
+  <img src="https://img.shields.io/badge/Azure-Cloud-blue" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
+  <img src="https://img.shields.io/badge/Docker-Containerization-blue" />
+  <img src="https://img.shields.io/badge/Microservices-Architecture-green" />
+</p>
 
 ---
 
-## 🚀 About Me
+# 📌 About This Portfolio
 
-* 🔹 10+ years experience in full-stack development
-* 🔹 Specializing in scalable cloud applications
-* 🔹 Passionate about clean architecture & performance optimization
-* 🔹 Experienced in enterprise and SaaS product development
+This repository showcases a collection of **real-world enterprise applications** built using modern technologies and best practices.
+
+✔ Clean Architecture
+✔ Scalable Microservices
+✔ Cloud-Native Development
+✔ Secure APIs & Authentication
+✔ Performance Optimization
 
 ---
 
-## 🛠️ Tech Stack
+# 🧠 Tech Expertise
 
-### Frontend
+### 👨‍💻 Backend
 
-* React
+* ASP.NET Core Web API
+* ASP.NET MVC
+* Entity Framework Core
+* MediatR / CQRS
+* REST APIs
+
+### 🎨 Frontend
+
 * Angular
-* JavaScript / TypeScript
-* HTML / CSS
+* React
+* jQuery
+* Tailwind CSS
 * Bootstrap
 
-### Backend
+### ☁️ Cloud & DevOps
 
-* C#
-* .NET Core / ASP.NET Core
-* REST APIs & Microservices
-* Clean Architecture
-* JWT Authentication
-* SQL Server
-
-### Cloud & Tools
-
-* Microsoft Azure
+* Azure (App Services, Blob Storage)
+* AWS (S3, RDS, SNS)
 * Docker
-* Git
-* CI/CD Pipelines
+* GitHub Actions / CI-CD
+
+### ⚙️ Architecture & Tools
+
+* Microservices
+* Event-Driven Architecture
+* RabbitMQ / gRPC
+* Ocelot API Gateway
+* Redis Caching
+* SignalR
 
 ---
 
-## 💼 Professional Experience
-
-### Freelance Senior .NET Core Consultant (Remote) — *2020–Present*
-
-* Designed and delivered scalable cloud-native applications
-* Architected distributed systems using ASP.NET Core & Azure
-* Improved performance, reliability, and maintainability
-
-### Senior Software Engineer — Spaculus Software (2019–2020)
-
-* Delivered a cloud financial platform for 500+ users
-* Reduced response time by 25%
-
-### Senior Software Engineer — Rigel Networks (2018–2019)
-
-* Built real-time Angular dashboards
-* Reduced downtime by 20%
-
-*(Earlier roles include Bharti Soft Tech, Itact Solutions, and Brelicon Technologies)*
+# 🧩 Projects Overview
 
 ---
 
-## 📌 Projects
+## 🟣 eCommerce Platform (Microservices)
 
-## 🔷 Central Placement
+### 📸 Screenshots
 
-### Frontend
-- jQuery  
-- Bootstrap  
+![Dashboard](screenshots/ecommerce/dashboard.png)
+![Products](screenshots/ecommerce/products.png)
+![Orders](screenshots/ecommerce/orders.png)
 
-### Backend
-- ASP.NET MVC  
+### 🏗 Architecture
 
-### Database
-- MSSQL Server  
+* Microservices
+* CQRS + MediatR
+* Event-Driven Architecture
 
-### Supporting
-- Entity Framework  
-- LINQ  
-- AJAX  
+### ⚙️ Tech Stack
 
----
-
-## 🔷 Learning Management System
-
-### Frontend
-- jQuery  
-- Bootstrap  
-
-### Backend
-- ASP.NET MVC  
-
-### Database
-- MSSQL Server  
-
-### Supporting
-- Entity Framework  
-- LINQ  
-- File Upload / Media Handling  
-- Email Notifications  
+**Frontend:** Angular, Tailwind, PrimeNG
+**Backend:** ASP.NET Core Web API
+**Database:** MSSQL, MongoDB, PostgreSQL
+**Messaging:** RabbitMQ, gRPC
+**Infra:** Azure, Docker
+**Caching:** Redis
 
 ---
 
-## 🔷 Hospital Management System
+## 🔵 License Management System
 
-### Frontend
-- React  
-- Bootstrap
-- PrimeReact  
+### 📸 Screenshots
 
-### Backend
-- ASP.NET Core Web API  
+![Dashboard](screenshots/license/dashboard.png)
+![Licenses](screenshots/license/licenses.png)
 
-### Database
-- MSSQL Server  
+### ⚙️ Tech Stack
 
-### Supporting
-- Entity Framework Core  
-- JWT Authentication  
-- Role-Based Authorization  
+**Frontend:** Angular, Tailwind, PrimeNG
+**Backend:** ASP.NET Core Web API
+**Database:** MSSQL Server
+**Cloud:** Azure, Azure DevOps
 
----
+### 🔑 Features
 
-## 🔷 Quickscrum
-
-### Frontend
-- Angular  
-- Bootstrap  
-
-### Backend
-- ASP.NET Core Web API  
-
-### Database
-- MSSQL Server  
-
-### Cloud & DevOps
-- Azure  
-
-### Supporting
-- Entity Framework Core  
-- JWT Authentication  
-- SignalR  
-- Agile/Scrum Workflow  
+* License lifecycle management
+* Subscription tracking
+* Secure authentication
 
 ---
 
-## 🔷 LifeArcPlan
+## 🟢 Document Management System
 
-### Frontend
-- React  
-- Bootstrap  
+### 📸 Screenshots
 
-### Backend
-- ASP.NET Core Web API  
+![Dashboard](screenshots/dms/dashboard.png)
+![Documents](screenshots/dms/documents.png)
 
-### Database
-- MSSQL Server  
-- AWS RDS  
+### ⚙️ Tech Stack
 
-### Cloud & Services
-- AWS S3  
-- AWS SNS  
+**Frontend:** React, Bootstrap
+**Backend:** ASP.NET Core Web API
+**Cloud:** Azure Blob Storage
+**DevOps:** GitHub CI/CD
 
-### Supporting
-- Entity Framework Core  
-- JWT Authentication  
-- Financial Calculation Engine  
-- Background Jobs  
-- SignalR  
+### 🔑 Features
+
+* File storage & versioning
+* Secure access control
+* Audit logs
 
 ---
 
-## 🔷 HRMS
+## 🔷 HR Management System (HRMS)
 
-### Frontend
-- Angular  
-- Tailwind CSS  
+### 📸 Screenshots
 
-### Backend
-- ASP.NET Core Web API  
+![Dashboard](screenshots/hrms/dashboard.png)
+![Employees](screenshots/hrms/employees.png)
 
-### Database
-- MSSQL Server  
+### ⚙️ Tech Stack
 
-### Cloud & DevOps
-- Azure  
-- GitHub CI/CD  
+**Frontend:** Angular, Tailwind
+**Backend:** ASP.NET Core Web API
+**Cloud:** Azure
 
-### Supporting
-- Entity Framework Core  
-- JWT Authentication  
-- Role-Based Authorization  
-- Payroll & Attendance Modules  
-- SignalR  
+### 🔑 Features
+
+* Payroll & attendance
+* Employee lifecycle management
+* Role-based access
 
 ---
 
-## 🔷 Document Management System
+## 🟡 LifeArcPlan (Financial Planning Platform)
 
-### Frontend
-- React  
-- Bootstrap  
+### 📸 Screenshots
 
-### Backend
-- ASP.NET Core Web API  
+![Dashboard](screenshots/lifearcplan/dashboard.png)
+![Planning](screenshots/lifearcplan/planning.png)
 
-### Database
-- MSSQL Server  
+### ⚙️ Tech Stack
 
-### Cloud & DevOps
-- Azure  
-- GitHub CI/CD  
+**Frontend:** React
+**Backend:** ASP.NET Core Web API
+**Cloud:** AWS (S3, RDS, SNS)
 
-### Supporting
-- Entity Framework Core  
-- JWT Authentication  
-- Azure Blob Storage  
-- Versioning & Audit Logs  
+### 🔑 Features
+
+* Financial planning modules
+* Investment & retirement tracking
+* Data-driven insights
 
 ---
 
-## 🔷 License Management System
+## 🔶 Quickscrum (Agile Project Management)
 
-### Frontend
-- Angular  
-- Tailwind CSS  
-- PrimeNG  
+### 📸 Screenshots
 
-### Backend
-- ASP.NET Core Web API  
+![Dashboard](screenshots/quickscrum/dashboard.png)
+![Kanban](screenshots/quickscrum/kanban.png)
 
-### Database
-- MSSQL Server  
+### ⚙️ Tech Stack
 
-### Cloud & DevOps
-- Azure  
-- Azure DevOps  
+**Frontend:** Angular
+**Backend:** ASP.NET Core Web API
+**Cloud:** Azure
 
-### Supporting
-- Entity Framework Core  
-- JWT Authentication  
-- License Key Management  
-- Subscription Handling  
+### 🔑 Features
+
+* Scrum boards & sprint planning
+* Real-time updates (SignalR)
+* Team collaboration tools
 
 ---
 
-## 🔷 eCommerce (Microservices Architecture)
+## 🔴 Hospital Management System
 
-### Frontend
-- Angular  
-- Tailwind CSS  
-- PrimeNG  
+### 📸 Screenshots
 
-### Backend
-- ASP.NET Core Web API  
+![Dashboard](screenshots/hospital/dashboard.png)
+![Appointments](screenshots/hospital/appointments.png)
 
-### Architecture
-- Microservices  
-- CQRS  
-- MediatR  
+### ⚙️ Tech Stack
 
-### Communication
-- RabbitMQ  
-- gRPC  
-- Ocelot API Gateway  
+**Frontend:** React
+**Backend:** ASP.NET Core Web API
 
-### Database
-- MSSQL Server  
-- MongoDB  
-- PostgreSQL  
-- Redis (Caching)  
+### 🔑 Features
 
-### Cloud & DevOps
-- Azure  
-- Docker  
-
-### Supporting
-- JWT Authentication  
-- Event-Driven Architecture  
-- Payment Integration  
+* Patient records
+* Appointment scheduling
+* Real-time notifications
 
 ---
 
-## 🎓 Education
+## 🟠 Learning Management System
 
-**Master of Computer Applications (MCA)**
-Uka Tarsadia University, Gujarat
+### 📸 Screenshots
+
+![Dashboard](screenshots/lms/dashboard.png)
+![Courses](screenshots/lms/courses.png)
+
+### ⚙️ Tech Stack
+
+**Frontend:** jQuery, Bootstrap
+**Backend:** ASP.NET MVC
+
+### 🔑 Features
+
+* Course management
+* Video/content delivery
+* Assessments
 
 ---
 
-## 📫 Contact Me
+## ⚫ Central Placement System
 
-* 📧 Email: [ginesh.tandel.dotnet@gmail.com](mailto:ginesh.tandel.dotnet@gmail.com)
-* 💼 LinkedIn: https://linkedin.com/in/ginesh-tandel
-* 🌐 Portfolio: https://ginesh-portfolio.vercel.app
+### 📸 Screenshots
+
+![Dashboard](screenshots/central-placement/dashboard.png)
+![Students](screenshots/central-placement/students.png)
+
+### ⚙️ Tech Stack
+
+**Frontend:** jQuery, Bootstrap
+**Backend:** ASP.NET MVC
+
+### 🔑 Features
+
+* Student placement tracking
+* Reporting system
+* Admin dashboards
 
 ---
 
-⭐ *If you like my work, feel free to star my repositories and connect!*
+# 📊 Highlights
+
+✔ Built scalable systems supporting thousands of users
+✔ Improved performance using caching & optimized queries
+✔ Designed clean, maintainable architecture
+✔ Delivered production-ready enterprise solutions
+
+---
+
+# 📁 Project Structure
+
+```
+/screenshots
+  /ecommerce
+  /license
+  /dms
+  /hrms
+  /lifearcplan
+  /quickscrum
+  /hospital
+  /lms
+  /central-placement
+```
+
+---
+
+# 🤝 Let's Connect
+
+* 💼 Open for freelance & full-time opportunities
+* 🚀 Building scalable SaaS products
+* 📩 Reach out for collaboration
+
+---
+
+⭐ If you like this portfolio, consider giving it a star!
