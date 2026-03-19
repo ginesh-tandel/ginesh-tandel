@@ -71,7 +71,7 @@ Enterprise-grade applications focused on:
 
 ## 🔵 Licenora
 
-**Stack:** Angular, .NET Core, MSSQL, Azure
+**Stack:** ASP.NET Core Web Api, Angular, Tailwind Css, PrimeNG, MSSQL Server, Azure, Azure DevOps
 
 ### 🔑 Features
 
@@ -85,7 +85,7 @@ Enterprise-grade applications focused on:
 ## 🟢 Filezeno
 
 
-**Stack:** React, .NET Core, Azure Blob, CI/CD
+**Stack:** ASP.NET Core Web Api, React, Bootstrap, MSSQL Server, Azure, GitHub CICD
 
 ### 🔑 Features
 
@@ -98,7 +98,7 @@ Enterprise-grade applications focused on:
 
 ## 🔷 HRnix
 
-**Stack:** Angular, .NET Core, Azure
+**Stack:** ASP.NET Core Web Api, Angular, Tailwind Css, MSSQL Server, Azure, GitHub CICD
 
 ### 🔑 Features
 
@@ -111,7 +111,7 @@ Enterprise-grade applications focused on:
 
 ## 🟡 LifeArcPlan
 
-**Stack:** React, .NET Core, AWS
+**Stack:** ASP.NET Core Web Api, Angular, Bootstrap,  MSSQL Server, AWS RDS, AWS S3, AWS SNS
 
 ### 🔑 Features
 
@@ -125,7 +125,7 @@ Enterprise-grade applications focused on:
 ## 🔶 Quickscrum
 
 
-**Stack:** Angular, .NET Core, Azure
+**Stack:** ASP.NET Core Web Api, Angular, Bootstrap, MSSQL Server, Azure
 
 ### 🔑 Features
 
@@ -138,7 +138,7 @@ Enterprise-grade applications focused on:
 
 ## 🔴 Hospivo
 
-**Stack:** React, .NET Core
+**Stack:** ASP.NET Core Web Api, React, Bootstrap, MSSQL Server
 
 ### 🔑 Features
 
