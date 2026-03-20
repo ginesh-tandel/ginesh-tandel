@@ -16,7 +16,7 @@ const projects = [
     tags: [
       "ASP.NET Core",
       "Web API",
-      "Angular",
+      "React",
       "Bootstrap",
       "SQL Server",
       "AWS RDS",
@@ -43,7 +43,7 @@ const projects = [
     tags: [
       "ASP.NET Core",
       "Web API",
-      "Angular",
+      "React",
       "Bootstrap",
       "SQL Server",
       "Azure",
