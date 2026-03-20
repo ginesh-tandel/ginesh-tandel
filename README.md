@@ -34,7 +34,7 @@ Used in: eBasket • Licenora • LifeArcPlan
   <img src="https://img.shields.io/badge/Angular-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-0A66C2?style=for-the-badge" />
 </p>
-Used in: eBasket • HRnix • Filezeno
+Used in: eBasket • OnyxHR • Filezeno
 
 ### ☁️ Cloud & Infrastructure
 <p>
@@ -138,7 +138,7 @@ Advanced planning system with complex domain logic & forecasting.
 Sprint planning, Kanban boards, and real-time collaboration.  
 **Tech:** ASP.NET Core • Angular • Azure  
 
-## 🔷 HRnix — HR Management
+## 🔷 OnyxHR — HR Management
 Employee lifecycle, payroll, and analytics platform.  
 **Tech:** ASP.NET Core • Angular • Azure  
 
