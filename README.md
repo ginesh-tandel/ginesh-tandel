@@ -134,7 +134,7 @@ SaaS platform with billing, RBAC, and compliance workflows.
 Advanced planning system with complex domain logic & forecasting.  
 **Tech:** ASP.NET Core • Angular • AWS  
 
-## 🔶 Quickscrum — Agile Tool
+## 🔶 QuickScrum — Agile Tool
 Sprint planning, Kanban boards, and real-time collaboration.  
 **Tech:** ASP.NET Core • Angular • Azure  
 
