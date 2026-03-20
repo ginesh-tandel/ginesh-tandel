@@ -21,23 +21,39 @@
 
 ## 🧠 Tech Stack
 
-<p align="center">
+### 🏗 Backend & Architecture
+<p>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CQRS-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Microservices-0A66C2?style=for-the-badge" />
+</p>
 
-  <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
+### 🌐 Frontend
+<p>
+  <img src="https://img.shields.io/badge/Angular-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React-0A66C2?style=for-the-badge" />
+</p>
 
-  <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
+### ☁️ Cloud & Infrastructure
+<p>
+  <img src="https://img.shields.io/badge/Azure-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS-0A66C2?style=for-the-badge" />
+</p>
 
-  <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
+### ⚙️ DevOps & Deployment
+<p>
+  <img src="https://img.shields.io/badge/Docker-0A66C2?style=for-the-badge" />
+</p>
 
-  <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
+### 🔄 Messaging & Distributed Systems
+<p>
+  <img src="https://img.shields.io/badge/RabbitMQ-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/gRPC-0A66C2?style=for-the-badge" />
+</p>
 
-  <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/gRPC-Communication-0A66C2?style=for-the-badge" />
-
+### ⚡ Caching & Performance
+<p>
+  <img src="https://img.shields.io/badge/Redis-0A66C2?style=for-the-badge" />
 </p>
 
 ---
