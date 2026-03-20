@@ -67,7 +67,7 @@ MSSQL Server • PostgreSQL • MongoDB
 
 ## 🚀 About
 
-I design and build **scalable, cloud-native, enterprise systems** with a strong focus on architecture, performance, and maintainability.
+I design and architect **scalable, cloud-native enterprise systems** with a strong focus on performance, maintainability, and distributed architecture.
 
 - Microservices & Distributed Systems  
 - Cloud (Azure & AWS)  
