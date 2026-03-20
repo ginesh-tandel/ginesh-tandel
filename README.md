@@ -24,18 +24,15 @@
 <p align="center">
 
   <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/EF_Core-ORM-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
 
   <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-UI-0A66C2?style=for-the-badge" />
 
   <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
 
   <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CI/CD-Pipelines-0A66C2?style=for-the-badge" />
 
   <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
