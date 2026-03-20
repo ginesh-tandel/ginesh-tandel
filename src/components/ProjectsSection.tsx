@@ -72,20 +72,6 @@ const projects = [
       "Microservices",
     ],
   },
-
-  {
-    title: "Propixy",
-    desc: "A comprehensive property management platform that streamlines tenant lifecycle, lease tracking, rent collection, maintenance workflows, and reporting, delivering operational efficiency for real estate businesses and property managers.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "React",
-      "Bootstrap",
-      "SQL Server",
-      "Azure",
-      "GitHub CI/CD",
-    ],
-  },
   {
     title: "Licenora",
     desc: "An enterprise license management system designed to automate license issuance, validation, renewals, and compliance tracking, providing a centralized and secure lifecycle management solution for regulatory and business needs.",
@@ -98,6 +84,19 @@ const projects = [
       "SQL Server",
       "Azure",
       "Azure DevOps",
+    ],
+  },
+  {
+    title: "Propixy",
+    desc: "A comprehensive property management platform that streamlines tenant lifecycle, lease tracking, rent collection, maintenance workflows, and reporting, delivering operational efficiency for real estate businesses and property managers.",
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "React",
+      "Bootstrap",
+      "SQL Server",
+      "Azure",
+      "GitHub CI/CD",
     ],
   },
   {
