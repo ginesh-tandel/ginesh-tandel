@@ -38,17 +38,15 @@ const projects = [
     ],
   },
   {
-    title: "Licenora",
-    desc: "An enterprise license management system designed to automate license issuance, validation, renewals, and compliance tracking, providing a centralized and secure lifecycle management solution for regulatory and business needs.",
+    title: "QuickScrum",
+    desc: "An Agile project management solution built for modern teams to manage sprints, backlogs, and tasks efficiently, featuring real-time collaboration, progress tracking, and performance insights for streamlined software delivery.",
     tags: [
       "ASP.NET Core",
       "Web API",
       "Angular",
-      "Tailwind CSS",
-      "PrimeNG",
+      "Bootstrap",
       "SQL Server",
       "Azure",
-      "Azure DevOps",
     ],
   },
   {
@@ -74,18 +72,7 @@ const projects = [
       "Microservices",
     ],
   },
-  {
-    title: "QuickScrum",
-    desc: "An Agile project management solution built for modern teams to manage sprints, backlogs, and tasks efficiently, featuring real-time collaboration, progress tracking, and performance insights for streamlined software delivery.",
-    tags: [
-      "ASP.NET Core",
-      "Web API",
-      "Angular",
-      "Bootstrap",
-      "SQL Server",
-      "Azure",
-    ],
-  },
+
   {
     title: "Propixy",
     desc: "A comprehensive property management platform that streamlines tenant lifecycle, lease tracking, rent collection, maintenance workflows, and reporting, delivering operational efficiency for real estate businesses and property managers.",
@@ -97,6 +84,20 @@ const projects = [
       "SQL Server",
       "Azure",
       "GitHub CI/CD",
+    ],
+  },
+  {
+    title: "Licenora",
+    desc: "An enterprise license management system designed to automate license issuance, validation, renewals, and compliance tracking, providing a centralized and secure lifecycle management solution for regulatory and business needs.",
+    tags: [
+      "ASP.NET Core",
+      "Web API",
+      "Angular",
+      "Tailwind CSS",
+      "PrimeNG",
+      "SQL Server",
+      "Azure",
+      "Azure DevOps",
     ],
   },
   {

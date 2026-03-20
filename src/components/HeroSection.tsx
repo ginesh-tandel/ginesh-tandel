@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/proffessional-photo-office.jpg";
 import { HeroParticles } from "./HeroParticles";
 
-const resumePath = "Ginesh Tandel Resume.pdf";
 const fullTitle = "Senior\nFull Stack\nEngineer (.NET)";
 
 const roles = [
@@ -169,17 +168,6 @@ export function HeroSection() {
               </div>
             </div>
           </div>
-          <Button
-            size="default"
-            variant="outline"
-            className="rounded-full px-6 border-primary"
-            asChild
-          >
-            <a href={resumePath} download>
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </a>
-          </Button>
         </div>
 
         {/* Desktop photo */}
@@ -197,17 +185,6 @@ export function HeroSection() {
               </div>
             </div>
           </div>
-          <Button
-            size="lg"
-            variant="outline"
-            className="rounded-full px-6 border-primary"
-            asChild
-          >
-            <a href={resumePath} download>
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </a>
-          </Button>
         </div>
       </div>
     </section>
