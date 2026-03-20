@@ -34,7 +34,7 @@ Used in: eBasket • Licenora • LifeArcPlan
   <img src="https://img.shields.io/badge/Angular-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-0A66C2?style=for-the-badge" />
 </p>
-Used in: eBasket • OnyxHR
+Used in: eBasket • OnyxHR • Licenora
 
 ### ☁️ Cloud & Infrastructure
 <p>
