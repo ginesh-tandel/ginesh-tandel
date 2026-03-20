@@ -34,14 +34,14 @@ Used in: eBasket • Licenora • LifeArcPlan
   <img src="https://img.shields.io/badge/Angular-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-0A66C2?style=for-the-badge" />
 </p>
-Used in: eBasket • OnyxHR • Licenora
+Used in: eBasket • OnyxHR • Licenora • QuickScrum
 
 ### ☁️ Cloud & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/Azure-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AWS-0A66C2?style=for-the-badge" />
 </p>
-Used in: eBasket • Licenora • LifeArcPlan
+Used in: eBasket • OnyxHR • Licenora • QuickScrum
 
 ### ⚙️ DevOps
 <p>
