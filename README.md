@@ -63,7 +63,7 @@ MSSQL Server • PostgreSQL • MongoDB
 
 ## 🚀 About
 
-I design and architect **scalable, cloud-native enterprise systems** with a strong focus on performance, maintainability, and distributed architecture.
+I design and architect **scalable, cloud-native enterprise systems** focused on performance, maintainability, and distributed architecture.
 
 - Microservices & Distributed Systems  
 - Cloud (Azure & AWS)  
@@ -86,27 +86,28 @@ I design and architect **scalable, cloud-native enterprise systems** with a stro
 
 ### 🟣 eBasket — Microservices eCommerce Platform
 
-Enterprise-grade eCommerce system designed using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
+Enterprise-grade eCommerce system built using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
 
 #### 🧩 Problem
-Traditional monolithic systems struggle with scalability, performance, and independent deployments.
+Monolithic systems limit scalability, slow deployments, and create tight coupling between modules.
 
 #### 🧠 Architecture
-- Distributed microservices with clear service boundaries  
-- CQRS pattern for read/write separation  
+- Domain-driven microservices with clear boundaries  
+- CQRS for read/write separation  
 - Event-driven communication using RabbitMQ  
 - gRPC for internal service communication  
 - API Gateway (Ocelot)  
 
 #### ⚙️ Key Decisions
-- Redis caching for performance optimization  
+- Redis caching for high-performance data access  
 - Polyglot persistence (SQL + NoSQL)  
 - Secure authentication and authorization  
 
 #### 🚀 Impact
-- Scalable distributed architecture  
-- Improved performance and responsiveness  
-- Independent service deployment  
+- Improved scalability and system resilience  
+- Reduced latency through caching and asynchronous processing  
+- Enabled independent service deployment  
+- Increased maintainability and system flexibility  
 
 #### 🧠 Tech Stack
 ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
@@ -119,19 +120,19 @@ Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching
 ## 🚀 Core Projects
 
 ### 🔵 Licenora — License Management
-SaaS platform with billing, RBAC, and compliance workflows.  
-**Focus:** Multi-tenant architecture • Subscription & billing • Access control  
+SaaS platform for managing license lifecycle, billing, and compliance.  
+**Focus:** Multi-tenant architecture • Subscription workflows • RBAC  
 
 ### 🟡 LifeArcPlan — Financial Planning
-Advanced planning system with complex domain logic & forecasting.  
+Advanced financial planning system with forecasting and domain-driven logic.  
 **Focus:** Financial calculations • Forecasting engine • Data insights  
 
 ### 🔷 OnyxHR — HR Management
-Employee lifecycle, payroll, and analytics platform.  
-**Focus:** Workforce management • Payroll automation • Analytics  
+Enterprise HR system managing employee lifecycle, payroll, and analytics.  
+**Focus:** Workforce automation • Payroll • Analytics dashboards  
 
 ### 🔶 QuickScrum — Agile Tool
-Sprint planning, Kanban boards, and real-time collaboration.  
+Agile project management platform with real-time collaboration features.  
 **Focus:** Real-time updates • Task workflows • Team collaboration  
 
 ---
