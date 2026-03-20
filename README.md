@@ -127,10 +127,6 @@ Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching
 
 ## 🚀 Core Projects
 
-### 🔵 Licenora — License Management
-SaaS platform for managing license lifecycle, billing, and compliance.  
-**Focus:** Multi-tenant architecture • Subscription workflows • RBAC  
-
 ### 🟡 LifeArcPlan — Financial Planning
 Advanced financial planning system with forecasting and domain-driven logic.  
 **Focus:** Financial calculations • Forecasting engine • Data insights  
@@ -142,6 +138,10 @@ Enterprise HR system managing employee lifecycle, payroll, and analytics.
 ### 🔶 QuickScrum — Agile Tool
 Agile project management platform with real-time collaboration features.  
 **Focus:** Real-time updates • Task workflows • Team collaboration  
+
+### 🔵 Licenora — License Management
+SaaS platform for managing license lifecycle, billing, and compliance.  
+**Focus:** Multi-tenant architecture • Subscription workflows • RBAC  
 
 ---
 
