@@ -23,49 +23,23 @@
 
 <p align="center">
 
-  <a href="https://learn.microsoft.com/en-us/aspnet/core/">
-    <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://learn.microsoft.com/en-us/ef/core/">
-    <img src="https://img.shields.io/badge/EF_Core-ORM-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs">
-    <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
-  </a>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/EF_Core-ORM-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
 
-  <a href="https://angular.io/">
-    <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://react.dev/">
-    <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://tailwindcss.com/">
-    <img src="https://img.shields.io/badge/Tailwind_CSS-UI-0A66C2?style=for-the-badge" />
-  </a>
+  <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-UI-0A66C2?style=for-the-badge" />
 
-  <a href="https://azure.microsoft.com/">
-    <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://aws.amazon.com/">
-    <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
-  </a>
+  <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
 
-  <a href="https://www.docker.com/">
-    <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://en.wikipedia.org/wiki/CI/CD">
-    <img src="https://img.shields.io/badge/CI/CD-Pipelines-0A66C2?style=for-the-badge" />
-  </a>
+  <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CI/CD-Pipelines-0A66C2?style=for-the-badge" />
 
-  <a href="https://www.rabbitmq.com/">
-    <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://redis.io/">
-    <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://grpc.io/">
-    <img src="https://img.shields.io/badge/gRPC-Communication-0A66C2?style=for-the-badge" />
-  </a>
+  <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/gRPC-Communication-0A66C2?style=for-the-badge" />
 
 </p>
 
@@ -73,136 +47,105 @@
 
 ## 🚀 About Me
 
-I build enterprise-grade web applications with a strong focus on scalability, maintainability, and cloud-native architecture.
+I design and build **scalable, cloud-native, enterprise systems** with a strong focus on performance, maintainability, and clean architecture.
 
-- 🏗 Clean Architecture & Microservices  
-- ☁️ Cloud-Native Development  
-- 🔐 Secure APIs, Authentication & RBAC  
-- ⚡ Performance Optimization  
-- 📦 Production-ready Full Stack Systems  
+- 🏗 Architecting Microservices & Distributed Systems  
+- ☁️ Cloud-Native Development (Azure & AWS)  
+- 🔐 Secure APIs with Authentication & RBAC  
+- ⚡ Performance Optimization & Scalability  
+- 📦 Production-Ready Full Stack Applications  
 
 ---
 
-## ⭐ Featured Project — eBasket
+# ⭐ Featured Project
 
-**Microservices eCommerce Platform**
+## 🟣 eBasket — Microservices eCommerce Platform
 
-Scalable enterprise eCommerce system built using microservices, CQRS, and event-driven architecture.
+Scalable enterprise-grade eCommerce system built using **microservices, CQRS, and event-driven architecture**.
 
-### Highlights
+### 🚀 Highlights
 - Designed distributed microservices architecture  
-- Implemented asynchronous workflows with RabbitMQ  
+- Implemented asynchronous workflows using RabbitMQ  
+- Applied CQRS for clear read/write separation  
 - Optimized performance using Redis caching  
 - Built secure payment and inventory workflows  
 
-### Tech Stack
-ASP.NET Core, Angular, Tailwind CSS, PrimeNG, MSSQL Server, MongoDB, PostgreSQL, RabbitMQ, gRPC, Redis, Azure, Docker  
+### 🧠 Tech Stack
+ASP.NET Core • Angular • Tailwind CSS • PrimeNG • MSSQL Server • MongoDB • PostgreSQL • RabbitMQ • gRPC • Redis • Azure • Docker  
 
 ---
 
-## 🧩 Other Projects
+# 🚀 Core Projects
 
-### 🔵 Licenora — License Management System
-Enterprise license lifecycle platform with billing, RBAC, and compliance workflows.
+## 🔵 Licenora — License Management System
+Enterprise SaaS platform managing licensing lifecycle, billing, and compliance.
 
 - Multi-tenant SaaS architecture  
-- Subscription and billing workflows  
-- Audit tracking and compliance support  
+- Subscription & billing workflows  
+- Role-based access control (RBAC)  
+- Audit tracking & compliance  
 
-**Tech:** ASP.NET Core, Angular, Tailwind CSS, PrimeNG, MSSQL Server, Azure, Azure DevOps  
-
----
-
-### 🟢 Filezeno — Document Management System
-Secure document platform focused on storage, versioning, and controlled access.
-
-- Secure document storage and versioning  
-- Azure Blob Storage integration  
-- Advanced search and filtering  
-
-**Tech:** ASP.NET Core, React, Bootstrap, MSSQL Server, Azure, GitHub CI/CD  
+**Tech:** ASP.NET Core • Angular • Tailwind CSS • PrimeNG • MSSQL Server • Azure • Azure DevOps  
 
 ---
 
-### 🔷 HRnix — HR Management System
-Workforce platform for employee lifecycle, payroll, and operational analytics.
+## 🟡 LifeArcPlan — Financial Planning Platform
+Advanced financial planning system with forecasting and complex domain logic.
+
+- Retirement and investment planning engine  
+- Complex financial calculations and projections  
+- Data-driven dashboards and insights  
+
+**Tech:** ASP.NET Core • Angular • Bootstrap • MSSQL Server • AWS RDS • AWS S3 • AWS SNS  
+
+---
+
+## 🔶 Quickscrum — Agile Project Management Tool
+Collaboration platform for managing sprints, tasks, and team productivity.
+
+- Scrum & Kanban boards  
+- Real-time collaboration using SignalR  
+- Sprint planning and backlog management  
+
+**Tech:** ASP.NET Core • Angular • Bootstrap • MSSQL Server • Azure  
+
+---
+
+## 🔷 HRnix — HR Management System
+Enterprise HR platform handling workforce lifecycle and analytics.
 
 - Employee lifecycle management  
 - Payroll, attendance, and leave automation  
 - Workforce analytics dashboards  
 
-**Tech:** ASP.NET Core, Angular, Tailwind CSS, MSSQL Server, Azure, GitHub CI/CD  
+**Tech:** ASP.NET Core • Angular • Tailwind CSS • MSSQL Server • Azure • GitHub CI/CD  
 
 ---
 
-### 🟡 LifeArcPlan — Financial Planning Platform
-Financial planning application with forecasting, calculations, and cloud-backed scalability.
+## 🟢 Filezeno — Document Management System
+Secure document platform with storage, versioning, and controlled access.
 
-- Financial planning and forecasting engine  
-- Complex retirement and investment calculations  
-- Data-driven dashboards and insights  
+- Secure document storage and versioning  
+- Azure Blob Storage integration  
+- Advanced search and filtering  
 
-**Tech:** ASP.NET Core, Angular, Bootstrap, MSSQL Server, AWS RDS, AWS S3, AWS SNS  
-
----
-
-### 🔶 Quickscrum — Agile Project Management Tool
-Collaboration platform for sprint planning, task flow, and productivity tracking.
-
-- Scrum and Kanban boards  
-- Real-time collaboration with SignalR  
-- Sprint and backlog management  
-
-**Tech:** ASP.NET Core, Angular, Bootstrap, MSSQL Server, Azure  
-
----
-
-### 🔴 Hospivo — Healthcare Management System
-Healthcare workflow system for records, appointments, and access control.
-
-- Patient and medical record management  
-- Appointment scheduling workflows  
-- Secure healthcare access control  
-
-**Tech:** ASP.NET Core, React, Bootstrap, MSSQL Server  
-
----
-
-### 🟠 Learnifyx — Learning Management System
-Learning platform for course delivery, assessments, and progress tracking.
-
-- Course and content management  
-- Assessments and grading workflows  
-- Student progress tracking  
-
-**Tech:** ASP.NET MVC, jQuery, Bootstrap, MSSQL Server  
-
----
-
-### ⚫ Central Placement — Placement Management System
-Placement workflow platform connecting students, recruiters, and reporting processes.
-
-- Placement and recruitment workflow management  
-- Student-company coordination  
-- Tracking and reporting dashboards  
-
-**Tech:** ASP.NET MVC, jQuery, Bootstrap, MSSQL Server  
+**Tech:** ASP.NET Core • React • Bootstrap • MSSQL Server • Azure • GitHub CI/CD  
 
 ---
 
 ## 📈 Highlights
 
-- Designed scalable enterprise applications  
-- Improved performance via caching & DB optimization  
-- Built clean, maintainable architectures  
-- Delivered cloud-native systems on Azure & AWS  
+- Designed and delivered scalable enterprise applications  
+- Built microservices architectures using CQRS and messaging patterns  
+- Improved performance using caching, indexing, and optimization  
+- Delivered cloud-native systems on Azure and AWS  
 
 ---
 
 ## 🤝 Let's Connect
 
 <p align="center">
-    <a href="mailto:ginesh.tandel.dotnet@gmail.com">
+  <a href="mailto:ginesh.tandel.dotnet@gmail.com">
     <img src="https://img.shields.io/badge/Hire%20Me-Start%20a%20Project-0A66C2?style=for-the-badge" />
   </a>
 </p>
