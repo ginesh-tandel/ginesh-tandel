@@ -5,15 +5,15 @@
 </p>
 
 <p align="center">
-  <b>Full Stack .NET Developer focused on enterprise architecture, cloud-native systems, and production-ready applications.</b>
+  <b>Full Stack .NET Developer specializing in scalable, cloud-native, enterprise systems.</b>
 </p>
 
 <p align="center">
   <a href="https://ginesh.logiqcube.com">
-    <img src="https://img.shields.io/badge/View-Portfolio-0A66C2?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Portfolio-View_Work-0A66C2?style=for-the-badge" />
   </a>
   <a href="https://linkedin.com/in/ginesh-tandel">
-    <img src="https://img.shields.io/badge/View-LinkedIn-0A66C2?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" />
   </a>
 </p>
 
@@ -27,48 +27,52 @@
   <img src="https://img.shields.io/badge/CQRS-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Microservices-0A66C2?style=for-the-badge" />
 </p>
+Used in: eBasket • Licenora • LifeArcPlan
 
 ### 🌐 Frontend
 <p>
   <img src="https://img.shields.io/badge/Angular-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-0A66C2?style=for-the-badge" />
 </p>
+Used in: eBasket • HRnix • Filezeno
 
 ### ☁️ Cloud & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/Azure-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AWS-0A66C2?style=for-the-badge" />
 </p>
+Used in: eBasket • Licenora • LifeArcPlan
 
-### ⚙️ DevOps & Deployment
+### ⚙️ DevOps
 <p>
   <img src="https://img.shields.io/badge/Docker-0A66C2?style=for-the-badge" />
 </p>
 
-### 🔄 Messaging & Distributed Systems
+### 🔄 Messaging
 <p>
   <img src="https://img.shields.io/badge/RabbitMQ-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/gRPC-0A66C2?style=for-the-badge" />
 </p>
+Used in: eBasket
 
-### ⚡ Caching & Performance
+### ⚡ Caching
 <p>
   <img src="https://img.shields.io/badge/Redis-0A66C2?style=for-the-badge" />
 </p>
 
-### 🗄 Database & Storage
+### 🗄 Database
 MSSQL Server • PostgreSQL • MongoDB
+
 ---
 
-## 🚀 About Me
+## 🚀 About
 
-I design and build **scalable, cloud-native, enterprise systems** with a strong focus on performance, maintainability, and clean architecture.
+I design and build **scalable, cloud-native, enterprise systems** with a strong focus on architecture, performance, and maintainability.
 
-- 🏗 Architecting Microservices & Distributed Systems  
-- ☁️ Cloud-Native Development (Azure & AWS)  
-- 🔐 Secure APIs with Authentication & RBAC  
-- ⚡ Performance Optimization & Scalability  
-- 📦 Production-Ready Full Stack Applications  
+- Microservices & Distributed Systems  
+- Cloud (Azure & AWS)  
+- Secure APIs & RBAC  
+- Performance Optimization  
 
 ---
 
@@ -76,88 +80,71 @@ I design and build **scalable, cloud-native, enterprise systems** with a strong 
 
 ## 🟣 eBasket — Microservices eCommerce Platform
 
-Scalable enterprise-grade eCommerce system built using **microservices, CQRS, and event-driven architecture**.
+Enterprise-grade eCommerce system designed using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
 
-### 🚀 Highlights
-- Designed distributed microservices architecture  
-- Implemented asynchronous workflows using RabbitMQ  
-- Applied CQRS for clear read/write separation  
-- Optimized performance using Redis caching  
-- Built secure payment and inventory workflows  
+---
+
+### 🧠 Architecture Overview
+
+- Distributed microservices with clear service boundaries  
+- CQRS pattern for read/write separation  
+- Event-driven communication using RabbitMQ  
+- gRPC for internal service communication  
+- API Gateway (Ocelot) for routing & security  
+- Polyglot persistence (SQL + NoSQL)  
+
+---
+
+### ⚙️ System Design Highlights
+
+- Independent services: Catalog, Orders, Payments, Identity  
+- Asynchronous workflows for order processing  
+- Redis caching for performance optimization  
+- Secure authentication & authorization  
+- Designed for scalability and fault tolerance  
+
+---
+
+### 🚀 Key Impact
+
+- Scalable distributed architecture  
+- Improved performance via caching and optimization  
+- Independent service deployment  
+- Production-ready system design  
+
+---
 
 ### 🧠 Tech Stack
-ASP.NET Core • Angular • Tailwind CSS • PrimeNG • MSSQL Server • MongoDB • PostgreSQL • RabbitMQ • gRPC • Redis • Azure • Docker  
+ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
+
+---
+
+### 🏗 Architecture Style
+Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching  
 
 ---
 
 # 🚀 Core Projects
 
-## 🔵 Licenora — License Management System
-Enterprise SaaS platform managing licensing lifecycle, billing, and compliance.
+## 🔵 Licenora — License Management
+SaaS platform with billing, RBAC, and compliance workflows.  
+**Tech:** ASP.NET Core • Angular • Azure  
 
-- Multi-tenant SaaS architecture  
-- Subscription & billing workflows  
-- Role-based access control (RBAC)  
-- Audit tracking & compliance  
+## 🟡 LifeArcPlan — Financial Planning
+Advanced planning system with complex domain logic & forecasting.  
+**Tech:** ASP.NET Core • Angular • AWS  
 
-**Tech:** ASP.NET Core • Angular • Tailwind CSS • PrimeNG • MSSQL Server • Azure • Azure DevOps  
+## 🔶 Quickscrum — Agile Tool
+Sprint planning, Kanban boards, and real-time collaboration.  
+**Tech:** ASP.NET Core • Angular • Azure  
 
----
-
-## 🟡 LifeArcPlan — Financial Planning Platform
-Advanced financial planning system with forecasting and complex domain logic.
-
-- Retirement and investment planning engine  
-- Complex financial calculations and projections  
-- Data-driven dashboards and insights  
-
-**Tech:** ASP.NET Core • Angular • Bootstrap • MSSQL Server • AWS RDS • AWS S3 • AWS SNS  
+## 🔷 HRnix — HR Management
+Employee lifecycle, payroll, and analytics platform.  
+**Tech:** ASP.NET Core • Angular • Azure  
 
 ---
 
-## 🔶 Quickscrum — Agile Project Management Tool
-Collaboration platform for managing sprints, tasks, and team productivity.
-
-- Scrum & Kanban boards  
-- Real-time collaboration using SignalR  
-- Sprint planning and backlog management  
-
-**Tech:** ASP.NET Core • Angular • Bootstrap • MSSQL Server • Azure  
-
----
-
-## 🔷 HRnix — HR Management System
-Enterprise HR platform handling workforce lifecycle and analytics.
-
-- Employee lifecycle management  
-- Payroll, attendance, and leave automation  
-- Workforce analytics dashboards  
-
-**Tech:** ASP.NET Core • Angular • Tailwind CSS • MSSQL Server • Azure • GitHub CI/CD  
-
----
-
-## 🟢 Filezeno — Document Management System
-Secure document platform with storage, versioning, and controlled access.
-
-- Secure document storage and versioning  
-- Azure Blob Storage integration  
-- Advanced search and filtering  
-
-**Tech:** ASP.NET Core • React • Bootstrap • MSSQL Server • Azure • GitHub CI/CD  
-
----
-
-## 📈 Highlights
-
-- Designed and delivered scalable enterprise applications  
-- Built microservices architectures using CQRS and messaging patterns  
-- Improved performance using caching, indexing, and optimization  
-- Delivered cloud-native systems on Azure and AWS  
-
----
-
-## 🤝 Let's Connect
+## 🤝 Connect
 
 <p align="center">
   <a href="mailto:ginesh.tandel.dotnet@gmail.com">
@@ -171,4 +158,4 @@ Secure document platform with storage, versioning, and controlled access.
 
 ---
 
-⭐ If you found this portfolio useful, consider giving it a star
+⭐ If you found this useful, consider giving it a star
