@@ -5,15 +5,15 @@
 </p>
 
 <p align="center">
-  <b>Full Stack .NET Developer focused on enterprise architecture, cloud-native systems, and production-ready applications.</b>
+  <b>Senior .NET Engineer building scalable, cloud-native enterprise systems for high-performance, real-world applications.</b>
 </p>
 
 <p align="center">
   <a href="https://ginesh.logiqcube.com">
-    <img src="https://img.shields.io/badge/View-Portfolio-0A66C2?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Portfolio-View_Work-0A66C2?style=for-the-badge" />
   </a>
   <a href="https://linkedin.com/in/ginesh-tandel">
-    <img src="https://img.shields.io/badge/View-LinkedIn-0A66C2?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" />
   </a>
 </p>
 
@@ -21,188 +21,134 @@
 
 ## 🧠 Tech Stack
 
-<p align="center">
-
-  <a href="https://learn.microsoft.com/en-us/aspnet/core/">
-    <img src="https://img.shields.io/badge/ASP.NET_Core-Backend-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://learn.microsoft.com/en-us/ef/core/">
-    <img src="https://img.shields.io/badge/EF_Core-ORM-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs">
-    <img src="https://img.shields.io/badge/CQRS-Architecture-0A66C2?style=for-the-badge" />
-  </a>
-
-  <a href="https://angular.io/">
-    <img src="https://img.shields.io/badge/Angular-Frontend-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://react.dev/">
-    <img src="https://img.shields.io/badge/React-Frontend-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://tailwindcss.com/">
-    <img src="https://img.shields.io/badge/Tailwind_CSS-UI-0A66C2?style=for-the-badge" />
-  </a>
-
-  <a href="https://azure.microsoft.com/">
-    <img src="https://img.shields.io/badge/Azure-Cloud-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://aws.amazon.com/">
-    <img src="https://img.shields.io/badge/AWS-Cloud-0A66C2?style=for-the-badge" />
-  </a>
-
-  <a href="https://www.docker.com/">
-    <img src="https://img.shields.io/badge/Docker-DevOps-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://en.wikipedia.org/wiki/CI/CD">
-    <img src="https://img.shields.io/badge/CI/CD-Pipelines-0A66C2?style=for-the-badge" />
-  </a>
-
-  <a href="https://www.rabbitmq.com/">
-    <img src="https://img.shields.io/badge/RabbitMQ-Messaging-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://redis.io/">
-    <img src="https://img.shields.io/badge/Redis-Caching-0A66C2?style=for-the-badge" />
-  </a>
-  <a href="https://grpc.io/">
-    <img src="https://img.shields.io/badge/gRPC-Communication-0A66C2?style=for-the-badge" />
-  </a>
-
+### 🏗 Backend & Architecture
+<p>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CQRS-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Microservices-0A66C2?style=for-the-badge" />
 </p>
 
----
+### 🌐 Frontend
+<p>
+  <img src="https://img.shields.io/badge/Angular-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React-0A66C2?style=for-the-badge" />
+</p>
 
-## 🚀 About Me
+### ☁️ Cloud & Infrastructure
+<p>
+  <img src="https://img.shields.io/badge/Azure-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS-0A66C2?style=for-the-badge" />
+</p>
 
-I build enterprise-grade web applications with a strong focus on scalability, maintainability, and cloud-native architecture.
+### ⚙️ DevOps & Deployment
+<p>
+  <img src="https://img.shields.io/badge/Docker-0A66C2?style=for-the-badge" />
+</p>
 
-- 🏗 Clean Architecture & Microservices  
-- ☁️ Cloud-Native Development  
-- 🔐 Secure APIs, Authentication & RBAC  
-- ⚡ Performance Optimization  
-- 📦 Production-ready Full Stack Systems  
+### 🔄 Messaging
+<p>
+  <img src="https://img.shields.io/badge/RabbitMQ-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/gRPC-0A66C2?style=for-the-badge" />
+</p>
 
----
+### ⚡ Caching
+<p>
+  <img src="https://img.shields.io/badge/Redis-0A66C2?style=for-the-badge" />
+</p>
 
-## ⭐ Featured Project — eBasket
-
-**Microservices eCommerce Platform**
-
-Scalable enterprise eCommerce system built using microservices, CQRS, and event-driven architecture.
-
-### Highlights
-- Designed distributed microservices architecture  
-- Implemented asynchronous workflows with RabbitMQ  
-- Optimized performance using Redis caching  
-- Built secure payment and inventory workflows  
-
-### Tech Stack
-ASP.NET Core, Angular, Tailwind CSS, PrimeNG, MSSQL Server, MongoDB, PostgreSQL, RabbitMQ, gRPC, Redis, Azure, Docker  
-
----
-
-## 🧩 Other Projects
-
-### 🔵 Licenora — License Management System
-Enterprise license lifecycle platform with billing, RBAC, and compliance workflows.
-
-- Multi-tenant SaaS architecture  
-- Subscription and billing workflows  
-- Audit tracking and compliance support  
-
-**Tech:** ASP.NET Core, Angular, Tailwind CSS, PrimeNG, MSSQL Server, Azure, Azure DevOps  
+### 🗄 Database
+MSSQL Server • PostgreSQL • MongoDB
 
 ---
 
-### 🟢 Filezeno — Document Management System
-Secure document platform focused on storage, versioning, and controlled access.
+## 🚀 About
 
-- Secure document storage and versioning  
-- Azure Blob Storage integration  
-- Advanced search and filtering  
+I design and architect **scalable, cloud-native enterprise systems** used in real-world, high-performance environments.
 
-**Tech:** ASP.NET Core, React, Bootstrap, MSSQL Server, Azure, GitHub CI/CD  
-
----
-
-### 🔷 HRnix — HR Management System
-Workforce platform for employee lifecycle, payroll, and operational analytics.
-
-- Employee lifecycle management  
-- Payroll, attendance, and leave automation  
-- Workforce analytics dashboards  
-
-**Tech:** ASP.NET Core, Angular, Tailwind CSS, MSSQL Server, Azure, GitHub CI/CD  
+- Microservices & Distributed Systems  
+- Cloud (Azure & AWS)  
+- Secure APIs & RBAC  
+- Performance Optimization  
 
 ---
 
-### 🟡 LifeArcPlan — Financial Planning Platform
-Financial planning application with forecasting, calculations, and cloud-backed scalability.
+## 🧠 How I Build Systems
 
-- Financial planning and forecasting engine  
-- Complex retirement and investment calculations  
-- Data-driven dashboards and insights  
-
-**Tech:** ASP.NET Core, Angular, Bootstrap, MSSQL Server, AWS RDS, AWS S3, AWS SNS  
-
----
-
-### 🔶 Quickscrum — Agile Project Management Tool
-Collaboration platform for sprint planning, task flow, and productivity tracking.
-
-- Scrum and Kanban boards  
-- Real-time collaboration with SignalR  
-- Sprint and backlog management  
-
-**Tech:** ASP.NET Core, Angular, Bootstrap, MSSQL Server, Azure  
+- Design **domain-driven microservices** with clear boundaries  
+- Apply **CQRS for scalable read/write separation**  
+- Use **event-driven architecture for loose coupling**  
+- Optimize performance with **caching and database tuning**  
+- Build secure APIs using **JWT and RBAC**
 
 ---
 
-### 🔴 Hospivo — Healthcare Management System
-Healthcare workflow system for records, appointments, and access control.
+## ⭐ Featured Project
 
-- Patient and medical record management  
-- Appointment scheduling workflows  
-- Secure healthcare access control  
+### 🟣 eBasket — Distributed Microservices eCommerce Platform
 
-**Tech:** ASP.NET Core, React, Bootstrap, MSSQL Server  
+Enterprise-grade eCommerce platform designed using **microservices, CQRS, and event-driven architecture** to handle scalable, high-performance workloads.
+
+#### 🧩 Problem
+Monolithic systems limit scalability, slow deployments, and create tight coupling between modules.
+
+#### 🧠 Architecture
+- Domain-driven microservices with clear boundaries  
+- CQRS for read/write separation  
+- Event-driven communication using RabbitMQ  
+- gRPC for internal service communication  
+- API Gateway (Ocelot)  
+
+#### 🧩 System Design Highlights
+
+- Independent services: Catalog, Orders, Payments, Identity  
+- Asynchronous workflows for order processing  
+- API Gateway for centralized routing and security  
+- Distributed caching strategy using Redis  
+- Designed for scalability, fault tolerance, and high availability  
+
+#### ⚙️ Key Decisions
+- Redis caching for high-performance data access  
+- Polyglot persistence (SQL + NoSQL)  
+- Secure authentication and authorization  
+
+#### 🚀 Impact
+- Improved scalability and system resilience  
+- Reduced latency through caching and asynchronous processing  
+- Enabled independent service deployment  
+- Enhanced maintainability and long-term system flexibility  
+
+#### 🧠 Tech Stack
+ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
+
+#### 🏗 Architecture Style
+Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching  
 
 ---
 
-### 🟠 Learnifyx — Learning Management System
-Learning platform for course delivery, assessments, and progress tracking.
+## 🚀 Core Projects
 
-- Course and content management  
-- Assessments and grading workflows  
-- Student progress tracking  
+### 🔵 Licenora — License Management
+SaaS platform for managing license lifecycle, billing, and compliance.  
+**Focus:** Multi-tenant architecture • Subscription workflows • RBAC  
 
-**Tech:** ASP.NET MVC, jQuery, Bootstrap, MSSQL Server  
+### 🟡 LifeArcPlan — Financial Planning
+Advanced financial planning system with forecasting and domain-driven logic.  
+**Focus:** Financial calculations • Forecasting engine • Data insights  
 
----
+### 🔷 OnyxHR — HR Management
+Enterprise HR system managing employee lifecycle, payroll, and analytics.  
+**Focus:** Workforce automation • Payroll • Analytics dashboards  
 
-### ⚫ Central Placement — Placement Management System
-Placement workflow platform connecting students, recruiters, and reporting processes.
-
-- Placement and recruitment workflow management  
-- Student-company coordination  
-- Tracking and reporting dashboards  
-
-**Tech:** ASP.NET MVC, jQuery, Bootstrap, MSSQL Server  
+### 🔶 QuickScrum — Agile Tool
+Agile project management platform with real-time collaboration features.  
+**Focus:** Real-time updates • Task workflows • Team collaboration  
 
 ---
 
-## 📈 Highlights
-
-- Designed scalable enterprise applications  
-- Improved performance via caching & DB optimization  
-- Built clean, maintainable architectures  
-- Delivered cloud-native systems on Azure & AWS  
-
----
-
-## 🤝 Let's Connect
+## 🤝 Connect
 
 <p align="center">
-    <a href="mailto:ginesh.tandel.dotnet@gmail.com">
+  <a href="mailto:ginesh.tandel.dotnet@gmail.com">
     <img src="https://img.shields.io/badge/Hire%20Me-Start%20a%20Project-0A66C2?style=for-the-badge" />
   </a>
 </p>
@@ -213,4 +159,4 @@ Placement workflow platform connecting students, recruiters, and reporting proce
 
 ---
 
-⭐ If you found this portfolio useful, consider giving it a star
+⭐ If you found this useful, consider giving it a star
