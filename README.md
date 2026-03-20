@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Full Stack .NET Developer specializing in scalable, cloud-native, enterprise systems.</b>
+  <b>Senior .NET Engineer building scalable, cloud-native enterprise systems.</b>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
   <img src="https://img.shields.io/badge/AWS-0A66C2?style=for-the-badge" />
 </p>
 
-### ⚙️ DevOps
+### ⚙️ DevOps & Deployment
 <p>
   <img src="https://img.shields.io/badge/Docker-0A66C2?style=for-the-badge" />
 </p>
