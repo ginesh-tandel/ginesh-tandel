@@ -126,7 +126,7 @@ Enterprise HR platform managing employee lifecycle, payroll, and analytics.
 ### 🔶 QuickScrum — Agile Project Management  
 Real-time agile collaboration tool for teams and sprint workflows.  
 **Focus:** Real-time updates • Task workflows • Team collaboration  
-**Stack:** ASP.NET Core • Angular • SignalR • Azure  
+**Stack:** ASP.NET Core • React • SignalR • Azure  
 
 ---
 
