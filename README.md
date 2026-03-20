@@ -78,8 +78,6 @@ I design and architect **scalable, cloud-native enterprise systems** with a stro
 
 Enterprise-grade eCommerce system designed using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
 
----
-
 #### 🧠 Architecture Overview
 
 - Distributed microservices with clear service boundaries  
@@ -89,8 +87,6 @@ Enterprise-grade eCommerce system designed using **microservices, CQRS, and even
 - API Gateway (Ocelot) for routing & security  
 - Polyglot persistence (SQL + NoSQL)  
 
----
-
 #### ⚙️ System Design Highlights
 
 - Independent services: Catalog, Orders, Payments, Identity  
@@ -99,8 +95,6 @@ Enterprise-grade eCommerce system designed using **microservices, CQRS, and even
 - Secure authentication & authorization  
 - Designed for scalability and fault tolerance  
 
----
-
 #### 🚀 Key Impact
 
 - Scalable distributed architecture  
@@ -108,12 +102,8 @@ Enterprise-grade eCommerce system designed using **microservices, CQRS, and even
 - Independent service deployment  
 - Production-ready system design  
 
----
-
 #### 🧠 Tech Stack
 ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
-
----
 
 #### 🏗 Architecture Style
 Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching  
