@@ -5,7 +5,8 @@
 </p>
 
 <p align="center">
-  <b>Senior .NET Engineer building scalable, cloud-native enterprise systems for high-performance, real-world applications.</b>
+  <b>Senior .NET Engineer specializing in scalable, cloud-native enterprise systems.</b><br/>
+  Designing high-performance architectures for real-world production environments.
 </p>
 
 <p align="center">
@@ -16,6 +17,17 @@
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" />
   </a>
 </p>
+
+---
+
+## 🚀 About
+
+I design and build **scalable, distributed systems** using modern cloud and microservices architecture.
+
+- 🏗 Microservices & Domain-Driven Design  
+- ☁️ Cloud-Native Systems (Azure & AWS)  
+- 🔐 Secure APIs (JWT, RBAC)  
+- ⚡ Performance Optimization & Caching  
 
 ---
 
@@ -45,7 +57,7 @@
   <img src="https://img.shields.io/badge/Docker-0A66C2?style=for-the-badge" />
 </p>
 
-### 🔄 Messaging
+### 🔄 Messaging & Communication
 <p>
   <img src="https://img.shields.io/badge/RabbitMQ-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/gRPC-0A66C2?style=for-the-badge" />
@@ -56,19 +68,8 @@
   <img src="https://img.shields.io/badge/Redis-0A66C2?style=for-the-badge" />
 </p>
 
-### 🗄 Database
+### 🗄 Databases
 MSSQL Server • PostgreSQL • MongoDB
-
----
-
-## 🚀 About
-
-I design and architect **scalable, cloud-native enterprise systems** used in real-world, high-performance environments.
-
-- Microservices & Distributed Systems  
-- Cloud (Azure & AWS)  
-- Secure APIs & RBAC  
-- Performance Optimization  
 
 ---
 
@@ -77,8 +78,8 @@ I design and architect **scalable, cloud-native enterprise systems** used in rea
 - Design **domain-driven microservices** with clear boundaries  
 - Apply **CQRS for scalable read/write separation**  
 - Use **event-driven architecture for loose coupling**  
-- Optimize performance with **caching and database tuning**  
-- Build secure APIs using **JWT and RBAC**
+- Optimize performance with **Redis caching & DB tuning**  
+- Build secure APIs using **JWT & role-based access control**
 
 ---
 
@@ -86,66 +87,59 @@ I design and architect **scalable, cloud-native enterprise systems** used in rea
 
 ### 🟣 eBasket — Distributed Microservices eCommerce Platform
 
-Enterprise-grade eCommerce platform designed using **microservices, CQRS, and event-driven architecture** to handle scalable, high-performance workloads.
+Enterprise-grade eCommerce platform designed using **microservices, CQRS, and event-driven architecture**.
 
-#### 🧩 Problem
-Monolithic systems limit scalability, slow deployments, and create tight coupling between modules.
-
-#### 🧠 Architecture
-- Domain-driven microservices with clear boundaries  
-- CQRS for read/write separation  
-- Event-driven communication using RabbitMQ  
-- gRPC for internal service communication  
-- API Gateway (Ocelot)  
-
-#### 🧩 System Design Highlights
-
+#### 🧩 Architecture Highlights
 - Independent services: Catalog, Orders, Payments, Identity  
-- Asynchronous workflows for order processing  
-- API Gateway for centralized routing and security  
-- Distributed caching strategy using Redis  
-- Designed for scalability, fault tolerance, and high availability  
-
-#### ⚙️ Key Decisions
-- Redis caching for high-performance data access  
-- Polyglot persistence (SQL + NoSQL)  
-- Secure authentication and authorization  
+- API Gateway (Ocelot) for routing & security  
+- Event-driven workflows using RabbitMQ  
+- gRPC for internal communication  
+- Distributed caching using Redis  
 
 #### 🚀 Impact
-- Improved scalability and system resilience  
-- Reduced latency through caching and asynchronous processing  
-- Enabled independent service deployment  
-- Enhanced maintainability and long-term system flexibility  
+- Improved scalability and fault tolerance  
+- Reduced latency with caching & async processing  
+- Enabled independent deployments  
+- Increased maintainability and flexibility  
 
-#### 🧠 Tech Stack
-ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
-
-#### 🏗 Architecture Style
-Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching  
+#### 🧠 Stack
+ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL • Azure • Docker  
 
 ---
 
 ## 🚀 Core Projects
 
-### 🟡 LifeArcPlan — Financial Planning
+### 🟡 LifeArcPlan — Financial Planning  
 Advanced financial planning system with forecasting and domain-driven logic.  
-**Focus:** Financial calculations • Forecasting engine • Data insights  
-
-### 🔷 OnyxHR — HR Management
-Enterprise HR system managing employee lifecycle, payroll, and analytics.  
-**Focus:** Workforce automation • Payroll • Analytics dashboards  
-
-### 🔶 QuickScrum — Agile Tool
-Agile project management platform with real-time collaboration features.  
-**Focus:** Real-time updates • Task workflows • Team collaboration  
-
-### 🔵 Licenora — License Management
-SaaS platform for managing license lifecycle, billing, and compliance.  
-**Focus:** Multi-tenant architecture • Subscription workflows • RBAC  
+**Focus:** Financial modeling • Forecast engine • Data insights  
+**Stack:** ASP.NET Core • React • MSSQL • AWS  
 
 ---
 
-## 🤝 Connect
+### 🔷 OnyxHR — HR Management  
+Enterprise HR platform managing employee lifecycle, payroll, and analytics.  
+**Focus:** Workforce automation • Payroll • Reporting  
+**Stack:** ASP.NET Core • Angular • SQL Server • Azure  
+
+---
+
+### 🔶 QuickScrum — Agile Project Management  
+Real-time agile collaboration tool for teams and sprint workflows.  
+**Focus:** Real-time updates • Task workflows • Team collaboration  
+**Stack:** ASP.NET Core • Angular • SignalR • Azure  
+
+---
+
+### 🔵 Licenora — License Management SaaS  
+Multi-tenant platform for managing licensing, billing, and compliance.  
+**Focus:** SaaS architecture • Subscription workflows • RBAC  
+**Stack:** ASP.NET Core • Angular • Azure • SQL Server  
+
+---
+
+## 🤝 Work With Me
+
+I help companies build **scalable backend systems, SaaS platforms, and cloud-native applications**.
 
 <p align="center">
   <a href="mailto:ginesh.tandel.dotnet@gmail.com">
@@ -159,4 +153,4 @@ SaaS platform for managing license lifecycle, billing, and compliance.
 
 ---
 
-⭐ If you found this useful, consider giving it a star
+⭐ If you find this useful, consider giving it a star
