@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Senior .NET Engineer building scalable, cloud-native enterprise systems.</b>
+  <b>Senior .NET Engineer building scalable, cloud-native enterprise systems for high-performance, real-world applications.</b>
 </p>
 
 <p align="center">
@@ -74,19 +74,19 @@ I design and architect **scalable, cloud-native enterprise systems** used in rea
 
 ## 🧠 How I Build Systems
 
-- Design systems using **domain-driven microservices**  
-- Apply **CQRS for scalability and separation of concerns**  
-- Use **event-driven architecture for decoupling services**  
-- Optimize performance using **caching and database tuning**  
-- Build secure APIs with **JWT and RBAC**
+- Design **domain-driven microservices** with clear boundaries  
+- Apply **CQRS for scalable read/write separation**  
+- Use **event-driven architecture for loose coupling**  
+- Optimize performance with **caching and database tuning**  
+- Build secure APIs using **JWT and RBAC**
 
 ---
 
 ## ⭐ Featured Project
 
-### 🟣 eBasket — Microservices eCommerce Platform
+### 🟣 eBasket — Distributed Microservices eCommerce Platform
 
-Enterprise-grade eCommerce system built using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
+Enterprise-grade eCommerce platform designed using **microservices, CQRS, and event-driven architecture** to handle scalable, high-performance workloads.
 
 #### 🧩 Problem
 Monolithic systems limit scalability, slow deployments, and create tight coupling between modules.
@@ -97,6 +97,14 @@ Monolithic systems limit scalability, slow deployments, and create tight couplin
 - Event-driven communication using RabbitMQ  
 - gRPC for internal service communication  
 - API Gateway (Ocelot)  
+
+#### 🧩 System Design Highlights
+
+- Independent services: Catalog, Orders, Payments, Identity  
+- Asynchronous workflows for order processing  
+- API Gateway for centralized routing and security  
+- Distributed caching strategy using Redis  
+- Designed for scalability, fault tolerance, and high availability  
 
 #### ⚙️ Key Decisions
 - Redis caching for high-performance data access  
