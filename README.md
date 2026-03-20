@@ -72,35 +72,41 @@ I design and architect **scalable, cloud-native enterprise systems** with a stro
 
 ---
 
+## 🧠 How I Build Systems
+
+- Design systems using **domain-driven microservices**  
+- Apply **CQRS for scalability and separation of concerns**  
+- Use **event-driven architecture for decoupling services**  
+- Optimize performance using **caching and database tuning**  
+- Build secure APIs with **JWT and RBAC**
+
+---
+
 ## ⭐ Featured Project
 
 ### 🟣 eBasket — Microservices eCommerce Platform
 
 Enterprise-grade eCommerce system designed using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
 
-#### 🧠 Architecture Overview
+#### 🧩 Problem
+Traditional monolithic systems struggle with scalability, performance, and independent deployments.
 
+#### 🧠 Architecture
 - Distributed microservices with clear service boundaries  
 - CQRS pattern for read/write separation  
 - Event-driven communication using RabbitMQ  
 - gRPC for internal service communication  
-- API Gateway (Ocelot) for routing & security  
-- Polyglot persistence (SQL + NoSQL)  
+- API Gateway (Ocelot)  
 
-#### ⚙️ System Design Highlights
-
-- Independent services: Catalog, Orders, Payments, Identity  
-- Asynchronous workflows for order processing  
+#### ⚙️ Key Decisions
 - Redis caching for performance optimization  
-- Secure authentication & authorization  
-- Designed for scalability and fault tolerance  
+- Polyglot persistence (SQL + NoSQL)  
+- Secure authentication and authorization  
 
-#### 🚀 Key Impact
-
+#### 🚀 Impact
 - Scalable distributed architecture  
-- Improved performance via caching and optimization  
+- Improved performance and responsiveness  
 - Independent service deployment  
-- Production-ready system design  
 
 #### 🧠 Tech Stack
 ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
@@ -114,19 +120,19 @@ Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching
 
 ### 🔵 Licenora — License Management
 SaaS platform with billing, RBAC, and compliance workflows.  
-**Tech:** ASP.NET Core • Angular • Azure  
+**Focus:** Multi-tenant architecture • Subscription & billing • Access control  
 
 ### 🟡 LifeArcPlan — Financial Planning
 Advanced planning system with complex domain logic & forecasting.  
-**Tech:** ASP.NET Core • Angular • AWS  
+**Focus:** Financial calculations • Forecasting engine • Data insights  
 
 ### 🔷 OnyxHR — HR Management
 Employee lifecycle, payroll, and analytics platform.  
-**Tech:** ASP.NET Core • Angular • Azure  
+**Focus:** Workforce management • Payroll automation • Analytics  
 
 ### 🔶 QuickScrum — Agile Tool
 Sprint planning, Kanban boards, and real-time collaboration.  
-**Tech:** ASP.NET Core • Angular • Azure  
+**Focus:** Real-time updates • Task workflows • Team collaboration  
 
 ---
 
