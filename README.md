@@ -72,15 +72,15 @@ I design and architect **scalable, cloud-native enterprise systems** with a stro
 
 ---
 
-# ⭐ Featured Project
+## ⭐ Featured Project
 
-## 🟣 eBasket — Microservices eCommerce Platform
+### 🟣 eBasket — Microservices eCommerce Platform
 
 Enterprise-grade eCommerce system designed using **microservices, CQRS, and event-driven architecture** to support scalable, high-performance workloads.
 
 ---
 
-### 🧠 Architecture Overview
+#### 🧠 Architecture Overview
 
 - Distributed microservices with clear service boundaries  
 - CQRS pattern for read/write separation  
@@ -91,7 +91,7 @@ Enterprise-grade eCommerce system designed using **microservices, CQRS, and even
 
 ---
 
-### ⚙️ System Design Highlights
+#### ⚙️ System Design Highlights
 
 - Independent services: Catalog, Orders, Payments, Identity  
 - Asynchronous workflows for order processing  
@@ -101,7 +101,7 @@ Enterprise-grade eCommerce system designed using **microservices, CQRS, and even
 
 ---
 
-### 🚀 Key Impact
+#### 🚀 Key Impact
 
 - Scalable distributed architecture  
 - Improved performance via caching and optimization  
@@ -110,31 +110,31 @@ Enterprise-grade eCommerce system designed using **microservices, CQRS, and even
 
 ---
 
-### 🧠 Tech Stack
+#### 🧠 Tech Stack
 ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
 
 ---
 
-### 🏗 Architecture Style
+#### 🏗 Architecture Style
 Microservices • CQRS • Event-Driven • API Gateway • Distributed Caching  
 
 ---
 
-# 🚀 Core Projects
+## 🚀 Core Projects
 
-## 🔵 Licenora — License Management
+### 🔵 Licenora — License Management
 SaaS platform with billing, RBAC, and compliance workflows.  
 **Tech:** ASP.NET Core • Angular • Azure  
 
-## 🟡 LifeArcPlan — Financial Planning
+### 🟡 LifeArcPlan — Financial Planning
 Advanced planning system with complex domain logic & forecasting.  
 **Tech:** ASP.NET Core • Angular • AWS  
 
-## 🔷 OnyxHR — HR Management
+### 🔷 OnyxHR — HR Management
 Employee lifecycle, payroll, and analytics platform.  
 **Tech:** ASP.NET Core • Angular • Azure  
 
-## 🔶 QuickScrum — Agile Tool
+### 🔶 QuickScrum — Agile Tool
 Sprint planning, Kanban boards, and real-time collaboration.  
 **Tech:** ASP.NET Core • Angular • Azure  
 
