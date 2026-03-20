@@ -63,7 +63,7 @@ MSSQL Server • PostgreSQL • MongoDB
 
 ## 🚀 About
 
-I design and architect **scalable, cloud-native enterprise systems** focused on performance, maintainability, and distributed architecture.
+I design and architect **scalable, cloud-native enterprise systems** used in real-world, high-performance environments.
 
 - Microservices & Distributed Systems  
 - Cloud (Azure & AWS)  
@@ -107,7 +107,7 @@ Monolithic systems limit scalability, slow deployments, and create tight couplin
 - Improved scalability and system resilience  
 - Reduced latency through caching and asynchronous processing  
 - Enabled independent service deployment  
-- Increased maintainability and system flexibility  
+- Enhanced maintainability and long-term system flexibility  
 
 #### 🧠 Tech Stack
 ASP.NET Core • Angular • RabbitMQ • gRPC • Redis • Ocelot • MongoDB • PostgreSQL • MSSQL Server • Azure • Docker  
