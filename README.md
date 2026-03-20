@@ -56,6 +56,8 @@
   <img src="https://img.shields.io/badge/Redis-0A66C2?style=for-the-badge" />
 </p>
 
+### 🗄 Database & Storage
+MSSQL Server • PostgreSQL • MongoDB
 ---
 
 ## 🚀 About Me
