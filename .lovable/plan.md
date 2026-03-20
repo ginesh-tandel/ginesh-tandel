@@ -51,7 +51,7 @@ A modern, professional single-page portfolio website inspired by the clean, mini
 - Grid of project cards with hover effects:
   - **HR Management System** — employee lifecycle, payroll, attendance
   - **Financial Planning Platform** — budgeting, reporting, analytics
-  - **Quickscrum SaaS Platform** — Agile project management tool
+  - **QuickScrum SaaS Platform** — Agile project management tool
 - Each card shows: title, short description, and technology tags
 
 ### 7. Contact Section
