@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ginesh.logiqcube.com/sitemap.xml

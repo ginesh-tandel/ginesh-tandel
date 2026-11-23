@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LogiqLead case study | Ginesh Tandel</title>
+<meta name="description" content="Lead generation and email outreach where every team sends as itself, with tenant isolation enforced in the data layer.">
+<meta property="og:title" content="LogiqLead case study | Ginesh Tandel">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Ginesh Tandel">
+<meta property="og:locale" content="en">
+<meta name="author" content="Ginesh Tandel">
+<meta name="theme-color" content="#050b10">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="canonical" href="https://ginesh.logiqcube.com/logiqlead.html">
+<meta property="og:url" content="https://ginesh.logiqcube.com/logiqlead.html">
+<meta property="og:image" content="https://ginesh.logiqcube.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ginesh Tandel, senior .NET and AI engineer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ginesh.logiqcube.com/assets/og-image.jpg">
+<meta property="og:description" content="Lead generation and email outreach where every team sends as itself, with tenant isolation enforced in the data layer.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"LogiqLead","url":"https://logiqlead.com","description":"Multi-tenant B2B lead generation and email outreach platform with tenant isolation at the data-access layer.","applicationCategory":"BusinessApplication","operatingSystem":"Web","author":{"@type":"Person","name":"Ginesh Tandel","url":"https://ginesh.logiqcube.com/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ginesh.logiqcube.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://ginesh.logiqcube.com/#projects"},{"@type":"ListItem","position":3,"name":"LogiqLead","item":"https://ginesh.logiqcube.com/logiqlead.html"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!--HEADER-->
+<header class="site-header">
+  <div class="container">
+    <div class="nav-wrap panel">
+      <a class="brand" href="index.html#top" aria-label="Ginesh Tandel, home"><span class="brand-mark">GT</span><span>Ginesh<b>.dev</b></span></a>
+      <nav aria-label="Main">
+        <ul class="nav-links">
+          <li><a href="index.html#top">Home</a></li>
+          <li><a href="index.html#climb">Climb</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-ghost nav-cta" href="mailto:ginesh.tandel.dotnet@gmail.com">Get in touch
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<!--/HEADER-->
+
+<main id="main" class="container">
+  <section id="top" class="cs-hero panel" aria-labelledby="cs-title">
+    <div class="hero-photo"><img src="assets/ginesh.jpg" alt="" width="800" height="800" loading="lazy"></div>
+    <a class="back" href="index.html#projects"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 19l-7-7 7-7"/></svg>Back to all projects</a>
+    <p style="margin-top:14px"><span class="chip">Case study 03 · B2B outreach · Multi-tenant SaaS</span></p>
+    <h1 id="cs-title">LogiqLead</h1>
+    <p class="lede">Lead generation and email outreach where every team sends as itself, with tenant isolation enforced in the data layer.</p>
+    <dl class="cs-meta"><div><dt>ROLE</dt><dd>Architect &amp; principal engineer</dd></div><div><dt>PRODUCT</dt><dd>Multi-tenant B2B SaaS</dd></div><div><dt>STACK</dt><dd>ASP.NET Core · Clean Architecture · Docker · PostgreSQL</dd></div><div><dt>LIVE</dt><dd><a href="https://logiqlead.com">logiqlead.com</a></dd></div></dl>
+  </section>
+
+  <!-- Product screenshot slot: add <section class="cs-shot panel"><img src="assets/logiqlead.jpg" alt="..."></section> here when the file exists -->
+
+  <section class="block panel reveal" aria-label="Case study">
+    <div class="act"><div><span class="label">01</span><h2>The problem</h2></div><div class="prose"><p>B2B teams need to find leads and run email outreach, but shared sending infrastructure means their mail doesn't come from their own identity.</p><p>Contacts, campaigns and replies are sensitive, so on a shared platform tenant separation can't depend on every query remembering a filter.</p></div></div>
+    <div class="act"><div><span class="label">02</span><h2>What I built</h2></div><ol class="steps"><li><span class="i">01</span><div><h3>Lead generation</h3><p>Tools to find and organise B2B leads for each team.</p></div></li><li><span class="i">02</span><div><h3>Email outreach</h3><p>Campaigns sent from each tenant's own mailbox via per-tenant SMTP or OAuth.</p></div></li><li><span class="i">03</span><div><h3>Tenant isolation in the data layer</h3><p>Separation enforced where data is accessed, not left to individual features.</p></div></li><li><span class="i">04</span><div><h3>AI chat assistant</h3><p>A retrieval-grounded assistant that answers from the tenant's own data.</p></div></li><li><span class="i">05</span><div><h3>Containerised deployment</h3><p>Runs in Docker on PostgreSQL with CI/CD.</p></div></li></ol></div>
+    <div class="act"><div><span class="label">03</span><h2>Key decisions</h2></div><div class="decisions"><article class="decision"><h3>Isolation at the data-access layer</h3><p>One enforced rule beats hundreds of hand-written filters.</p></article><article class="decision"><h3>Per-tenant sending</h3><p>SMTP/OAuth per tenant, so mail goes out under the customer's own identity.</p></article><article class="decision"><h3>Grounded AI only</h3><p>The assistant answers from retrieved data rather than guessing.</p></article></div></div>
+    <div class="act"><div><span class="label">04</span><h2>Status</h2></div><div class="outcome"><div><b>Live</b><span>at logiqlead.com</span></div></div></div>
+  </section>
+
+  <nav class="next-story panel reveal" aria-label="Next case study">
+    <a class="next" href="index.html#projects"><span>That's the work</span><b>Back to all projects →</b></a>
+    <div class="actions">
+      <a class="btn btn-ghost" href="index.html">Back to home</a>
+      <a class="btn btn-primary" href="mailto:ginesh.tandel.dotnet@gmail.com">Let's talk <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    </div>
+  </nav>
+</main>
+
+<!--FOOTER-->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand" href="index.html#top" aria-label="Ginesh Tandel, home"><span class="brand-mark">GT</span><span>Ginesh<b>.dev</b></span></a>
+        <p>Senior .NET &amp; AI engineer. Remote from India, with US and UK time-zone overlap.</p>
+      </div>
+      <nav class="foot-col" aria-label="Footer">
+        <p class="foot-h">Site</p>
+        <ul>
+          <li><a href="index.html#climb">Climb</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="foot-col">
+        <p class="foot-h">Elsewhere</p>
+        <ul>
+          <li><a href="https://linkedin.com/in/ginesh-tandel">LinkedIn</a></li>
+          <li><a href="https://github.com/ginesh-tandel">GitHub</a></li>
+          <li><a href="mailto:ginesh.tandel.dotnet@gmail.com">Email</a></li>
+          <li><a href="assets/Ginesh_Tandel_Resume.pdf" download>Resume (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <small>© <span id="year">2026</span> Ginesh Tandel. All rights reserved.</small>
+      <a class="to-top" href="#top"><i><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></i>Back to Top</a>
+    </div>
+  </div>
+</footer>
+<!--/FOOTER-->
+
+<script src="assets/main.js" defer></script>
+</body>
+</html>
