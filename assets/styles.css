@@ -301,6 +301,12 @@ section.block { margin-top: 28px; padding: clamp(28px, 4.5vw, 48px); }
   .js .scene:nth-child(odd) { transform: translateX(-28px); }
   .js .scene:nth-child(even) { transform: translateX(28px); }
   .js .scene.on { transform: none; }
+  /* LogiqCube: stats fill the empty side under the date */
+  .scene.wide .sc-card .when { grid-row: 1; }
+  .scene.wide .sc-card h3 { grid-row: 1; }
+  .scene.wide .sc-card > p { grid-row: 2; }
+  .scene.wide .sc-stats { grid-column: 1; grid-row: 2; justify-content: flex-end; border-top: 0; padding-top: 0; margin-top: 0; text-align: right; flex-direction: column; gap: 14px; }
+  .scene.wide .sc-card .when { padding-bottom: 18px; }
 }
 
 /* ---------- Case study pages ---------- */
